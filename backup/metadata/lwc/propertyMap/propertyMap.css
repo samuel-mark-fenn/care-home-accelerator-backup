@@ -1,0 +1,38 @@
+:host {
+  --card-border-radius: 12px;
+}
+
+lightning-card {
+  border-radius: var(--card-border-radius);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.filter-container {
+  background: linear-gradient(135deg, #ffffff 0%, #f0f4f8 100%);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #d8dde6;
+  margin-bottom: 2rem;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+.map-container {
+  height: 650px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #d8dde6;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.map-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+/* Customizing the lightning-map might be limited, but we can style the container */
+lightning-map {
+  height: 100%;
+  width: 100%;
+}

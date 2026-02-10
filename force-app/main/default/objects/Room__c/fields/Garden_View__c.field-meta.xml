@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Garden_View__c</fullName>
+    <label>Garden View</label>
+    <type>Checkbox</type>
+    <description>Does the room have a garden view</description>
+    <required>false</required>
+    <defaultValue>false</defaultValue>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

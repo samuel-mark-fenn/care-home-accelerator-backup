@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Behavioral_Notes__c</fullName>
+    <label>Behavioral Notes</label>
+    <type>LongTextArea</type>
+    <inlineHelpText>Important behavioral patterns and triggers</inlineHelpText>
+    <required>false</required>
+    <length>10000</length>
+    <visibleLines>3</visibleLines>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    <deploymentStatus>Deployed</deploymentStatus>
+    
+    
+    <label>Room</label>
+    
+    
+    <pluralLabel>Rooms</pluralLabel>
+    
+    
+    <sharingModel>ControlledByParent</sharingModel>
+    
+    
+    <enableHistory>true</enableHistory>
+    
+    
+    <enableActivities>true</enableActivities>
+    
+    
+    <enableReports>true</enableReports>
+    
+    
+    <enableSearch>true</enableSearch>
+    
+    
+    <enableSharing>true</enableSharing>
+    
+    
+    <enableStreamingApi>true</enableStreamingApi>
+    
+    
+    <nameField>
+        
+        
+        <label>Room Name</label>
+        
+        
+        <type>Text</type>
+        
+    
+    </nameField>
+    
+
+</CustomObject>

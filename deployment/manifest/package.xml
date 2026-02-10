@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!-- Custom Objects -->
+    <types>
+        <members>Property__c</members>
+        <members>Room__c</members>
+        <members>Resident__c</members>
+        <members>Enquiry__c</members>
+        <members>Assessment__c</members>
+        <members>Resident_Assessment__c</members>
+        <members>Contract__c</members>
+        <members>Room_Occupancy__c</members>
+        <members>Survey__c</members>
+        <members>Survey_Response__c</members>
+        <members>Preference__c</members>
+        <members>Resident_Preference__c</members>
+        <name>CustomObject</name>
+    </types>
+
+    <!-- Standard Objects with Custom Fields -->
+    <types>
+        <members>Account</members>
+        <members>Contact</members>
+        <members>Opportunity</members>
+        <members>Product2</members>
+        <members>Campaign</members>
+        <name>CustomObject</name>
+    </types>
+
+    <!-- Apex Classes -->
+    <types>
+        <members>AssessmentController</members>
+        <members>AssessmentControllerTest</members>
+        <members>CareDashboardController</members>
+        <members>CareDashboardControllerTest</members>
+        <members>PropertyMapController</members>
+        <members>PropertyMapControllerTest</members>
+        <members>PublicEnquiryController</members>
+        <members>PublicEnquiryControllerTest</members>
+        <members>RoomFinderController</members>
+        <members>ResidentSurveyController</members>
+        <name>ApexClass</name>
+    </types>
+
+    <!-- Lightning Web Components -->
+    <types>
+        <members>careDashboard</members>
+        <members>enquiryForm</members>
+        <members>medicalAssessmentForm</members>
+        <members>propertyMap</members>
+        <members>residentSurvey</members>
+        <members>roomFinder</members>
+        <name>LightningComponentBundle</name>
+    </types>
+
+    <!-- Page Layouts -->
+    <types>
+        <members>Account-Account Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>Opportunity-Opportunity Layout</members>
+        <members>Property__c-Property Layout</members>
+        <members>Room__c-Room Layout</members>
+        <members>Enquiry__c-Enquiry Layout</members>
+        <members>Resident__c-Resident Layout</members>
+        <members>Assessment__c-Assessment Layout</members>
+        <members>Contract__c-Contract Layout</members>
+        <members>Room_Occupancy__c-Room Occupancy Layout</members>
+        <members>Survey__c-Survey Layout</members>
+        <members>Survey_Response__c-Survey Response Layout</members>
+        <members>Product2-Product2 Layout</members>
+        <members>Campaign-Campaign Layout</members>
+        <name>Layout</name>
+    </types>
+
+    <!-- FlexiPages (Lightning Record Pages) -->
+    <types>
+        <members>Account_Record_Page</members>
+        <members>Property_Record_Page</members>
+        <members>Enquiry_Record_Page</members>
+        <members>Home_Page_Default</members>
+        <members>Resident_Management_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+
+    <!-- Permission Sets -->
+    <types>
+        <members>ColtenCareMasterAccess</members>
+        <members>EnquiryAccess</members>
+        <name>PermissionSet</name>
+    </types>
+
+    <!-- Record Types -->
+    <types>
+        <members>Opportunity.Care_Home_Enquiry</members>
+        <name>RecordType</name>
+    </types>
+
+    <!-- Business Processes -->
+    <types>
+        <members>Opportunity.Care Homes</members>
+        <name>BusinessProcess</name>
+    </types>
+
+    <!-- GenAI Prompt Templates -->
+    <types>
+        <members>Enquiry_Summary</members>
+        <name>GenAiPromptTemplate</name>
+    </types>
+
+    <version>64.0</version>
+</Package>

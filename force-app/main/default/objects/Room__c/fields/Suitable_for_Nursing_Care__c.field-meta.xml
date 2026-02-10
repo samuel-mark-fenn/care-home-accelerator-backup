@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Suitable_for_Nursing_Care__c</fullName>
+    <label>Suitable for Nursing Care</label>
+    <type>Checkbox</type>
+    <description>Is the room suitable for nursing care</description>
+    <required>false</required>
+    <defaultValue>false</defaultValue>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

@@ -1,0 +1,259 @@
+/* Colten Care Branding */
+:host {
+  --brand-navy: #123250;
+  --brand-orange: #f8981d;
+  --brand-orange-hover: #c75c19;
+  --text-color: #333;
+  --bg-color: #f4f6f9;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  font-family: "Effra", "Arial", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header Section */
+.site-header {
+  background-color: var(--brand-navy);
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-text {
+  font-family: "Times New Roman", serif; /* Fallback for custom serif */
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* Main Content Area */
+.main-content {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  flex: 1; /* Pushes footer down */
+}
+
+.title {
+  color: var(--brand-navy);
+  font-family: "Times New Roman", serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 24px;
+  border-bottom: 2px solid var(--brand-orange);
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.intro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  color: var(--text-color);
+}
+
+.phone-link {
+  display: inline-block;
+  color: var(--brand-orange);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 30px;
+  border-bottom: 1px dotted var(--brand-orange);
+}
+
+.phone-link:hover {
+  color: var(--brand-orange-hover);
+}
+
+.form-container {
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: var(--brand-navy);
+  font-family: inherit;
+}
+
+.required::after {
+  content: " *";
+  color: var(--brand-orange);
+}
+
+.slick-input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #cdd5de;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+  transition:
+    border-color 0.3s,
+    box-shadow 0.3s;
+  color: var(--text-color);
+  font-family: inherit;
+  background-color: #fafafa;
+}
+
+.slick-input:focus {
+  outline: none;
+  border-color: var(--brand-navy);
+  box-shadow: 0 0 0 3px rgba(18, 50, 80, 0.1);
+  background-color: #fff;
+}
+
+.textarea {
+  height: 140px;
+  resize: vertical;
+}
+
+.row {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  min-width: 250px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.checkbox-group input {
+  margin-top: 5px;
+  accent-color: var(--brand-navy);
+}
+
+.submit-btn {
+  background-color: var(--brand-orange);
+  color: white;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 30px; /* Pill shape */
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(248, 152, 29, 0.2);
+}
+
+.submit-btn:hover {
+  background-color: var(--brand-orange-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 8px rgba(248, 152, 29, 0.3);
+}
+
+.submit-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Footer Section */
+.site-footer {
+  background-color: var(--brand-navy);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: auto;
+}
+
+/* Thank You View */
+.thank-you-container {
+  text-align: center;
+  padding: 60px 20px;
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.success-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 30px;
+  color: #4caf50;
+}
+
+.thank-you-title {
+  color: var(--brand-navy);
+  font-size: 2rem;
+  font-family: "Times New Roman", serif;
+  margin-bottom: 20px;
+}
+
+.thank-you-message {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  margin-bottom: 40px;
+  line-height: 1.6;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.outline-btn {
+  background-color: transparent;
+  color: var(--brand-orange);
+  border: 2px solid var(--brand-orange);
+  box-shadow: none;
+  max-width: 300px;
+}
+
+.outline-btn:hover {
+  background-color: var(--brand-orange);
+  color: white;
+  box-shadow: 0 4px 6px rgba(248, 152, 29, 0.2);
+}
+
+.footer-links {
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}

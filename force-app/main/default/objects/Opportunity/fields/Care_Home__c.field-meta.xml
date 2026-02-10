@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Care_Home__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>TRUE</description>
+    <inlineHelpText>Which care home location</inlineHelpText>
+    <label>Care Home</label>
+    <referenceTo>Property__c</referenceTo>
+    <relationshipLabel>Opportunities</relationshipLabel>
+    <relationshipName>Opportunities</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

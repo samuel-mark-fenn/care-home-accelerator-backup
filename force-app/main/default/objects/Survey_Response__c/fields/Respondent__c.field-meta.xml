@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Respondent__c</fullName>
+    <label>Respondent</label>
+    <type>Lookup</type>
+    <description>Person who completed the survey</description>
+    <required>false</required>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Survey Responses (Respondent)</relationshipLabel>
+    <relationshipName>Survey_Responses_Respondent</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

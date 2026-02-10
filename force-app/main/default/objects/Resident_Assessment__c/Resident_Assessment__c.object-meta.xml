@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <label>Resident Assessment</label>
+    <pluralLabel>Resident Assessments</pluralLabel>
+    <sharingModel>ControlledByParent</sharingModel>
+    <nameField>
+        <displayFormat>RA-{000000}</displayFormat>
+        <label>Resident Assessment Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+</CustomObject>

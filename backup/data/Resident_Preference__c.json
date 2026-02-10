@@ -1,0 +1,346 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Resident_Preference__c",
+        "url": "/services/data/v65.0/sobjects/Resident_Preference__c/a07KZ000002Xsl7YAC"
+      },
+      "Id": "a07KZ000002Xsl7YAC",
+      "OwnerId": "005KZ000002sDUOYA2",
+      "IsDeleted": false,
+      "Name": "RP-0010",
+      "CurrencyIsoCode": "GBP",
+      "CreatedDate": "2026-01-19T12:42:13.000+0000",
+      "CreatedById": "005KZ000002sFQiYAM",
+      "LastModifiedDate": "2026-01-19T12:42:13.000+0000",
+      "LastModifiedById": "005KZ000002sFQiYAM",
+      "SystemModstamp": "2026-01-19T12:42:13.000+0000",
+      "MayEdit": true,
+      "IsLocked": false,
+      "Resident__c": "001KZ00000M7ESjYAN",
+      "Preference__c": "a06KZ000005Qu1bYAC"
+    },
+    {
+      "attributes": {
+        "type": "Resident_Preference__c",
+        "url": "/services/data/v65.0/sobjects/Resident_Preference__c/a07KZ000002Xsl8YAC"
+      },
+      "Id": "a07KZ000002Xsl8YAC",
+      "OwnerId": "005KZ000002sDUOYA2",
+      "IsDeleted": false,
+      "Name": "RP-0011",
+      "CurrencyIsoCode": "GBP",
+      "CreatedDate": "2026-01-19T12:42:13.000+0000",
+      "CreatedById": "005KZ000002sFQiYAM",
+      "LastModifiedDate": "2026-01-19T12:42:13.000+0000",
+      "LastModifiedById": "005KZ000002sFQiYAM",
+      "SystemModstamp": "2026-01-19T12:42:13.000+0000",
+      "MayEdit": true,
+      "IsLocked": false,
+      "Resident__c": "001KZ00000M7ESjYAN",
+      "Preference__c": "a06KZ000005QwKCYA0"
+    },
+    {
+      "attributes": {
+        "type": "Resident_Preference__c",
+        "url": "/services/data/v65.0/sobjects/Resident_Preference__c/a07KZ000002Xsl2YAC"
+      },
+      "Id": "a07KZ000002Xsl2YAC",
+      "OwnerId": "005KZ000002sDUOYA2",
+      "IsDeleted": false,
+      "Name": "RP-0009",
+      "CurrencyIsoCode": "GBP",
+      "CreatedDate": "2026-01-19T12:21:55.000+0000",
+      "CreatedById": "005KZ000002sFQiYAM",
+      "LastModifiedDate": "2026-01-19T12:21:55.000+0000",
+      "LastModifiedById": "005KZ000002sFQiYAM",
+      "SystemModstamp": "2026-01-19T12:21:55.000+0000",
+      "MayEdit": true,
+      "IsLocked": false,
+      "Resident__c": "001KZ00000M7ES5YAN",
+      "Preference__c": "a06KZ000005QwK7YAK"
+    },
+    {
+      "attributes": {
+        "type": "Resident_Preference__c",
+        "url": "/services/data/v65.0/sobjects/Resident_Preference__c/a07KZ000002XsldYAC"
+      },
+      "Id": "a07KZ000002XsldYAC",
+      "OwnerId": "005KZ000002sDUOYA2",
+      "IsDeleted": false,
+      "Name": "RP-0028",
+      "CurrencyIsoCode": "GBP",
+      "CreatedDate": "2026-01-19T16:32:06.000+0000",
+      "CreatedById": "005KZ000002sFQiYAM",
+      "LastModifiedDate": "2026-01-19T16:32:06.000+0000",
+      "LastModifiedById": "005KZ000002sFQiYAM",
+      "SystemModstamp": "2026-01-19T16:32:06.000+0000",
+      "MayEdit": true,
+      "IsLocked": false,
+      "Resident__c": "001KZ00000M7EUVYA3",
+      "Preference__c": "a06KZ000005QwLMYA0"
+    },
+    {
+      "attributes": {
+        "type": "Resident_Preference__c",
+        "url": "/services/data/v65.0/sobjects/Resident_Preference__c/a07KZ000002XslWYAS"
+      },
+      "Id": "a07KZ000002XslWYAS",
+      "OwnerId": "005KZ000002sDUOYA2",
+      "IsDeleted": false,
+      "Name": "RP-0024",
+      "CurrencyIsoCode": "GBP",
+      "CreatedDate": "2026-01-19T15:57:24.000+0000",
+      "CreatedById": "005KZ000002sFQiYAM",
+      "LastModifiedDate": "2026-01-19T15:57:24.000+0000",
+      "LastModifiedById": "005KZ000002sFQiYAM",
+      "SystemModstamp": "2026-01-19T15:57:24.000+0000",
+      "MayEdit": true,
+      "IsLocked": false,
+      "Resident__c": "001KZ00000M7EU6YAN",
+      "Preference__c": "a06KZ000005QwL5YAK"
+    },
+    {
+      "attributes": {
+        "type": "Resident_Preference__c",
+        "url": "/services/data/v65.0/sobjects/Resident_Preference__c/a07KZ000002XslXYAS"
+      },
+      "Id": "a07KZ000002XslXYAS",
+      "OwnerId": "005KZ000002sDUOYA2",
+      "IsDeleted": false,
+      "Name": "RP-0025",
+      "CurrencyIsoCode": "GBP",
+      "CreatedDate": "2026-01-19T15:57:24.000+0000",
+      "CreatedById": "005KZ000002sFQiYAM",
+      "LastModifiedDate": "2026-01-19T15:57:24.000+0000",
+      "LastModifiedById": "005KZ000002sFQiYAM",
+      "SystemModstamp": "2026-01-19T15:57:24.000+0000",
+      "MayEdit": true,
+      "IsLocked": false,
+      "Resident__c": "001KZ00000M7EU6YAN",
+      "Preference__c": "a06KZ000005QwL6YAK"
+    },
+    {
+      "attributes": {
+        "type": "Resident_Preference__c",
+        "url": "/services/data/v65.0/sobjects/Resident_Preference__c/a07KZ000002XslbYAC"
+      },
+      "Id": "a07KZ000002XslbYAC",
+      "OwnerId": "005KZ000002sDUOYA2",
+      "IsDeleted": false,
+      "Name": "RP-0026",
+      "CurrencyIsoCode": "GBP",
+      "CreatedDate": "2026-01-19T16:32:06.000+0000",
+      "CreatedById": "005KZ000002sFQiYAM",
+      "LastModifiedDate": "2026-01-19T16:32:06.000+0000",
+      "LastModifiedById": "005KZ000002sFQiYAM",
+      "SystemModstamp": "2026-01-19T16:32:06.000+0000",
+      "MayEdit": true,
+      "IsLocked": false,
+      "Resident__c": "001KZ00000M7EUVYA3",
+      "Preference__c": "a06KZ000005QwLKYA0"
+    },
+    {
+      "attributes": {
+        "type": "Resident_Preference__c",
+        "url": "/services/data/v65.0/sobjects/Resident_Preference__c/a07KZ000002XslcYAC"
+      },
+      "Id": "a07KZ000002XslcYAC",
+      "OwnerId": "005KZ000002sDUOYA2",
+      "IsDeleted": false,
+      "Name": "RP-0027",
+      "CurrencyIsoCode": "GBP",
+      "CreatedDate": "2026-01-19T16:32:06.000+0000",
+      "CreatedById": "005KZ000002sFQiYAM",
+      "LastModifiedDate": "2026-01-19T16:32:06.000+0000",
+      "LastModifiedById": "005KZ000002sFQiYAM",
+      "SystemModstamp": "2026-01-19T16:32:06.000+0000",
+      "MayEdit": true,
+      "IsLocked": false,
+      "Resident__c": "001KZ00000M7EUVYA3",
+      "Preference__c": "a06KZ000005QwLLYA0"
+    },
+    {
+      "attributes": {
+        "type": "Resident_Preference__c",
+        "url": "/services/data/v65.0/sobjects/Resident_Preference__c/a07KZ000002Xsm0YAC"
+      },
+      "Id": "a07KZ000002Xsm0YAC",
+      "OwnerId": "005KZ000002sDUOYA2",
+      "IsDeleted": false,
+      "Name": "RP-0038",
+      "CurrencyIsoCode": "GBP",
+      "CreatedDate": "2026-01-20T14:55:53.000+0000",
+      "CreatedById": "005KZ000002sFQiYAM",
+      "LastModifiedDate": "2026-01-20T14:55:53.000+0000",
+      "LastModifiedById": "005KZ000002sFQiYAM",
+      "SystemModstamp": "2026-01-20T14:55:53.000+0000",
+      "MayEdit": true,
+      "IsLocked": false,
+      "Resident__c": "001KZ00000M7EYcYAN",
+      "Preference__c": "a06KZ000005QwLKYA0"
+    },
+    {
+      "attributes": {
+        "type": "Resident_Preference__c",
+        "url": "/services/data/v65.0/sobjects/Resident_Preference__c/a07KZ000002Xsm1YAC"
+      },
+      "Id": "a07KZ000002Xsm1YAC",
+      "OwnerId": "005KZ000002sDUOYA2",
+      "IsDeleted": false,
+      "Name": "RP-0039",
+      "CurrencyIsoCode": "GBP",
+      "CreatedDate": "2026-01-20T14:55:53.000+0000",
+      "CreatedById": "005KZ000002sFQiYAM",
+      "LastModifiedDate": "2026-01-20T14:55:53.000+0000",
+      "LastModifiedById": "005KZ000002sFQiYAM",
+      "SystemModstamp": "2026-01-20T14:55:53.000+0000",
+      "MayEdit": true,
+      "IsLocked": false,
+      "Resident__c": "001KZ00000M7EYcYAN",
+      "Preference__c": "a06KZ000005QwLLYA0"
+    },
+    {
+      "attributes": {
+        "type": "Resident_Preference__c",
+        "url": "/services/data/v65.0/sobjects/Resident_Preference__c/a07KZ000002Xsm2YAC"
+      },
+      "Id": "a07KZ000002Xsm2YAC",
+      "OwnerId": "005KZ000002sDUOYA2",
+      "IsDeleted": false,
+      "Name": "RP-0040",
+      "CurrencyIsoCode": "GBP",
+      "CreatedDate": "2026-01-20T14:55:53.000+0000",
+      "CreatedById": "005KZ000002sFQiYAM",
+      "LastModifiedDate": "2026-01-20T14:55:53.000+0000",
+      "LastModifiedById": "005KZ000002sFQiYAM",
+      "SystemModstamp": "2026-01-20T14:55:53.000+0000",
+      "MayEdit": true,
+      "IsLocked": false,
+      "Resident__c": "001KZ00000M7EYcYAN",
+      "Preference__c": "a06KZ000005QwLMYA0"
+    },
+    {
+      "attributes": {
+        "type": "Resident_Preference__c",
+        "url": "/services/data/v65.0/sobjects/Resident_Preference__c/a07KZ000002XjZyYAK"
+      },
+      "Id": "a07KZ000002XjZyYAK",
+      "OwnerId": "005KZ000002sDUOYA2",
+      "IsDeleted": false,
+      "Name": "RP-0008",
+      "CurrencyIsoCode": "GBP",
+      "CreatedDate": "2026-01-12T15:46:23.000+0000",
+      "CreatedById": "005KZ000002sDUOYA2",
+      "LastModifiedDate": "2026-01-12T15:46:23.000+0000",
+      "LastModifiedById": "005KZ000002sDUOYA2",
+      "SystemModstamp": "2026-01-12T15:46:23.000+0000",
+      "MayEdit": true,
+      "IsLocked": false,
+      "Resident__c": "001KZ00000M6Y2AYAV",
+      "Preference__c": "a06KZ000005Qu21YAC"
+    },
+    {
+      "attributes": {
+        "type": "Resident_Preference__c",
+        "url": "/services/data/v65.0/sobjects/Resident_Preference__c/a07KZ000002XjZrYAK"
+      },
+      "Id": "a07KZ000002XjZrYAK",
+      "OwnerId": "005KZ000002sDUOYA2",
+      "IsDeleted": false,
+      "Name": "RP-0003",
+      "CurrencyIsoCode": "GBP",
+      "CreatedDate": "2026-01-12T13:25:04.000+0000",
+      "CreatedById": "005KZ000002sDUOYA2",
+      "LastModifiedDate": "2026-01-12T13:25:04.000+0000",
+      "LastModifiedById": "005KZ000002sDUOYA2",
+      "SystemModstamp": "2026-01-12T13:25:04.000+0000",
+      "MayEdit": true,
+      "IsLocked": false,
+      "Resident__c": "001KZ00000M6XXLYA3",
+      "Preference__c": "a06KZ000005Qu1bYAC"
+    },
+    {
+      "attributes": {
+        "type": "Resident_Preference__c",
+        "url": "/services/data/v65.0/sobjects/Resident_Preference__c/a07KZ000002XjZsYAK"
+      },
+      "Id": "a07KZ000002XjZsYAK",
+      "OwnerId": "005KZ000002sDUOYA2",
+      "IsDeleted": false,
+      "Name": "RP-0004",
+      "CurrencyIsoCode": "GBP",
+      "CreatedDate": "2026-01-12T13:25:04.000+0000",
+      "CreatedById": "005KZ000002sDUOYA2",
+      "LastModifiedDate": "2026-01-12T13:25:04.000+0000",
+      "LastModifiedById": "005KZ000002sDUOYA2",
+      "SystemModstamp": "2026-01-12T13:25:04.000+0000",
+      "MayEdit": true,
+      "IsLocked": false,
+      "Resident__c": "001KZ00000M6XXLYA3",
+      "Preference__c": "a06KZ000005Qu1cYAC"
+    },
+    {
+      "attributes": {
+        "type": "Resident_Preference__c",
+        "url": "/services/data/v65.0/sobjects/Resident_Preference__c/a07KZ000002XjZtYAK"
+      },
+      "Id": "a07KZ000002XjZtYAK",
+      "OwnerId": "005KZ000002sDUOYA2",
+      "IsDeleted": false,
+      "Name": "RP-0005",
+      "CurrencyIsoCode": "GBP",
+      "CreatedDate": "2026-01-12T13:25:04.000+0000",
+      "CreatedById": "005KZ000002sDUOYA2",
+      "LastModifiedDate": "2026-01-12T13:25:04.000+0000",
+      "LastModifiedById": "005KZ000002sDUOYA2",
+      "SystemModstamp": "2026-01-12T13:25:04.000+0000",
+      "MayEdit": true,
+      "IsLocked": false,
+      "Resident__c": "001KZ00000M6XXLYA3",
+      "Preference__c": "a06KZ000005Qu1dYAC"
+    },
+    {
+      "attributes": {
+        "type": "Resident_Preference__c",
+        "url": "/services/data/v65.0/sobjects/Resident_Preference__c/a07KZ000002XjZwYAK"
+      },
+      "Id": "a07KZ000002XjZwYAK",
+      "OwnerId": "005KZ000002sDUOYA2",
+      "IsDeleted": false,
+      "Name": "RP-0006",
+      "CurrencyIsoCode": "GBP",
+      "CreatedDate": "2026-01-12T15:46:23.000+0000",
+      "CreatedById": "005KZ000002sDUOYA2",
+      "LastModifiedDate": "2026-01-12T15:46:23.000+0000",
+      "LastModifiedById": "005KZ000002sDUOYA2",
+      "SystemModstamp": "2026-01-12T15:46:23.000+0000",
+      "MayEdit": true,
+      "IsLocked": false,
+      "Resident__c": "001KZ00000M6Y2AYAV",
+      "Preference__c": "a06KZ000005Qu1bYAC"
+    },
+    {
+      "attributes": {
+        "type": "Resident_Preference__c",
+        "url": "/services/data/v65.0/sobjects/Resident_Preference__c/a07KZ000002XjZxYAK"
+      },
+      "Id": "a07KZ000002XjZxYAK",
+      "OwnerId": "005KZ000002sDUOYA2",
+      "IsDeleted": false,
+      "Name": "RP-0007",
+      "CurrencyIsoCode": "GBP",
+      "CreatedDate": "2026-01-12T15:46:23.000+0000",
+      "CreatedById": "005KZ000002sDUOYA2",
+      "LastModifiedDate": "2026-01-12T15:46:23.000+0000",
+      "LastModifiedById": "005KZ000002sDUOYA2",
+      "SystemModstamp": "2026-01-12T15:46:23.000+0000",
+      "MayEdit": true,
+      "IsLocked": false,
+      "Resident__c": "001KZ00000M6Y2AYAV",
+      "Preference__c": "a06KZ000005Qu20YAC"
+    }
+  ],
+  "totalSize": 17,
+  "object": "Resident_Preference__c"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Type__c</fullName>
+    <inlineHelpText>Type of contract</inlineHelpText>
+    <label>Contract Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Respite Agreement</fullName>
+                <default>false</default>
+                <label>Respite Agreement</label>
+            </value>
+            <value>
+                <fullName>Permanent Residence</fullName>
+                <default>false</default>
+                <label>Permanent Residence</label>
+            </value>
+            <value>
+                <fullName>Trial Period</fullName>
+                <default>false</default>
+                <label>Trial Period</label>
+            </value>
+            <value>
+                <fullName>Local Authority Contract</fullName>
+                <default>false</default>
+                <label>Local Authority Contract</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

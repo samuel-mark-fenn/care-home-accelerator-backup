@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enquiry_Level__c</fullName>
+    <label>Enquiry Level</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Level 1: Expected admission within one to two weeks.</fullName>
+                <default>false</default>
+                <label>Level 1: Expected admission within one to two weeks.</label>
+            </value>
+            <value>
+                <fullName>Level 2: Expected admission within the next six weeks.</fullName>
+                <default>false</default>
+                <label>Level 2: Expected admission within the next six weeks.</label>
+            </value>
+            <value>
+                <fullName>Level 3: Likely to be admitted at a later, undefined date.</fullName>
+                <default>false</default>
+                <label>Level 3: Likely to be admitted at a later, undefined date.</label>
+            </value>
+            <value>
+                <fullName>Level 4: No Expected date set</fullName>
+                <default>false</default>
+                <label>Level 4: No Expected date set</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

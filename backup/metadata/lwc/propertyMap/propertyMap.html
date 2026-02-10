@@ -1,0 +1,37 @@
+<template>
+  <lightning-card title="Our Care Homes" icon-name="custom:custom63">
+    <div class="slds-p-around_medium">
+      <!-- Filter Section -->
+      <div class="filter-container slds-m-bottom_medium">
+        <lightning-dual-listbox
+          name="careTypes"
+          label="Filter by Care Type"
+          source-label="Available Care Types"
+          selected-label="Selected Care Types"
+          options={careTypeOptions}
+          value={selectedCareTypes}
+          onchange={handleFilterChange}
+          size="3"
+        >
+        </lightning-dual-listbox>
+      </div>
+
+      <!-- Map Section -->
+      <div class="map-container">
+        <template lwc:if={mapMarkers.length}>
+          <lightning-map
+            map-markers={mapMarkers}
+            list-view="visible"
+            show-footer
+          >
+          </lightning-map>
+        </template>
+        <template lwc:else>
+          <div class="slds-align_absolute-center slds-m-around_large">
+            <p>No properties found matching the selected filters.</p>
+          </div>
+        </template>
+      </div>
+    </div>
+  </lightning-card>
+</template>

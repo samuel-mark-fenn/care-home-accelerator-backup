@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resident__c</fullName>
+    <label>Resident</label>
+    <type>Lookup</type>
+    <description>Resident occupying the room</description>
+    <required>false</required>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Room Occupancies</relationshipLabel>
+    <relationshipName>Room_Occupancies</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

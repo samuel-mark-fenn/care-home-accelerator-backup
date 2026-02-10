@@ -1,0 +1,154 @@
+<template>
+  <lightning-card title="Room Finder" icon-name="standard:location">
+    <div class="slds-p-around_medium">
+      <!-- STEP 1: FIND ROOMS -->
+      <template if:true={isStep1}>
+        <div
+          class="search-controls slds-grid slds-gutters slds-m-bottom_medium"
+        >
+          <div class="slds-col slds-size_1-of-4">
+            <lightning-input
+              type="date"
+              label="Start Date"
+              value={startDate}
+              onchange={handleDateChange}
+            ></lightning-input>
+          </div>
+          <div class="slds-col slds-size_1-of-4">
+            <lightning-input
+              type="date"
+              label="End Date"
+              value={endDate}
+              onchange={handleDateChange}
+            ></lightning-input>
+          </div>
+          <!-- Optional Resident Picker if not on a record page, but assume context for now or auto-res -->
+          <div class="slds-col slds-size_2-of-4 slds-align-bottom">
+            <lightning-button
+              variant="brand"
+              label="Find Available Rooms"
+              onclick={handleFindRooms}
+            ></lightning-button>
+          </div>
+        </div>
+
+        <template if:true={isLoading}>
+          <lightning-spinner
+            alternative-text="Loading"
+            size="medium"
+          ></lightning-spinner>
+        </template>
+
+        <div class="room-list">
+          <template for:each={rooms} for:item="r">
+            <div key={r.room.Id} class="room-card slds-box slds-m-bottom_small">
+              <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_1-of-4">
+                  <template if:true={r.displayImage}>
+                    <img
+                      src={r.displayImage}
+                      alt={r.room.Name}
+                      class="home-photo"
+                    />
+                  </template>
+                  <template if:false={r.displayImage}>
+                    <div class="no-photo slds-align_absolute-center">
+                      No Photo
+                    </div>
+                  </template>
+                </div>
+                <div class="slds-col slds-size_3-of-4">
+                  <div class="slds-grid slds-grid_align-spread">
+                    <h3 class="slds-text-heading_small">
+                      {r.room.Property__r.Name} - Room {r.room.Name}
+                    </h3>
+                    <lightning-badge
+                      label={r.room.Base_Weekly_Rate__c_Formatted}
+                    ></lightning-badge>
+                  </div>
+                  <div class="slds-m-vertical_x-small">
+                    <p><strong>Features:</strong> {r.features}</p>
+                  </div>
+                  <div
+                    class="slds-grid slds-grid_align-spread slds-align-bottom"
+                  >
+                    <template if:true={r.matchScore}>
+                      <lightning-badge
+                        label="Best Match"
+                        icon-name="utility:favorite"
+                        class="match-badge"
+                      ></lightning-badge>
+                    </template>
+                    <template if:false={r.matchScore}>
+                      <span></span>
+                    </template>
+                    <lightning-button
+                      label="Select Room"
+                      variant="neutral"
+                      data-id={r.room.Id}
+                      onclick={handleSelectRoom}
+                    ></lightning-button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </template>
+          <template if:true={noRooms}>
+            <div class="slds-align_absolute-center slds-m-top_large">
+              <p>No available rooms found for the selected criteria.</p>
+            </div>
+          </template>
+        </div>
+      </template>
+
+      <!-- STEP 2: CONFIRM BOOKING -->
+      <template if:true={isStep2}>
+        <div class="confirm-screen">
+          <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+            Confirm Booking Details
+          </h2>
+
+          <div
+            class="selected-room-summary slds-box slds-theme_shade slds-m-bottom_medium"
+          >
+            <p>
+              <strong>Property:</strong> {selectedRoom.room.Property__r.Name}
+            </p>
+            <p><strong>Room:</strong> {selectedRoom.room.Name}</p>
+            <p>
+              <strong>Standard Rate:</strong>
+              {selectedRoom.room.Base_Weekly_Rate__c_Formatted}
+            </p>
+          </div>
+
+          <div class="pricing-inputs slds-form slds-form_stacked">
+            <lightning-input
+              type="number"
+              label="Final Agreed Weekly Price"
+              formatter="currency"
+              step="0.01"
+              value={finalPrice}
+              onchange={handlePriceChange}
+              required
+            >
+            </lightning-input>
+          </div>
+
+          <div
+            class="actions slds-m-top_large slds-grid slds-grid_align-spread"
+          >
+            <lightning-button
+              label="Back"
+              onclick={handleBack}
+            ></lightning-button>
+            <lightning-button
+              variant="brand"
+              label="Confirm Booking"
+              onclick={handleConfirmBooking}
+            ></lightning-button>
+          </div>
+        </div>
+      </template>
+    </div>
+  </lightning-card>
+</template>

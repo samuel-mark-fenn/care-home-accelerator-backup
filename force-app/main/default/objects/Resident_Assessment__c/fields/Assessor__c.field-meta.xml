@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assessor__c</fullName>
+    <label>Assessor</label>
+    <type>Lookup</type>
+    <description>Person conducting the assessment</description>
+    <required>false</required>
+    <referenceTo>User</referenceTo>
+    <relationshipLabel>Assessments</relationshipLabel>
+    <relationshipName>Resident_Assessments</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

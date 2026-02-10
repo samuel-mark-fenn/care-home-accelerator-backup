@@ -1,0 +1,249 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "Preference__c",
+          "url": "/services/data/v65.0/sobjects/Preference__c/a06KZ000005QwKCYA0"
+        },
+        "Id": "a06KZ000005QwKCYA0",
+        "OwnerId": "005KZ000002sDUOYA2",
+        "IsDeleted": false,
+        "Name": "none",
+        "CurrencyIsoCode": "GBP",
+        "CreatedDate": "2026-01-19T12:42:13.000+0000",
+        "CreatedById": "005KZ000002sFQiYAM",
+        "LastModifiedDate": "2026-01-19T12:42:13.000+0000",
+        "LastModifiedById": "005KZ000002sFQiYAM",
+        "SystemModstamp": "2026-01-19T12:42:13.000+0000",
+        "MayEdit": true,
+        "IsLocked": false,
+        "LastViewedDate": null,
+        "LastReferencedDate": null
+      },
+      {
+        "attributes": {
+          "type": "Preference__c",
+          "url": "/services/data/v65.0/sobjects/Preference__c/a06KZ000005QwK7YAK"
+        },
+        "Id": "a06KZ000005QwK7YAK",
+        "OwnerId": "005KZ000002sDUOYA2",
+        "IsDeleted": false,
+        "Name": "Garderning",
+        "CurrencyIsoCode": "GBP",
+        "CreatedDate": "2026-01-19T12:21:54.000+0000",
+        "CreatedById": "005KZ000002sFQiYAM",
+        "LastModifiedDate": "2026-01-19T12:21:54.000+0000",
+        "LastModifiedById": "005KZ000002sFQiYAM",
+        "SystemModstamp": "2026-01-19T12:21:54.000+0000",
+        "MayEdit": true,
+        "IsLocked": false,
+        "LastViewedDate": null,
+        "LastReferencedDate": null
+      },
+      {
+        "attributes": {
+          "type": "Preference__c",
+          "url": "/services/data/v65.0/sobjects/Preference__c/a06KZ000005QwL6YAK"
+        },
+        "Id": "a06KZ000005QwL6YAK",
+        "OwnerId": "005KZ000002sDUOYA2",
+        "IsDeleted": false,
+        "Name": "adsqw",
+        "CurrencyIsoCode": "GBP",
+        "CreatedDate": "2026-01-19T15:57:24.000+0000",
+        "CreatedById": "005KZ000002sFQiYAM",
+        "LastModifiedDate": "2026-01-19T15:57:24.000+0000",
+        "LastModifiedById": "005KZ000002sFQiYAM",
+        "SystemModstamp": "2026-01-19T15:57:24.000+0000",
+        "MayEdit": true,
+        "IsLocked": false,
+        "LastViewedDate": null,
+        "LastReferencedDate": null
+      },
+      {
+        "attributes": {
+          "type": "Preference__c",
+          "url": "/services/data/v65.0/sobjects/Preference__c/a06KZ000005QwLKYA0"
+        },
+        "Id": "a06KZ000005QwLKYA0",
+        "OwnerId": "005KZ000002sDUOYA2",
+        "IsDeleted": false,
+        "Name": "Board Games",
+        "CurrencyIsoCode": "GBP",
+        "CreatedDate": "2026-01-19T16:32:06.000+0000",
+        "CreatedById": "005KZ000002sFQiYAM",
+        "LastModifiedDate": "2026-01-19T16:32:06.000+0000",
+        "LastModifiedById": "005KZ000002sFQiYAM",
+        "SystemModstamp": "2026-01-19T16:32:06.000+0000",
+        "MayEdit": true,
+        "IsLocked": false,
+        "LastViewedDate": null,
+        "LastReferencedDate": null
+      },
+      {
+        "attributes": {
+          "type": "Preference__c",
+          "url": "/services/data/v65.0/sobjects/Preference__c/a06KZ000005QwLLYA0"
+        },
+        "Id": "a06KZ000005QwLLYA0",
+        "OwnerId": "005KZ000002sDUOYA2",
+        "IsDeleted": false,
+        "Name": "TV Documentaries",
+        "CurrencyIsoCode": "GBP",
+        "CreatedDate": "2026-01-19T16:32:06.000+0000",
+        "CreatedById": "005KZ000002sFQiYAM",
+        "LastModifiedDate": "2026-01-19T16:32:06.000+0000",
+        "LastModifiedById": "005KZ000002sFQiYAM",
+        "SystemModstamp": "2026-01-19T16:32:06.000+0000",
+        "MayEdit": true,
+        "IsLocked": false,
+        "LastViewedDate": null,
+        "LastReferencedDate": null
+      },
+      {
+        "attributes": {
+          "type": "Preference__c",
+          "url": "/services/data/v65.0/sobjects/Preference__c/a06KZ000005QwLMYA0"
+        },
+        "Id": "a06KZ000005QwLMYA0",
+        "OwnerId": "005KZ000002sDUOYA2",
+        "IsDeleted": false,
+        "Name": "Walks with a stick",
+        "CurrencyIsoCode": "GBP",
+        "CreatedDate": "2026-01-19T16:32:06.000+0000",
+        "CreatedById": "005KZ000002sFQiYAM",
+        "LastModifiedDate": "2026-01-19T16:32:06.000+0000",
+        "LastModifiedById": "005KZ000002sFQiYAM",
+        "SystemModstamp": "2026-01-19T16:32:06.000+0000",
+        "MayEdit": true,
+        "IsLocked": false,
+        "LastViewedDate": null,
+        "LastReferencedDate": null
+      },
+      {
+        "attributes": {
+          "type": "Preference__c",
+          "url": "/services/data/v65.0/sobjects/Preference__c/a06KZ000005QwL5YAK"
+        },
+        "Id": "a06KZ000005QwL5YAK",
+        "OwnerId": "005KZ000002sDUOYA2",
+        "IsDeleted": false,
+        "Name": "wdsa",
+        "CurrencyIsoCode": "GBP",
+        "CreatedDate": "2026-01-19T15:57:23.000+0000",
+        "CreatedById": "005KZ000002sFQiYAM",
+        "LastModifiedDate": "2026-01-19T15:57:23.000+0000",
+        "LastModifiedById": "005KZ000002sFQiYAM",
+        "SystemModstamp": "2026-01-19T15:57:23.000+0000",
+        "MayEdit": true,
+        "IsLocked": false,
+        "LastViewedDate": null,
+        "LastReferencedDate": null
+      },
+      {
+        "attributes": {
+          "type": "Preference__c",
+          "url": "/services/data/v65.0/sobjects/Preference__c/a06KZ000005Qu1bYAC"
+        },
+        "Id": "a06KZ000005Qu1bYAC",
+        "OwnerId": "005KZ000002sDUOYA2",
+        "IsDeleted": false,
+        "Name": "Gardening",
+        "CurrencyIsoCode": "GBP",
+        "CreatedDate": "2026-01-12T13:25:04.000+0000",
+        "CreatedById": "005KZ000002sDUOYA2",
+        "LastModifiedDate": "2026-01-12T13:25:04.000+0000",
+        "LastModifiedById": "005KZ000002sDUOYA2",
+        "SystemModstamp": "2026-01-12T13:25:04.000+0000",
+        "MayEdit": true,
+        "IsLocked": false,
+        "LastViewedDate": "2026-01-12T13:25:04.000+0000",
+        "LastReferencedDate": "2026-01-12T13:25:04.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Preference__c",
+          "url": "/services/data/v65.0/sobjects/Preference__c/a06KZ000005Qu1cYAC"
+        },
+        "Id": "a06KZ000005Qu1cYAC",
+        "OwnerId": "005KZ000002sDUOYA2",
+        "IsDeleted": false,
+        "Name": "films and reading",
+        "CurrencyIsoCode": "GBP",
+        "CreatedDate": "2026-01-12T13:25:04.000+0000",
+        "CreatedById": "005KZ000002sDUOYA2",
+        "LastModifiedDate": "2026-01-12T13:25:04.000+0000",
+        "LastModifiedById": "005KZ000002sDUOYA2",
+        "SystemModstamp": "2026-01-12T13:25:04.000+0000",
+        "MayEdit": true,
+        "IsLocked": false,
+        "LastViewedDate": "2026-01-12T13:25:04.000+0000",
+        "LastReferencedDate": "2026-01-12T13:25:04.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Preference__c",
+          "url": "/services/data/v65.0/sobjects/Preference__c/a06KZ000005Qu1dYAC"
+        },
+        "Id": "a06KZ000005Qu1dYAC",
+        "OwnerId": "005KZ000002sDUOYA2",
+        "IsDeleted": false,
+        "Name": "Wheelchair User",
+        "CurrencyIsoCode": "GBP",
+        "CreatedDate": "2026-01-12T13:25:04.000+0000",
+        "CreatedById": "005KZ000002sDUOYA2",
+        "LastModifiedDate": "2026-01-12T13:25:04.000+0000",
+        "LastModifiedById": "005KZ000002sDUOYA2",
+        "SystemModstamp": "2026-01-12T13:25:04.000+0000",
+        "MayEdit": true,
+        "IsLocked": false,
+        "LastViewedDate": "2026-01-12T16:38:25.000+0000",
+        "LastReferencedDate": "2026-01-12T16:38:25.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Preference__c",
+          "url": "/services/data/v65.0/sobjects/Preference__c/a06KZ000005Qu20YAC"
+        },
+        "Id": "a06KZ000005Qu20YAC",
+        "OwnerId": "005KZ000002sDUOYA2",
+        "IsDeleted": false,
+        "Name": "Sewing",
+        "CurrencyIsoCode": "GBP",
+        "CreatedDate": "2026-01-12T15:46:23.000+0000",
+        "CreatedById": "005KZ000002sDUOYA2",
+        "LastModifiedDate": "2026-01-12T15:46:23.000+0000",
+        "LastModifiedById": "005KZ000002sDUOYA2",
+        "SystemModstamp": "2026-01-12T15:46:23.000+0000",
+        "MayEdit": true,
+        "IsLocked": false,
+        "LastViewedDate": "2026-01-12T15:46:23.000+0000",
+        "LastReferencedDate": "2026-01-12T15:46:23.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Preference__c",
+          "url": "/services/data/v65.0/sobjects/Preference__c/a06KZ000005Qu21YAC"
+        },
+        "Id": "a06KZ000005Qu21YAC",
+        "OwnerId": "005KZ000002sDUOYA2",
+        "IsDeleted": false,
+        "Name": "Visual Imparement",
+        "CurrencyIsoCode": "GBP",
+        "CreatedDate": "2026-01-12T15:46:23.000+0000",
+        "CreatedById": "005KZ000002sDUOYA2",
+        "LastModifiedDate": "2026-01-12T15:46:23.000+0000",
+        "LastModifiedById": "005KZ000002sDUOYA2",
+        "SystemModstamp": "2026-01-12T15:46:23.000+0000",
+        "MayEdit": true,
+        "IsLocked": false,
+        "LastViewedDate": "2026-01-12T15:46:23.000+0000",
+        "LastReferencedDate": "2026-01-12T15:46:23.000+0000"
+      }
+    ],
+    "totalSize": 12,
+    "done": true
+  }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Next_of_Kin__c</fullName>
+    <label>Is Next of Kin</label>
+    <type>Checkbox</type>
+    <description>Indicates if this person is the next of kin</description>
+    <required>false</required>
+    <defaultValue>false</defaultValue>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

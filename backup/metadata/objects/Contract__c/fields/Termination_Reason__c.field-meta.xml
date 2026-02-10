@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Termination_Reason__c</fullName>
+    <inlineHelpText>Reason for termination</inlineHelpText>
+    <label>Termination Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Resident Request</fullName>
+                <default>false</default>
+                <label>Resident Request</label>
+            </value>
+            <value>
+                <fullName>Family Request</fullName>
+                <default>false</default>
+                <label>Family Request</label>
+            </value>
+            <value>
+                <fullName>Medical Needs Changed</fullName>
+                <default>false</default>
+                <label>Medical Needs Changed</label>
+            </value>
+            <value>
+                <fullName>Facility Unsuitable</fullName>
+                <default>false</default>
+                <label>Facility Unsuitable</label>
+            </value>
+            <value>
+                <fullName>Non-Payment</fullName>
+                <default>false</default>
+                <label>Non-Payment</label>
+            </value>
+            <value>
+                <fullName>Behavioral Issues</fullName>
+                <default>false</default>
+                <label>Behavioral Issues</label>
+            </value>
+            <value>
+                <fullName>Passed Away</fullName>
+                <default>false</default>
+                <label>Passed Away</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

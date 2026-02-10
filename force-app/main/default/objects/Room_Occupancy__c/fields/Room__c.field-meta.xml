@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Room__c</fullName>
+    <label>Room</label>
+    <type>MasterDetail</type>
+    <description>Room being occupied</description>
+    <required>false</required>
+    <referenceTo>Room__c</referenceTo>
+    <relationshipLabel>Occupancies</relationshipLabel>
+    <relationshipName>Occupancies</relationshipName>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

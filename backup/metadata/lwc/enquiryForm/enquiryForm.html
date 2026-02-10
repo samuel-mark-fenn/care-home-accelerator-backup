@@ -1,0 +1,274 @@
+<template>
+  <div class="container">
+    <!-- Header Section imitating Colten Care -->
+    <header class="site-header">
+      <div class="logo-area">
+        <h2 class="logo-text">COLTEN CARE</h2>
+      </div>
+    </header>
+
+    <div class="main-content">
+      <h1 class="title">New Care Enquiries</h1>
+
+      <p class="intro">
+        If you're seeking care for a loved one, our experienced team is here to
+        assist you. You can ask any questions you may have about your loved
+        one's care, request a brochure, or book a tour of our home.
+      </p>
+
+      <a href="tel:01202139641" class="phone-link">01202 139641</a>
+
+      <p class="intro">
+        If you'd prefer to leave us a message and for our Customer Service
+        Advisor to contact you, please complete the form below and we'll respond
+        within one working day.
+      </p>
+
+      <template if:false={showThankYou}>
+        <div class="form-container">
+          <div class="field-group">
+            <label class="required"
+              >Which care home are you interested in?</label
+            >
+            <select
+              name="careHomeId"
+              onchange={handleInputChange}
+              class="slick-input"
+              required
+            >
+              <option value="">Please select a home...</option>
+              <template for:each={properties} for:item="prop">
+                <option key={prop.Id} value={prop.Id}>{prop.Name}</option>
+              </template>
+            </select>
+          </div>
+
+          <div class="field-group">
+            <label class="required">What is your enquiry about?</label>
+            <select
+              name="enquiryType"
+              onchange={handleInputChange}
+              class="slick-input"
+            >
+              <option value="Looking for care for a loved one">
+                Looking for care for a loved one
+              </option>
+              <option value="Looking for care for myself">
+                Looking for care for myself
+              </option>
+              <option value="Job Enquiry">Job Enquiry</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+          <template if:true={isLovedOne}>
+            <div class="field-group">
+              <label class="required">Loved one's name</label>
+              <input
+                type="text"
+                name="residentName"
+                onchange={handleInputChange}
+                class="slick-input"
+                required
+                placeholder="Enter the name of the person looking for care"
+              />
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <label>Their interests</label>
+                <input
+                  type="text"
+                  name="interests"
+                  onchange={handleInputChange}
+                  class="slick-input"
+                  placeholder="e.g. Gardening, Reading"
+                />
+              </div>
+              <div class="col">
+                <label>Their needs</label>
+                <input
+                  type="text"
+                  name="needs"
+                  onchange={handleInputChange}
+                  class="slick-input"
+                  placeholder="e.g. Mobility assistance"
+                />
+              </div>
+            </div>
+          </template>
+
+          <div class="field-group">
+            <label class="required"
+              >Are you looking for permanent or respite care?</label
+            >
+            <select
+              name="admissionType"
+              onchange={handleInputChange}
+              class="slick-input"
+              required
+            >
+              <option value="">Please select...</option>
+              <option value="Direct Permanent Admission">Permanent</option>
+              <option value="First Respite">Respite</option>
+            </select>
+          </div>
+
+          <template if:true={isRespite}>
+            <div class="row">
+              <div class="col">
+                <label class="required">Respite start date</label>
+                <input
+                  type="date"
+                  name="respiteStartDate"
+                  onchange={handleInputChange}
+                  class="slick-input"
+                  required
+                />
+              </div>
+              <div class="col">
+                <label class="required">Respite end date</label>
+                <input
+                  type="date"
+                  name="respiteEndDate"
+                  onchange={handleInputChange}
+                  class="slick-input"
+                  required
+                />
+              </div>
+            </div>
+          </template>
+
+          <div class="row">
+            <div class="col">
+              <label class="required">Your first name</label>
+              <input
+                type="text"
+                name="firstName"
+                onchange={handleInputChange}
+                class="slick-input"
+                required
+              />
+            </div>
+            <div class="col">
+              <label>Your last name</label>
+              <input
+                type="text"
+                name="lastName"
+                onchange={handleInputChange}
+                class="slick-input"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <label class="required">Your email address</label>
+              <input
+                type="email"
+                name="email"
+                onchange={handleInputChange}
+                class="slick-input"
+                required
+              />
+            </div>
+            <div class="col">
+              <label class="required">Your phone number</label>
+              <input
+                type="tel"
+                name="phone"
+                onchange={handleInputChange}
+                class="slick-input"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="field-group">
+            <label class="required">Your enquiry</label>
+            <textarea
+              name="message"
+              onchange={handleInputChange}
+              class="slick-input textarea"
+              placeholder="Please provide a few details about your enquiry..."
+            ></textarea>
+          </div>
+
+          <div class="field-group">
+            <label class="required">How did you find out about us?</label>
+            <select
+              name="source"
+              onchange={handleInputChange}
+              class="slick-input"
+            >
+              <option value="">Please select an option</option>
+              <option value="Google">Google</option>
+              <option value="Word of Mouth">Word of Mouth</option>
+              <option value="Event">Event</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+          <div class="checkbox-group">
+            <input
+              type="checkbox"
+              id="consent"
+              name="consent"
+              onchange={handleInputChange}
+            />
+            <label for="consent">
+              Please tick if you would like to receive information from Colten
+              Care, including newsletters, emails and events.
+            </label>
+          </div>
+
+          <button
+            onclick={handleSubmit}
+            class="submit-btn"
+            disabled={isSubmitting}
+          >
+            <span if:false={isSubmitting}>SEND MESSAGE</span>
+            <span if:true={isSubmitting}>SENDING...</span>
+          </button>
+        </div>
+      </template>
+
+      <template if:true={showThankYou}>
+        <div class="thank-you-container">
+          <div class="success-icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+          <h2 class="thank-you-title">Thank you for your enquiry</h2>
+          <p class="thank-you-message">
+            Your message has been received and our Customer Service Advisor will
+            contact you within one working day.
+          </p>
+          <button onclick={handleNewEnquiry} class="submit-btn outline-btn">
+            SEND ANOTHER ENQUIRY
+          </button>
+        </div>
+      </template>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+      <div class="footer-links">
+        <a href="#">Find a Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">Contact</a>
+      </div>
+      <p>&copy; 2024 Colten Care. All rights reserved.</p>
+    </footer>
+  </div>
+</template>

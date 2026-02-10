@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Signed_By__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Person who signed the contract</description>
+    <label>Signed By</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Contracts (Signed By)</relationshipLabel>
+    <relationshipName>Contracts_Signed</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

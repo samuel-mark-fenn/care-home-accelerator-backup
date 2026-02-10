@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preference__c</fullName>
+    <label>Preference</label>
+    <referenceTo>Preference__c</referenceTo>
+    <relationshipLabel>Resident Preferences</relationshipLabel>
+    <relationshipName>Resident_Preferences</relationshipName>
+    <type>Lookup</type>
+</CustomField>

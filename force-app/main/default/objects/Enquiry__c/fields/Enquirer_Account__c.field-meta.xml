@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enquirer_Account__c</fullName>
+    <label>Enquirer</label>
+    <type>Lookup</type>
+    <description>Person making the enquiry (family member or professional)</description>
+    <required>false</required>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Enquiries (Enquirer)</relationshipLabel>
+    <relationshipName>Enquiries_Enquirer_CC</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

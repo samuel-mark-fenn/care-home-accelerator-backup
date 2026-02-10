@@ -1,0 +1,182 @@
+================================================================================
+CARE HOME ACCELERATOR - COMPLETE BACKUP CONTENTS
+================================================================================
+Backup Date: February 10, 2026
+Source Org: samuel.mark.fenn@gmail.com.carehomedemo
+Backup Location: /Users/samuelfenn/Desktop/Care Home Accelerator/backup/
+
+================================================================================
+QUICK DEPLOYMENT
+================================================================================
+cd backup/deployment
+./deploy.sh <your-org-alias>
+
+================================================================================
+DIRECTORY STRUCTURE
+================================================================================
+backup/
+├── README.md                              # Comprehensive deployment guide
+├── QUICK-START.md                         # Fast deployment instructions
+├── BACKUP-SUMMARY.md                      # This backup overview
+├── MANIFEST.json                          # Machine-readable manifest
+├── CONTENTS.txt                           # This file
+├── org-info.json                          # Original org details
+│
+├── packages/                              # MANAGED PACKAGES (8 total)
+│   ├── installed-packages.json            # Package list with versions
+│   └── package-installation-guide.md      # Installation instructions
+│
+├── metadata/                              # COMPLETE METADATA
+│   ├── package.xml                        # Metadata manifest
+│   ├── objects/                          # Custom objects (14)
+│   │   ├── Assessment__c/
+│   │   ├── Property__c/
+│   │   ├── Room__c/
+│   │   ├── Room_Occupancy__c/
+│   │   ├── Resident__c/
+│   │   ├── Resident_Assessment__c/
+│   │   ├── Resident_Preference__c/
+│   │   ├── Preference__c/
+│   │   ├── Payment__c/
+│   │   ├── Survey__c/
+│   │   ├── Survey_Response__c/
+│   │   ├── Contract__c/
+│   │   ├── BenefitManagementRecertification__c/
+│   │   └── Room_Feature__c/
+│   │
+│   ├── lwc/                              # Lightning Web Components (6)
+│   │   ├── careDashboard/
+│   │   ├── propertyMap/
+│   │   ├── roomFinder/
+│   │   ├── residentSurvey/
+│   │   ├── medicalAssessmentForm/
+│   │   └── enquiryForm/
+│   │
+│   ├── classes/                          # Apex Classes
+│   ├── triggers/                         # Apex Triggers
+│   ├── flows/                           # Flows & Process Builder
+│   ├── layouts/                         # Page Layouts
+│   ├── tabs/                            # Custom Tabs
+│   ├── applications/                    # Custom Applications
+│   └── [50+ other metadata types]
+│
+├── data/                                # DATA EXPORTS (842 records)
+│   ├── Assessment__c.json              # 5 records
+│   ├── Property__c.json                # 22 records (care homes)
+│   ├── Room__c.json                    # 216 records
+│   ├── Room_Occupancy__c.json          # 295 records
+│   ├── Resident__c.json                # 1 record
+│   ├── Resident_Assessment__c.json     # 6 records
+│   ├── Resident_Preference__c.json     # 17 records
+│   ├── Preference__c.json              # 12 records
+│   ├── Survey__c.json                  # 15 records
+│   ├── Survey_Response__c.json         # 3 records
+│   │
+│   ├── standard/                       # Standard object data
+│   │   ├── Account.json                # 96 records
+│   │   ├── Contact.json                # 92 records
+│   │   ├── Lead.json                   # 4 records
+│   │   ├── Opportunity.json            # 55 records
+│   │   └── Case.json                   # 3 records
+│   │
+│   ├── export-all-data.py             # Data export script
+│   └── export-standard-objects.py      # Standard object export script
+│
+└── deployment/                         # DEPLOYMENT AUTOMATION
+    ├── deploy.sh                       # Main deployment script
+    └── validate-deployment.py          # Validation script
+
+================================================================================
+MANAGED PACKAGES (Install in this order)
+================================================================================
+1. QLabs_Utilities (qbranch) v1.193.0.1
+   Version ID: 04tGA000005F6iKYAS
+
+2. Salesforce - Postspin DevOps (vbtapp) v1.6.0.1
+   Version ID: 04t1U000007kPT0QAM
+
+3. Time Warp (bmpyrckt) v1.15.0.1
+   Version ID: 04tIg0000004fiDIAQ
+
+4. XDO Automation (xdo) v2.11.0.1
+   Version ID: 04t4P000002qntuQAA
+
+5. Sales Insights (OIQ) v1.0.0.1
+   Version ID: 04t58000000SGw3AAG
+
+6. Nintex DocGen (Loop) v20.22.1.1
+   Version ID: 04tHu000004V7nzIAC
+
+7. Data Tool (NXDO) v1.31.0.1
+   Version ID: 04t8c000000ZxmMAAS
+
+8. b2bmaIntegration (b2bma) v1.7.0.2
+   Version ID: 04t5G000004F39PQAS
+
+================================================================================
+CUSTOM OBJECTS (14 total)
+================================================================================
+Assessment__c                    - Care assessments (5 records)
+BenefitManagementRecertification__c - Benefits management
+Contract__c                      - Contracts
+Payment__c                       - Payment tracking
+Preference__c                    - Care preferences (12 records)
+Property__c                      - Care home properties (22 records)
+Resident__c                      - Resident information (1 record)
+Resident_Assessment__c           - Resident assessments (6 records)
+Resident_Preference__c           - Resident preferences (17 records)
+Room__c                          - Room inventory (216 records)
+Room_Feature__c                  - Room features
+Room_Occupancy__c                - Occupancy tracking (295 records)
+Survey__c                        - Surveys (15 records)
+Survey_Response__c               - Survey responses (3 records)
+
+================================================================================
+LIGHTNING WEB COMPONENTS (6 total)
+================================================================================
+careDashboard           - Main care home dashboard
+propertyMap             - Interactive property/location map
+roomFinder              - Room search and availability
+residentSurvey          - Resident satisfaction surveys
+medicalAssessmentForm   - Medical assessment forms
+enquiryForm             - General enquiry forms
+
+================================================================================
+DATA SUMMARY
+================================================================================
+Custom Object Records:      592
+Standard Object Records:    250
+                          -----
+TOTAL RECORDS:              842
+
+Top Objects by Record Count:
+  1. Room_Occupancy__c     295 records
+  2. Room__c               216 records
+  3. Account               96 records
+  4. Contact               92 records
+  5. Opportunity           55 records
+
+================================================================================
+DEPLOYMENT CHECKLIST
+================================================================================
+□ Salesforce CLI installed (sf --version)
+□ Target org created and authenticated
+□ Admin access to target org verified
+□ Navigate to backup/deployment directory
+□ Run: ./deploy.sh <target-org-alias>
+□ Wait 35-55 minutes for complete deployment
+□ Run: python3 validate-deployment.py <target-org-alias>
+□ Verify all checks pass
+□ Open org and test functionality
+
+================================================================================
+SUPPORT & DOCUMENTATION
+================================================================================
+Quick Start:    backup/QUICK-START.md
+Full Guide:     backup/README.md
+Summary:        backup/BACKUP-SUMMARY.md
+Manifest:       backup/MANIFEST.json
+
+For issues, see README.md troubleshooting section.
+
+================================================================================

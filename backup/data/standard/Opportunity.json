@@ -1,0 +1,886 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v12kYAA"
+      },
+      "Id": "006KZ000006v12kYAA",
+      "Name": "Smith Enquiry",
+      "AccountId": "001KZ00000M669fYAB",
+      "StageName": "1. Initial Inquiry",
+      "Amount": 1450,
+      "CloseDate": "2026-02-07",
+      "Probability": 20,
+      "Type": "New Business",
+      "LeadSource": "Partner",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v19qYAA"
+      },
+      "Id": "006KZ000006v19qYAA",
+      "Name": "John Garcia - Care Home Enquiry",
+      "AccountId": "001KZ00000M66OvYAJ",
+      "StageName": "3. Clinical Pre-Admission Assessment",
+      "Amount": 66560,
+      "CloseDate": "2026-02-28",
+      "Probability": 50,
+      "Type": "New Business",
+      "LeadSource": "Marketing Event",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1DYYAY"
+      },
+      "Id": "006KZ000006v1DYYAY",
+      "Name": "Elizabeth Brown - Care Home Enquiry",
+      "AccountId": "001KZ00000M66OvYAJ",
+      "StageName": "Closed Won",
+      "Amount": 66820,
+      "CloseDate": "2024-12-15",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Social Media",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1CBYAY"
+      },
+      "Id": "006KZ000006v1CBYAY",
+      "Name": "Michael Jones - Room Enquiry",
+      "AccountId": "001KZ00000M66agYAB",
+      "StageName": "Closed Won",
+      "Amount": 68120,
+      "CloseDate": "2024-11-15",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Website",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1B8YAI"
+      },
+      "Id": "006KZ000006v1B8YAI",
+      "Name": "Elizabeth Brown - Care Enquiry",
+      "AccountId": "001KZ00000M66amYAB",
+      "StageName": "Closed Won",
+      "Amount": 64480,
+      "CloseDate": "2024-11-30",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Social Media",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v19rYAA"
+      },
+      "Id": "006KZ000006v19rYAA",
+      "Name": "Patricia Rodriguez - Room Enquiry",
+      "AccountId": "001KZ00000M66btYAB",
+      "StageName": "Closed Won",
+      "Amount": 72800,
+      "CloseDate": "2024-07-10",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Referral",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1BmYAI"
+      },
+      "Id": "006KZ000006v1BmYAI",
+      "Name": "Michael Brown - Room Enquiry",
+      "AccountId": "001KZ00000M66cEYAR",
+      "StageName": "Closed Won",
+      "Amount": 67080,
+      "CloseDate": "2024-10-18",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Website",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1CbYAI"
+      },
+      "Id": "006KZ000006v1CbYAI",
+      "Name": "James Brown - Room Enquiry",
+      "AccountId": "001KZ00000M66gQYAR",
+      "StageName": "Closed Won",
+      "Amount": 62400,
+      "CloseDate": "2024-12-01",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Inbound Call",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1CaYAI"
+      },
+      "Id": "006KZ000006v1CaYAI",
+      "Name": "James Smith - Room Enquiry",
+      "AccountId": "001KZ00000M66jhYAB",
+      "StageName": "Closed Won",
+      "Amount": 63960,
+      "CloseDate": "2024-09-18",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Website",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1CQYAY"
+      },
+      "Id": "006KZ000006v1CQYAY",
+      "Name": "James Miller - Room Enquiry",
+      "AccountId": "001KZ00000M66kkYAB",
+      "StageName": "Closed Won",
+      "Amount": 69680,
+      "CloseDate": "2024-10-05",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Website",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1CGYAY"
+      },
+      "Id": "006KZ000006v1CGYAY",
+      "Name": "James Jones - Room Enquiry",
+      "AccountId": "001KZ00000M66m7YAB",
+      "StageName": "Closed Won",
+      "Amount": 67600,
+      "CloseDate": "2024-10-22",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Referral",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v5ojYAA"
+      },
+      "Id": "006KZ000006v5ojYAA",
+      "Name": "Sam Fenn - Care Enquiry",
+      "AccountId": "001KZ00000M6C18YAF",
+      "StageName": "5. Admission Confirmed",
+      "Amount": 11028,
+      "CloseDate": "2026-01-18",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Partner",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v6XHYAY"
+      },
+      "Id": "006KZ000006v6XHYAY",
+      "Name": "Jamie Smith - Care Enquiry",
+      "AccountId": "001KZ00000M6Y2AYAV",
+      "StageName": "1. Initial Inquiry",
+      "Amount": 11160,
+      "CloseDate": "2026-02-11",
+      "Probability": 20,
+      "Type": "New Business",
+      "LeadSource": "Social Media",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v12lYAA"
+      },
+      "Id": "006KZ000006v12lYAA",
+      "Name": "John Rodriguez - Care Enquiry",
+      "AccountId": "001KZ00000M7ES5YAN",
+      "StageName": "Closed Won",
+      "Amount": 64480,
+      "CloseDate": "2024-08-20",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Social Media",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006vCFZYA2"
+      },
+      "Id": "006KZ000006vCFZYA2",
+      "Name": "Sheila Sheringham - Care Enquiry",
+      "AccountId": "001KZ00000M7EYRYA3",
+      "StageName": "4. Admission Planning and Financial Summary",
+      "Amount": null,
+      "CloseDate": "2026-02-19",
+      "Probability": 70,
+      "Type": "New Customer",
+      "LeadSource": "Word of mouth",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v16YYAQ"
+      },
+      "Id": "006KZ000006v16YYAQ",
+      "Name": "Elizabeth Martinez - Room Enquiry",
+      "AccountId": "001KZ00000M66XyYAJ",
+      "StageName": "Closed Won",
+      "Amount": 68900,
+      "CloseDate": "2024-08-08",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Referral",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1APYAY"
+      },
+      "Id": "006KZ000006v1APYAY",
+      "Name": "Robert Williams - Care Enquiry",
+      "AccountId": "001KZ00000M66aMYAR",
+      "StageName": "Closed Won",
+      "Amount": 65260,
+      "CloseDate": "2024-10-28",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Website",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1AeYAI"
+      },
+      "Id": "006KZ000006v1AeYAI",
+      "Name": "Patricia Garcia - Care Enquiry",
+      "AccountId": "001KZ00000M66aMYAR",
+      "StageName": "Closed Won",
+      "Amount": 68640,
+      "CloseDate": "2024-09-12",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Referral",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1D4YAI"
+      },
+      "Id": "006KZ000006v1D4YAI",
+      "Name": "Michael Rodriguez - Room Enquiry",
+      "AccountId": "001KZ00000M66bZYAR",
+      "StageName": "Closed Won",
+      "Amount": 67080,
+      "CloseDate": "2024-09-08",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Referral",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1DEYAY"
+      },
+      "Id": "006KZ000006v1DEYAY",
+      "Name": "Michael Rodriguez - Care Enquiry",
+      "AccountId": "001KZ00000M66beYAB",
+      "StageName": "2. Show Round Stage",
+      "Amount": 65780,
+      "CloseDate": "2026-03-10",
+      "Probability": 40,
+      "Type": "New Business",
+      "LeadSource": "Website",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1CfYAI"
+      },
+      "Id": "006KZ000006v1CfYAI",
+      "Name": "Patricia Williams - Room Enquiry",
+      "AccountId": "001KZ00000M66boYAB",
+      "StageName": "Closed Won",
+      "Amount": 69160,
+      "CloseDate": "2024-11-20",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Website",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v19vYAA"
+      },
+      "Id": "006KZ000006v19vYAA",
+      "Name": "William Jones - Room Enquiry",
+      "AccountId": "001KZ00000M66btYAB",
+      "StageName": "Closed Won",
+      "Amount": 69940,
+      "CloseDate": "2024-08-30",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Website",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1CVYAY"
+      },
+      "Id": "006KZ000006v1CVYAY",
+      "Name": "Jennifer Rodriguez - Room Enquiry",
+      "AccountId": "001KZ00000M66byYAB",
+      "StageName": "Closed Won",
+      "Amount": 65000,
+      "CloseDate": "2024-08-25",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Referral",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1AyYAI"
+      },
+      "Id": "006KZ000006v1AyYAI",
+      "Name": "Patricia Johnson - Care Enquiry",
+      "AccountId": "001KZ00000M66c8YAB",
+      "StageName": "Closed Won",
+      "Amount": 69420,
+      "CloseDate": "2024-11-10",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Inbound Call",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1A0YAI"
+      },
+      "Id": "006KZ000006v1A0YAI",
+      "Name": "Michael Johnson - Room Enquiry",
+      "AccountId": "001KZ00000M66hbYAB",
+      "StageName": "Closed Won",
+      "Amount": 68640,
+      "CloseDate": "2024-10-02",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Website",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1BrYAI"
+      },
+      "Id": "006KZ000006v1BrYAI",
+      "Name": "John Rodriguez - Residential Care",
+      "AccountId": "001KZ00000M66c8YAB",
+      "StageName": "4. Admission Planning and Financial Summary",
+      "Amount": 70980,
+      "CloseDate": "2026-02-25",
+      "Probability": 70,
+      "Type": "New Business",
+      "LeadSource": "Website",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1DOYAY"
+      },
+      "Id": "006KZ000006v1DOYAY",
+      "Name": "Michael Miller - Care Home Enquiry",
+      "AccountId": "001KZ00000M66c8YAB",
+      "StageName": "1. Initial Inquiry",
+      "Amount": 71240,
+      "CloseDate": "2026-03-01",
+      "Probability": 20,
+      "Type": "New Business",
+      "LeadSource": "Inbound Call",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1BhYAI"
+      },
+      "Id": "006KZ000006v1BhYAI",
+      "Name": "Jennifer Johnson - Room Enquiry",
+      "AccountId": "001KZ00000M66jmYAB",
+      "StageName": "3. Clinical Pre-Admission Assessment",
+      "Amount": 68380,
+      "CloseDate": "2026-02-20",
+      "Probability": 50,
+      "Type": "New Business",
+      "LeadSource": "Marketing Event",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1CkYAI"
+      },
+      "Id": "006KZ000006v1CkYAI",
+      "Name": "Linda Johnson - Care Enquiry",
+      "AccountId": "001KZ00000M7EWGYA3",
+      "StageName": "Closed Won",
+      "Amount": 70720,
+      "CloseDate": "2024-09-05",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Referral",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1BcYAI"
+      },
+      "Id": "006KZ000006v1BcYAI",
+      "Name": "Mary Miller - Residential Care",
+      "AccountId": "001KZ00000M66ciYAB",
+      "StageName": "Closed Won",
+      "Amount": 64740,
+      "CloseDate": "2024-09-22",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Referral",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1D9YAI"
+      },
+      "Id": "006KZ000006v1D9YAI",
+      "Name": "James Jones - Room Enquiry",
+      "AccountId": "001KZ00000M66cnYAB",
+      "StageName": "Closed Won",
+      "Amount": 66040,
+      "CloseDate": "2024-09-28",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Referral",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1CLYAY"
+      },
+      "Id": "006KZ000006v1CLYAY",
+      "Name": "Jennifer Brown - Residential Care",
+      "AccountId": "001KZ00000M66e5YAB",
+      "StageName": "4. Admission Planning and Financial Summary",
+      "Amount": 67340,
+      "CloseDate": "2026-02-15",
+      "Probability": 70,
+      "Type": "New Business",
+      "LeadSource": "Social Media",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1A5YAI"
+      },
+      "Id": "006KZ000006v1A5YAI",
+      "Name": "James Davis - Room Enquiry",
+      "AccountId": "001KZ00000M66g4YAB",
+      "StageName": "Closed Won",
+      "Amount": 67340,
+      "CloseDate": "2024-09-18",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Referral",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1AtYAI"
+      },
+      "Id": "006KZ000006v1AtYAI",
+      "Name": "Mary Rodriguez - Care Home Enquiry",
+      "AccountId": "001KZ00000M66g9YAB",
+      "StageName": "1. Initial Inquiry",
+      "Amount": 70200,
+      "CloseDate": "2026-03-05",
+      "Probability": 20,
+      "Type": "New Business",
+      "LeadSource": "Website",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1DdYAI"
+      },
+      "Id": "006KZ000006v1DdYAI",
+      "Name": "Linda Brown - Residential Care",
+      "AccountId": "001KZ00000M66jrYAB",
+      "StageName": "Closed Won",
+      "Amount": 65520,
+      "CloseDate": "2024-12-20",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Marketing Event",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1AUYAY"
+      },
+      "Id": "006KZ000006v1AUYAY",
+      "Name": "Mary Garcia - Care Enquiry",
+      "AccountId": "001KZ00000M66itYAB",
+      "StageName": "Closed Won",
+      "Amount": 65520,
+      "CloseDate": "2024-08-15",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Referral",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1AoYAI"
+      },
+      "Id": "006KZ000006v1AoYAI",
+      "Name": "Patricia Johnson - Care Home Enquiry",
+      "AccountId": "001KZ00000M66jcYAB",
+      "StageName": "Closed Won",
+      "Amount": 68120,
+      "CloseDate": "2024-12-05",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Inbound Call",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1AZYAY"
+      },
+      "Id": "006KZ000006v1AZYAY",
+      "Name": "Mary Williams - Room Enquiry",
+      "AccountId": "001KZ00000M66kkYAB",
+      "StageName": "Closed Won",
+      "Amount": 70460,
+      "CloseDate": "2024-07-20",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Referral",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1BXYAY"
+      },
+      "Id": "006KZ000006v1BXYAY",
+      "Name": "Linda Johnson - Room Enquiry",
+      "AccountId": "001KZ00000M66mHYAR",
+      "StageName": "2. Show Round Stage",
+      "Amount": 64220,
+      "CloseDate": "2026-03-15",
+      "Probability": 40,
+      "Type": "New Business",
+      "LeadSource": "Website",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1AAYAY"
+      },
+      "Id": "006KZ000006v1AAYAY",
+      "Name": "John Brown - Care Home Enquiry",
+      "AccountId": "001KZ00000M7EWHYA3",
+      "StageName": "Closed Won",
+      "Amount": 68900,
+      "CloseDate": "2024-12-10",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Marketing Event",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v2FFYAY"
+      },
+      "Id": "006KZ000006v2FFYAY",
+      "Name": "Sam Fenn - Care Enquiry",
+      "AccountId": "001KZ00000M6C18YAF",
+      "StageName": "1. Initial Inquiry",
+      "Amount": 16908,
+      "CloseDate": "2026-02-08",
+      "Probability": 20,
+      "Type": "New Customer",
+      "LeadSource": "Google",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v4duYAA"
+      },
+      "Id": "006KZ000006v4duYAA",
+      "Name": "John Hamilton - Care Enquiry",
+      "AccountId": "001KZ00000M6XXKYA3",
+      "StageName": "5. Admission Confirmed",
+      "Amount": 1340,
+      "CloseDate": "2026-01-19",
+      "Probability": 100,
+      "Type": "New Customer",
+      "LeadSource": "Google",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v4goYAA"
+      },
+      "Id": "006KZ000006v4goYAA",
+      "Name": "James Smith - Care Enquiry",
+      "AccountId": "001KZ00000M6Y29YAF",
+      "StageName": "1. Initial Inquiry",
+      "Amount": 1180,
+      "CloseDate": "2026-02-11",
+      "Probability": 20,
+      "Type": "New Customer",
+      "LeadSource": "Google",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v5nqYAA"
+      },
+      "Id": "006KZ000006v5nqYAA",
+      "Name": "James Smith - Care Enquiry",
+      "AccountId": "001KZ00000M6Y29YAF",
+      "StageName": "1. Initial Inquiry",
+      "Amount": 3153,
+      "CloseDate": "2026-02-11",
+      "Probability": 20,
+      "Type": "New Business",
+      "LeadSource": "Social Media",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006vCDOYA2"
+      },
+      "Id": "006KZ000006vCDOYA2",
+      "Name": "James Smith - Care Enquiry",
+      "AccountId": "001KZ00000M7ES4YAN",
+      "StageName": "Prospecting",
+      "Amount": 14832,
+      "CloseDate": "2026-02-18",
+      "Probability": 10,
+      "Type": "New Customer",
+      "LeadSource": "Google",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1DTYAY"
+      },
+      "Id": "006KZ000006v1DTYAY",
+      "Name": "Mary Johnson - Residential Care",
+      "AccountId": "001KZ00000M7ESiYAN",
+      "StageName": "Closed Won",
+      "Amount": 66300,
+      "CloseDate": "2024-11-25",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Social Media",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1B3YAI"
+      },
+      "Id": "006KZ000006v1B3YAI",
+      "Name": "John Davis - Room Enquiry",
+      "AccountId": "001KZ00000M7ESjYAN",
+      "StageName": "Closed Won",
+      "Amount": 67860,
+      "CloseDate": "2024-10-12",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Website",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006vCDTYA2"
+      },
+      "Id": "006KZ000006vCDTYA2",
+      "Name": "Johnny Smith - Care Enquiry",
+      "AccountId": "001KZ00000M7ESiYAN",
+      "StageName": "Prospecting",
+      "Amount": 9600,
+      "CloseDate": "2026-02-18",
+      "Probability": 10,
+      "Type": "New Customer",
+      "LeadSource": "Google",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006vCEMYA2"
+      },
+      "Id": "006KZ000006vCEMYA2",
+      "Name": "das - Care Enquiry",
+      "AccountId": "001KZ00000M7EU5YAN",
+      "StageName": "5. Admission Confirmed",
+      "Amount": 4020,
+      "CloseDate": "2026-01-19",
+      "Probability": 100,
+      "Type": "New Customer",
+      "LeadSource": "Google",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006vCERYA2"
+      },
+      "Id": "006KZ000006vCERYA2",
+      "Name": "John Baldwin - Care Enquiry",
+      "AccountId": "001KZ00000M7EUUYA3",
+      "StageName": "5. Admission Confirmed",
+      "Amount": 3600,
+      "CloseDate": "2026-01-19",
+      "Probability": 100,
+      "Type": "New Customer",
+      "LeadSource": "Google",
+      "OwnerId": "005KZ000002sMAVYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006vCFjYAM"
+      },
+      "Id": "006KZ000006vCFjYAM",
+      "Name": "John Baldwin - Care Enquiry",
+      "AccountId": "001KZ00000M7EYbYAN",
+      "StageName": "5. Admission Confirmed",
+      "Amount": 4800,
+      "CloseDate": "2026-01-20",
+      "Probability": 100,
+      "Type": "New Customer",
+      "LeadSource": "Google",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1DiYAI"
+      },
+      "Id": "006KZ000006v1DiYAI",
+      "Name": "James Brown - Residential Care",
+      "AccountId": "001KZ00000M7EUVYA3",
+      "StageName": "Closed Won",
+      "Amount": 70200,
+      "CloseDate": "2024-11-05",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Inbound Call",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006vCElYAM"
+      },
+      "Id": "006KZ000006vCElYAM",
+      "Name": "Verification Resident - Care Enquiry",
+      "AccountId": "001KZ00000M7EWBYA3",
+      "StageName": "1. Initial Inquiry",
+      "Amount": 13285.71428572,
+      "CloseDate": "2026-02-18",
+      "Probability": 20,
+      "Type": "New Customer",
+      "LeadSource": "Web",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006v1C6YAI"
+      },
+      "Id": "006KZ000006v1C6YAI",
+      "Name": "Robert Johnson - Room Enquiry",
+      "AccountId": "001KZ00000M7EWGYA3",
+      "StageName": "Closed Won",
+      "Amount": 67600,
+      "CloseDate": "2024-11-15",
+      "Probability": 100,
+      "Type": "New Business",
+      "LeadSource": "Marketing Event",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "url": "/services/data/v65.0/sobjects/Opportunity/006KZ000006vCFUYA2"
+      },
+      "Id": "006KZ000006vCFUYA2",
+      "Name": "Steven Partridge - Care Enquiry",
+      "AccountId": "001KZ00000M7EYCYA3",
+      "StageName": "1. Initial Inquiry",
+      "Amount": null,
+      "CloseDate": "2026-02-19",
+      "Probability": 20,
+      "Type": "New Customer",
+      "LeadSource": "Google",
+      "OwnerId": "005KZ000002sDUOYA2"
+    }
+  ],
+  "totalSize": 55,
+  "object": "Opportunity"
+}

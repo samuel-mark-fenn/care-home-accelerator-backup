@@ -1,0 +1,50 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Resident__c",
+        "url": "/services/data/v65.0/sobjects/Resident__c/a0HKZ00000INvDT2A1"
+      },
+      "Id": "a0HKZ00000INvDT2A1",
+      "IsDeleted": false,
+      "Name": "a0HKZ00000INvDT",
+      "CurrencyIsoCode": "GBP",
+      "CreatedDate": "2026-01-08T17:57:42.000+0000",
+      "CreatedById": "005KZ000002sDUOYA2",
+      "LastModifiedDate": "2026-01-08T17:57:42.000+0000",
+      "LastModifiedById": "005KZ000002sDUOYA2",
+      "SystemModstamp": "2026-01-08T17:57:42.000+0000",
+      "LastActivityDate": null,
+      "MayEdit": true,
+      "IsLocked": false,
+      "Account__c": "001KZ00000M66chYAB",
+      "Advanced_Care_Plan__c": false,
+      "Allergies__c": null,
+      "Behavioral_Notes__c": null,
+      "Care_Level__c": null,
+      "Care_Plan_Summary__c": null,
+      "Communication_Abilities__c": null,
+      "Current_Care_Home__c": null,
+      "Current_Medications__c": null,
+      "Current_Room__c": null,
+      "DNR_Status__c": null,
+      "Dementia_Care_Required__c": false,
+      "GP_Contact__c": null,
+      "Last_Respite_Visit__c": null,
+      "Moving_and_Handling_Summary__c": null,
+      "Nursing_Care_Required__c": false,
+      "Personal_Care_Needs__c": null,
+      "Resident_Since__c": null,
+      "Resident_Status__c": null,
+      "Risk_Assessment_Summary__c": null,
+      "Sensory_Needs__c": null,
+      "Sleep_Patterns__c": null,
+      "Total_Respite_Visits__c": null,
+      "Prefers_Garden_View__c": false,
+      "Requires_Ensuite__c": false,
+      "Requires_Ground_Floor__c": false
+    }
+  ],
+  "totalSize": 1,
+  "object": "Resident__c"
+}

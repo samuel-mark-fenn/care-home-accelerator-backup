@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Availability_Status__c</fullName>
+    <label>Status</label>
+    <type>Picklist</type>
+    <description>Current availability status of the room</description>
+    <required>false</required>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Available</fullName>
+                <default>true</default>
+                <label>Available</label>
+            </value>
+            <value>
+                <fullName>Occupied</fullName>
+                <default>false</default>
+                <label>Occupied</label>
+            </value>
+            <value>
+                <fullName>Reserved</fullName>
+                <default>false</default>
+                <label>Reserved</label>
+            </value>
+            <value>
+                <fullName>Under Maintenance</fullName>
+                <default>false</default>
+                <label>Under Maintenance</label>
+            </value>
+            <value>
+                <fullName>Being Decorated</fullName>
+                <default>false</default>
+                <label>Being Decorated</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

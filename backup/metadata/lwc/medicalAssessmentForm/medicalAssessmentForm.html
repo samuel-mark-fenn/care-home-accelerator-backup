@@ -1,0 +1,273 @@
+<template>
+  <div class="container">
+    <lightning-card title="New Resident Assessment" icon-name="custom:custom18">
+      <div class="slds-p-around_medium">
+        <!-- Section 1: Context -->
+        <div class="slds-section slds-is-open">
+          <h3 class="slds-section__title slds-theme_shade">
+            <span
+              class="slds-truncate slds-p-horizontal_small"
+              title="Assessment Context"
+              >Assessment Context</span
+            >
+          </h3>
+          <div aria-hidden="false" class="slds-section__content">
+            <lightning-layout multiple-rows>
+              <lightning-layout-item
+                size="12"
+                medium-device-size="6"
+                padding="around-small"
+              >
+                <lightning-combobox
+                  name="Resident__c"
+                  label="Resident"
+                  value={residentId}
+                  placeholder="Select Resident"
+                  options={residentOptions}
+                  onchange={handleInputChange}
+                  required
+                >
+                </lightning-combobox>
+              </lightning-layout-item>
+              <lightning-layout-item
+                size="12"
+                medium-device-size="6"
+                padding="around-small"
+              >
+                <lightning-combobox
+                  name="Assessment__c"
+                  label="Assessment Type"
+                  value={assessmentTypeId}
+                  placeholder="Select Type"
+                  options={typeOptions}
+                  onchange={handleInputChange}
+                  required
+                >
+                </lightning-combobox>
+              </lightning-layout-item>
+              <lightning-layout-item
+                size="12"
+                medium-device-size="6"
+                padding="around-small"
+              >
+                <lightning-record-picker
+                  label="Professional Assessor"
+                  placeholder="Search Users..."
+                  object-api-name="User"
+                  value={assessorId}
+                  onchange={handleAssessorChange}
+                >
+                </lightning-record-picker>
+              </lightning-layout-item>
+              <lightning-layout-item
+                size="12"
+                medium-device-size="6"
+                padding="around-small"
+              >
+                <lightning-input
+                  type="date"
+                  name="Assessment_Date__c"
+                  label="Date of Assessment"
+                  value={assessmentDate}
+                  onchange={handleInputChange}
+                ></lightning-input>
+              </lightning-layout-item>
+              <lightning-layout-item
+                size="12"
+                medium-device-size="6"
+                padding="around-small"
+              >
+                <lightning-combobox
+                  name="Status__c"
+                  label="Status"
+                  value={status}
+                  options={statusOptions}
+                  onchange={handleInputChange}
+                >
+                </lightning-combobox>
+              </lightning-layout-item>
+            </lightning-layout>
+          </div>
+        </div>
+
+        <!-- Section 2: Clinical Assessment -->
+        <div class="slds-section slds-is-open">
+          <h3 class="slds-section__title slds-theme_shade">
+            <span
+              class="slds-truncate slds-p-horizontal_small"
+              title="Clinical Details"
+              >Clinical Details</span
+            >
+          </h3>
+          <div aria-hidden="false" class="slds-section__content">
+            <lightning-layout multiple-rows>
+              <lightning-layout-item size="12" padding="around-small">
+                <lightning-textarea
+                  name="Medical_Needs_Assessment__c"
+                  label="Medical Needs"
+                  value={medicalNeeds}
+                  placeholder="Describe current medical needs..."
+                  onchange={handleInputChange}
+                  max-length="10000"
+                  rows="5"
+                ></lightning-textarea>
+              </lightning-layout-item>
+              <lightning-layout-item
+                size="12"
+                medium-device-size="6"
+                padding="around-small"
+              >
+                <lightning-textarea
+                  name="Mobility_Assessment__c"
+                  label="Mobility Assessment"
+                  value={mobility}
+                  placeholder="Mobility status details..."
+                  onchange={handleInputChange}
+                  max-length="10000"
+                  rows="5"
+                ></lightning-textarea>
+              </lightning-layout-item>
+              <lightning-layout-item
+                size="12"
+                medium-device-size="6"
+                padding="around-small"
+              >
+                <lightning-textarea
+                  name="Nutrition_Assessment__c"
+                  label="Nutrition Assessment"
+                  value={nutrition}
+                  placeholder="Nutritional requirements..."
+                  onchange={handleInputChange}
+                  max-length="10000"
+                  rows="5"
+                ></lightning-textarea>
+              </lightning-layout-item>
+              <lightning-layout-item
+                size="12"
+                medium-device-size="6"
+                padding="around-small"
+              >
+                <lightning-textarea
+                  name="Mental_Health_Assessment__c"
+                  label="Mental Health Assessment"
+                  value={mentalHealth}
+                  placeholder="Mental health findings..."
+                  onchange={handleInputChange}
+                  max-length="10000"
+                  rows="5"
+                ></lightning-textarea>
+              </lightning-layout-item>
+              <lightning-layout-item
+                size="12"
+                medium-device-size="6"
+                padding="around-small"
+              >
+                <lightning-textarea
+                  name="Personal_Care_Assessment__c"
+                  label="Personal Care Assessment"
+                  value={personalCare}
+                  placeholder="Personal care findings..."
+                  onchange={handleInputChange}
+                  max-length="10000"
+                  rows="5"
+                ></lightning-textarea>
+              </lightning-layout-item>
+              <lightning-layout-item size="12" padding="around-small">
+                <lightning-textarea
+                  name="Social_Needs_Assessment__c"
+                  label="Social Needs Assessment"
+                  value={socialNeeds}
+                  placeholder="Social needs findings..."
+                  onchange={handleInputChange}
+                  max-length="10000"
+                  rows="5"
+                ></lightning-textarea>
+              </lightning-layout-item>
+            </lightning-layout>
+          </div>
+        </div>
+
+        <!-- Section 3: Risk & Outcome -->
+        <div class="slds-section slds-is-open">
+          <h3 class="slds-section__title slds-theme_shade">
+            <span
+              class="slds-truncate slds-p-horizontal_small"
+              title="Risk & Outcome"
+              >Risk & Outcome</span
+            >
+          </h3>
+          <div aria-hidden="false" class="slds-section__content">
+            <lightning-layout multiple-rows>
+              <lightning-layout-item
+                size="12"
+                medium-device-size="6"
+                padding="around-small"
+              >
+                <lightning-combobox
+                  name="Risk_Level__c"
+                  label="Overall Risk Level"
+                  value={riskLevel}
+                  options={riskOptions}
+                  onchange={handleInputChange}
+                >
+                </lightning-combobox>
+              </lightning-layout-item>
+              <lightning-layout-item
+                size="12"
+                medium-device-size="6"
+                padding="around-small"
+              >
+                <lightning-combobox
+                  name="Overall_Outcome__c"
+                  label="Overall Outcome"
+                  value={outcome}
+                  options={outcomeOptions}
+                  onchange={handleInputChange}
+                >
+                </lightning-combobox>
+              </lightning-layout-item>
+              <lightning-layout-item
+                size="12"
+                medium-device-size="6"
+                padding="around-small"
+              >
+                <lightning-input
+                  type="checkbox"
+                  name="Follow_Up_Required__c"
+                  label="Follow Up Required"
+                  checked={followUpRequired}
+                  onchange={handleInputChange}
+                ></lightning-input>
+              </lightning-layout-item>
+              <lightning-layout-item
+                size="12"
+                medium-device-size="6"
+                padding="around-small"
+              >
+                <lightning-textarea
+                  name="Follow_Up_Notes__c"
+                  label="Follow Up Notes"
+                  value={followUpNotes}
+                  placeholder="Notes for follow up..."
+                  onchange={handleInputChange}
+                  max-length="10000"
+                  rows="5"
+                ></lightning-textarea>
+              </lightning-layout-item>
+            </lightning-layout>
+          </div>
+        </div>
+
+        <div class="available-actions slds-p-top_medium slds-text-align_right">
+          <lightning-button
+            variant="brand"
+            label="Submit Assessment"
+            title="Submit"
+            onclick={handleSubmit}
+            class="slds-m-left_x-small"
+          ></lightning-button>
+        </div>
+      </div>
+    </lightning-card>
+  </div>
+</template>

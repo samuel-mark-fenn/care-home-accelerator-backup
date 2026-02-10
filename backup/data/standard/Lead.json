@@ -1,0 +1,70 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Lead",
+        "url": "/services/data/v65.0/sobjects/Lead/00QKZ000008Qy0b2AC"
+      },
+      "Id": "00QKZ000008Qy0b2AC",
+      "FirstName": "Sarah",
+      "LastName": "Loehr",
+      "Company": "MedLife, Inc.",
+      "Email": "info@salesforce.com",
+      "Phone": "(555) 555-1212",
+      "Status": "Contacted",
+      "LeadSource": "Employee Referral",
+      "Industry": "Insurance",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Lead",
+        "url": "/services/data/v65.0/sobjects/Lead/00QKZ000008Qy0c2AC"
+      },
+      "Id": "00QKZ000008Qy0c2AC",
+      "FirstName": "John",
+      "LastName": "Gardner",
+      "Company": "3C Systems",
+      "Email": "info@salesforce.com",
+      "Phone": "(555) 555-1212",
+      "Status": "New",
+      "LeadSource": "Other",
+      "Industry": "Aerospace & Defense",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Lead",
+        "url": "/services/data/v65.0/sobjects/Lead/00QKZ000008Qy0d2AC"
+      },
+      "Id": "00QKZ000008Qy0d2AC",
+      "FirstName": "Andy",
+      "LastName": "Smith",
+      "Company": "Universal Technologies",
+      "Email": "info@salesforce.com",
+      "Phone": "(555) 555-1212",
+      "Status": "New",
+      "LeadSource": "Advertisement",
+      "Industry": "Aerospace & Defense",
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Lead",
+        "url": "/services/data/v65.0/sobjects/Lead/00QKZ000008Qy0e2AC"
+      },
+      "Id": "00QKZ000008Qy0e2AC",
+      "FirstName": "Jim",
+      "LastName": "Steele",
+      "Company": "BigLife Inc.",
+      "Email": "info@salesforce.com",
+      "Phone": "(555) 555-1212",
+      "Status": "New",
+      "LeadSource": "Employee Referral",
+      "Industry": "Insurance",
+      "OwnerId": "005KZ000002sDUOYA2"
+    }
+  ],
+  "totalSize": 4,
+  "object": "Lead"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Advanced_Care_Plan__c</fullName>
+    <label>Advanced Care Plan in Place</label>
+    <type>Checkbox</type>
+    <description>Is there an advanced care plan</description>
+    <required>false</required>
+    <defaultValue>false</defaultValue>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

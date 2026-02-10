@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Respite_Visits__c</fullName>
+    <label>Total Respite Visits</label>
+    <type>Number</type>
+    <description>Count of completed respite stays</description>
+    <required>false</required>
+    <precision>3</precision>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

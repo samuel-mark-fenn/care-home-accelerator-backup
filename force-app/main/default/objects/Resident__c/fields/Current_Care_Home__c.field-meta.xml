@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Care_Home__c</fullName>
+    <label>Current Care Home</label>
+    <type>Lookup</type>
+    <description>Current care home location</description>
+    <required>false</required>
+    <referenceTo>Property__c</referenceTo>
+    <relationshipLabel>Residents</relationshipLabel>
+    <relationshipName>Residents</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sensory_Needs__c</fullName>
+    <inlineHelpText>Sensory aids required</inlineHelpText>
+    <label>Sensory Needs</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hearing Aid</fullName>
+                <default>false</default>
+                <label>Hearing Aid</label>
+            </value>
+            <value>
+                <fullName>Glasses</fullName>
+                <default>false</default>
+                <label>Glasses</label>
+            </value>
+            <value>
+                <fullName>Dentures</fullName>
+                <default>false</default>
+                <label>Dentures</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

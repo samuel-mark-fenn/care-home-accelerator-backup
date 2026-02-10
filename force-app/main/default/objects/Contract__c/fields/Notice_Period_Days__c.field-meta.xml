@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notice_Period_Days__c</fullName>
+    <label>Notice Period (Days)</label>
+    <type>Number</type>
+    <description>Notice period in days</description>
+    <required>false</required>
+    <precision>3</precision>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

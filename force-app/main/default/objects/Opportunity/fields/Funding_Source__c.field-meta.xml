@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Funding_Source__c</fullName>
+    <inlineHelpText>How the care will be funded</inlineHelpText>
+    <label>Funding Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Private - Self Funded</fullName>
+                <default>false</default>
+                <label>Private - Self Funded</label>
+            </value>
+            <value>
+                <fullName>Private - Family Funded</fullName>
+                <default>false</default>
+                <label>Private - Family Funded</label>
+            </value>
+            <value>
+                <fullName>Local Authority</fullName>
+                <default>false</default>
+                <label>Local Authority</label>
+            </value>
+            <value>
+                <fullName>NHS Continuing Healthcare</fullName>
+                <default>false</default>
+                <label>NHS Continuing Healthcare</label>
+            </value>
+            <value>
+                <fullName>Mixed Private/LA</fullName>
+                <default>false</default>
+                <label>Mixed Private/LA</label>
+            </value>
+            <value>
+                <fullName>Mixed Private/NHS</fullName>
+                <default>false</default>
+                <label>Mixed Private/NHS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

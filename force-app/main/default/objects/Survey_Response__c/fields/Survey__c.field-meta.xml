@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Survey__c</fullName>
+    <label>Survey</label>
+    <type>MasterDetail</type>
+    <description>Survey template used</description>
+    <required>false</required>
+    <referenceTo>Survey__c</referenceTo>
+    <relationshipLabel>Responses</relationshipLabel>
+    <relationshipName>Responses</relationshipName>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

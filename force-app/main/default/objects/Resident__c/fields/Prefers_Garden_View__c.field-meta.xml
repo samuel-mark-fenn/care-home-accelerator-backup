@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prefers_Garden_View__c</fullName>
+    <label>Prefers Garden View</label>
+    <type>Checkbox</type>
+    <defaultValue>false</defaultValue>
+</CustomField>

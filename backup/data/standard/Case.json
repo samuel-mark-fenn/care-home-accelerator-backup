@@ -1,0 +1,54 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Case",
+        "url": "/services/data/v65.0/sobjects/Case/500KZ00000HjR4pYAF"
+      },
+      "Id": "500KZ00000HjR4pYAF",
+      "CaseNumber": "00001001",
+      "Subject": "Sample Case 2: The widgets we received are the wrong size.",
+      "Status": "New",
+      "Priority": "High",
+      "Origin": "Phone",
+      "AccountId": "001KZ00000MIIlOYAX",
+      "ContactId": "003KZ00000JzpFwYAJ",
+      "Description": null,
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "url": "/services/data/v65.0/sobjects/Case/500KZ00000HjR4qYAF"
+      },
+      "Id": "500KZ00000HjR4qYAF",
+      "CaseNumber": "00001002",
+      "Subject": "Sample Case 3: Cannot track our order.",
+      "Status": "On Hold",
+      "Priority": "Low",
+      "Origin": "Phone",
+      "AccountId": "001KZ00000MIIlOYAX",
+      "ContactId": "003KZ00000JzpFwYAJ",
+      "Description": null,
+      "OwnerId": "005KZ000002sDUOYA2"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "url": "/services/data/v65.0/sobjects/Case/500KZ00000HjR4rYAF"
+      },
+      "Id": "500KZ00000HjR4rYAF",
+      "CaseNumber": "00001000",
+      "Subject": "Sample Case: Our Widgets have not been delivered.",
+      "Status": "Escalated",
+      "Priority": "High",
+      "Origin": "Phone",
+      "AccountId": "001KZ00000MIIlNYAX",
+      "ContactId": "003KZ00000JzpFvYAJ",
+      "Description": null,
+      "OwnerId": "005KZ000002sDUOYA2"
+    }
+  ],
+  "totalSize": 3,
+  "object": "Case"
+}

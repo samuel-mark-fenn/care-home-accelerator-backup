@@ -1,0 +1,45 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "Product2",
+          "url": "/services/data/v65.0/sobjects/Product2/01tKZ0000021PkQYAU"
+        },
+        "Id": "01tKZ0000021PkQYAU",
+        "Name": "Shipping Charge Product",
+        "Description": "Default shipping product to calculate standard shipping charges.",
+        "ProductCode": null,
+        "Family": null,
+        "IsActive": true
+      },
+      {
+        "attributes": {
+          "type": "Product2",
+          "url": "/services/data/v65.0/sobjects/Product2/01tKZ000000s20YYAQ"
+        },
+        "Id": "01tKZ000000s20YYAQ",
+        "Name": "Standard Room Rate",
+        "Description": null,
+        "ProductCode": null,
+        "Family": null,
+        "IsActive": true
+      },
+      {
+        "attributes": {
+          "type": "Product2",
+          "url": "/services/data/v65.0/sobjects/Product2/01tKZ000000s44IYAQ"
+        },
+        "Id": "01tKZ000000s44IYAQ",
+        "Name": "Room Rate",
+        "Description": "Night rate for the property",
+        "ProductCode": null,
+        "Family": null,
+        "IsActive": true
+      }
+    ],
+    "totalSize": 3,
+    "done": true
+  }
+}

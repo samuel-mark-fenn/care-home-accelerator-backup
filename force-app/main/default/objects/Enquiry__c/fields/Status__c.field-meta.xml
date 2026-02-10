@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <label>Status</label>
+    <type>Picklist</type>
+    <description>Current status of the enquiry</description>
+    <required>false</required>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>true</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Contacted</fullName>
+                <default>false</default>
+                <label>Contacted</label>
+            </value>
+            <value>
+                <fullName>Information Sent</fullName>
+                <default>false</default>
+                <label>Information Sent</label>
+            </value>
+            <value>
+                <fullName>Visit Scheduled</fullName>
+                <default>false</default>
+                <label>Visit Scheduled</label>
+            </value>
+            <value>
+                <fullName>Visit Completed</fullName>
+                <default>false</default>
+                <label>Visit Completed</label>
+            </value>
+            <value>
+                <fullName>Converted to Opportunity</fullName>
+                <default>false</default>
+                <label>Converted to Opportunity</label>
+            </value>
+            <value>
+                <fullName>Not Proceeding</fullName>
+                <default>false</default>
+                <label>Not Proceeding</label>
+            </value>
+            <value>
+                <fullName>Closed - Lost</fullName>
+                <default>false</default>
+                <label>Closed - Lost</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

@@ -1,0 +1,16 @@
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.slds-section__title {
+  background-color: #f3f6f9; /* Light grey/blue common in medical software */
+  border-radius: 4px;
+  color: #004481; /* Dark professional blue */
+  font-weight: 600;
+}
+
+lightning-card {
+  --sds-c-card-radius-border: 8px;
+  --sds-c-card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

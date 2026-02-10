@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account__c</fullName>
+    <label>Account</label>
+    <type>MasterDetail</type>
+    <description>Link to the Account (Person Account)</description>
+    <required>false</required>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Resident Records</relationshipLabel>
+    <relationshipName>Resident_Records</relationshipName>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

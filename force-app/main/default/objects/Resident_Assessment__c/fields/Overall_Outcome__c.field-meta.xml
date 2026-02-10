@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Overall_Outcome__c</fullName>
+    <label>Overall Outcome</label>
+    <type>Picklist</type>
+    <inlineHelpText>Overall assessment outcome</inlineHelpText>
+    <required>false</required>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Suitable - No Concerns</fullName>
+                <default>false</default>
+                <label>Suitable - No Concerns</label>
+            </value>
+            <value>
+                <fullName>Suitable - Minor Concerns</fullName>
+                <default>false</default>
+                <label>Suitable - Minor Concerns</label>
+            </value>
+            <value>
+                <fullName>Suitable - Requires Specialist Support</fullName>
+                <default>false</default>
+                <label>Suitable - Requires Specialist Support</label>
+            </value>
+            <value>
+                <fullName>Requires Further Assessment</fullName>
+                <default>false</default>
+                <label>Requires Further Assessment</label>
+            </value>
+            <value>
+                <fullName>Not Suitable</fullName>
+                <default>false</default>
+                <label>Not Suitable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Floor_Number__c</fullName>
+    <label>Floor Number</label>
+    <type>Number</type>
+    <description>Floor number where room is located</description>
+    <required>false</required>
+    <precision>2</precision>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

@@ -1,0 +1,134 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "Assessment__c",
+          "url": "/services/data/v65.0/sobjects/Assessment__c/a0BKZ000003jajI2AQ"
+        },
+        "Id": "a0BKZ000003jajI2AQ",
+        "OwnerId": "005KZ000002sDUOYA2",
+        "IsDeleted": false,
+        "Name": "Initial Medical Assessment",
+        "CurrencyIsoCode": "GBP",
+        "CreatedDate": "2026-01-12T21:29:09.000+0000",
+        "CreatedById": "005KZ000002sDUOYA2",
+        "LastModifiedDate": "2026-01-12T21:29:09.000+0000",
+        "LastModifiedById": "005KZ000002sDUOYA2",
+        "SystemModstamp": "2026-01-12T21:29:09.000+0000",
+        "LastActivityDate": null,
+        "MayEdit": true,
+        "IsLocked": false,
+        "LastViewedDate": null,
+        "LastReferencedDate": null,
+        "Cognitive_Assessment__c": null,
+        "Next_Assessment_Date__c": null,
+        "Description__c": null,
+        "Type__c": "Initial"
+      },
+      {
+        "attributes": {
+          "type": "Assessment__c",
+          "url": "/services/data/v65.0/sobjects/Assessment__c/a0BKZ000003jajJ2AQ"
+        },
+        "Id": "a0BKZ000003jajJ2AQ",
+        "OwnerId": "005KZ000002sDUOYA2",
+        "IsDeleted": false,
+        "Name": "Risk Assessment",
+        "CurrencyIsoCode": "GBP",
+        "CreatedDate": "2026-01-12T21:29:09.000+0000",
+        "CreatedById": "005KZ000002sDUOYA2",
+        "LastModifiedDate": "2026-01-12T21:29:09.000+0000",
+        "LastModifiedById": "005KZ000002sDUOYA2",
+        "SystemModstamp": "2026-01-12T21:29:09.000+0000",
+        "LastActivityDate": null,
+        "MayEdit": true,
+        "IsLocked": false,
+        "LastViewedDate": null,
+        "LastReferencedDate": null,
+        "Cognitive_Assessment__c": null,
+        "Next_Assessment_Date__c": null,
+        "Description__c": null,
+        "Type__c": "Initial"
+      },
+      {
+        "attributes": {
+          "type": "Assessment__c",
+          "url": "/services/data/v65.0/sobjects/Assessment__c/a0BKZ000003jajK2AQ"
+        },
+        "Id": "a0BKZ000003jajK2AQ",
+        "OwnerId": "005KZ000002sDUOYA2",
+        "IsDeleted": false,
+        "Name": "Nutritional Assessment",
+        "CurrencyIsoCode": "GBP",
+        "CreatedDate": "2026-01-12T21:29:09.000+0000",
+        "CreatedById": "005KZ000002sDUOYA2",
+        "LastModifiedDate": "2026-01-12T21:29:09.000+0000",
+        "LastModifiedById": "005KZ000002sDUOYA2",
+        "SystemModstamp": "2026-01-12T21:29:09.000+0000",
+        "LastActivityDate": null,
+        "MayEdit": true,
+        "IsLocked": false,
+        "LastViewedDate": null,
+        "LastReferencedDate": null,
+        "Cognitive_Assessment__c": null,
+        "Next_Assessment_Date__c": null,
+        "Description__c": null,
+        "Type__c": "Initial"
+      },
+      {
+        "attributes": {
+          "type": "Assessment__c",
+          "url": "/services/data/v65.0/sobjects/Assessment__c/a0BKZ000003jajL2AQ"
+        },
+        "Id": "a0BKZ000003jajL2AQ",
+        "OwnerId": "005KZ000002sDUOYA2",
+        "IsDeleted": false,
+        "Name": "Mobility Assessment",
+        "CurrencyIsoCode": "GBP",
+        "CreatedDate": "2026-01-12T21:29:09.000+0000",
+        "CreatedById": "005KZ000002sDUOYA2",
+        "LastModifiedDate": "2026-01-12T21:29:09.000+0000",
+        "LastModifiedById": "005KZ000002sDUOYA2",
+        "SystemModstamp": "2026-01-12T21:29:09.000+0000",
+        "LastActivityDate": null,
+        "MayEdit": true,
+        "IsLocked": false,
+        "LastViewedDate": null,
+        "LastReferencedDate": null,
+        "Cognitive_Assessment__c": null,
+        "Next_Assessment_Date__c": null,
+        "Description__c": null,
+        "Type__c": "Initial"
+      },
+      {
+        "attributes": {
+          "type": "Assessment__c",
+          "url": "/services/data/v65.0/sobjects/Assessment__c/a0BKZ000003jajM2AQ"
+        },
+        "Id": "a0BKZ000003jajM2AQ",
+        "OwnerId": "005KZ000002sDUOYA2",
+        "IsDeleted": false,
+        "Name": "Skin Integrity Assessment",
+        "CurrencyIsoCode": "GBP",
+        "CreatedDate": "2026-01-12T21:29:09.000+0000",
+        "CreatedById": "005KZ000002sDUOYA2",
+        "LastModifiedDate": "2026-01-12T21:29:09.000+0000",
+        "LastModifiedById": "005KZ000002sDUOYA2",
+        "SystemModstamp": "2026-01-12T21:29:09.000+0000",
+        "LastActivityDate": null,
+        "MayEdit": true,
+        "IsLocked": false,
+        "LastViewedDate": null,
+        "LastReferencedDate": null,
+        "Cognitive_Assessment__c": null,
+        "Next_Assessment_Date__c": null,
+        "Description__c": null,
+        "Type__c": "Initial"
+      }
+    ],
+    "totalSize": 5,
+    "done": true
+  }
+}

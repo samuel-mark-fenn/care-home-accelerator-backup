@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quiet_Area__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Is the room in a quiet area of the home</description>
+    <label>Located in Quiet Area</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

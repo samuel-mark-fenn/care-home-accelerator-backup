@@ -1,0 +1,129 @@
+<template>
+  <div class="survey-container">
+    <div class="header">
+      <h2>✨ Resident Experience Survey ✨</h2>
+      <p class="subtitle">We value your feedback!</p>
+    </div>
+
+    <template if:true={isLoading}>
+      <div class="spinner-container">
+        <lightning-spinner
+          alternative-text="Loading"
+          size="medium"
+        ></lightning-spinner>
+      </div>
+    </template>
+
+    <template if:false={isLoading}>
+      <template if:false={isSubmitted}>
+        <div class="form-content">
+          <div class="section">
+            <label class="section-label">🍽️ Food Quality</label>
+            <div class="rating-group">
+              <template for:each={ratingOptions} for:item="option">
+                <button
+                  key={option.value}
+                  class={option.foodClass}
+                  data-field="Food_Rating__c"
+                  data-value={option.value}
+                  onclick={handleRatingClick}
+                >
+                  {option.label}
+                </button>
+              </template>
+            </div>
+          </div>
+
+          <div class="section">
+            <label class="section-label">🧹 Cleanliness</label>
+            <div class="rating-group">
+              <template for:each={ratingOptions} for:item="option">
+                <button
+                  key={option.value}
+                  class={option.cleanlinessClass}
+                  data-field="Cleanliness_Rating__c"
+                  data-value={option.value}
+                  onclick={handleRatingClick}
+                >
+                  {option.label}
+                </button>
+              </template>
+            </div>
+          </div>
+
+          <div class="section">
+            <label class="section-label">👩‍⚕️ Staff Kindness</label>
+            <div class="rating-group">
+              <template for:each={ratingOptions} for:item="option">
+                <button
+                  key={option.value}
+                  class={option.staffClass}
+                  data-field="Staff_Rating__c"
+                  data-value={option.value}
+                  onclick={handleRatingClick}
+                >
+                  {option.label}
+                </button>
+              </template>
+            </div>
+          </div>
+
+          <div class="section">
+            <label class="section-label">⚽ Activities</label>
+            <div class="rating-group">
+              <template for:each={ratingOptions} for:item="option">
+                <button
+                  key={option.value}
+                  class={option.activitiesClass}
+                  data-field="Activities_Rating__c"
+                  data-value={option.value}
+                  onclick={handleRatingClick}
+                >
+                  {option.label}
+                </button>
+              </template>
+            </div>
+          </div>
+
+          <div class="section">
+            <label class="section-label">💬 Overall Satisfaction</label>
+            <div class="picklist-container">
+              <select onchange={handleOverallChange} class="custom-select">
+                <option value="">Select an option...</option>
+                <option value="Very Satisfied">🌟 Very Satisfied</option>
+                <option value="Satisfied">🙂 Satisfied</option>
+                <option value="Neutral">😐 Neutral</option>
+                <option value="Dissatisfied">🙁 Dissatisfied</option>
+                <option value="Very Dissatisfied">😠 Very Dissatisfied</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="section">
+            <label class="section-label">📝 Additional Comments</label>
+            <textarea
+              class="custom-textarea"
+              rows="3"
+              placeholder="Tell us more about your experience..."
+              onchange={handleCommentsChange}
+            ></textarea>
+          </div>
+
+          <div class="footer">
+            <button class="submit-btn" onclick={handleSubmit}>
+              Submit Feedback 🚀
+            </button>
+          </div>
+        </div>
+      </template>
+
+      <template if:true={isSubmitted}>
+        <div class="success-message">
+          <div class="success-icon">🎉</div>
+          <h3>Thank You!</h3>
+          <p>Your feedback helps us improve.</p>
+        </div>
+      </template>
+    </template>
+  </div>
+</template>

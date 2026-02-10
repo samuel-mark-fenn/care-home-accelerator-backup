@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Type__c</fullName>
+    <label>Service Type</label>
+    <type>Picklist</type>
+    <inlineHelpText>Type of service</inlineHelpText>
+    <required>false</required>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Room Rate - Respite</fullName>
+                <default>false</default>
+                <label>Room Rate - Respite</label>
+            </value>
+            <value>
+                <fullName>Room Rate - Permanent</fullName>
+                <default>false</default>
+                <label>Room Rate - Permanent</label>
+            </value>
+            <value>
+                <fullName>Additional Service</fullName>
+                <default>false</default>
+                <label>Additional Service</label>
+            </value>
+            <value>
+                <fullName>Equipment Hire</fullName>
+                <default>false</default>
+                <label>Equipment Hire</label>
+            </value>
+            <value>
+                <fullName>Activity Fee</fullName>
+                <default>false</default>
+                <label>Activity Fee</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

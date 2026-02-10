@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target_Care_Type__c</fullName>
+    <label>Target Care Type</label>
+    <type>MultiselectPicklist</type>
+    <inlineHelpText>Target care types</inlineHelpText>
+    <required>false</required>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Respite Care</fullName>
+                <default>false</default>
+                <label>Respite Care</label>
+            </value>
+            <value>
+                <fullName>Permanent Residential</fullName>
+                <default>false</default>
+                <label>Permanent Residential</label>
+            </value>
+            <value>
+                <fullName>Dementia Care</fullName>
+                <default>false</default>
+                <label>Dementia Care</label>
+            </value>
+            <value>
+                <fullName>Nursing Care</fullName>
+                <default>false</default>
+                <label>Nursing Care</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

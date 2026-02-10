@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Survey_Type__c</fullName>
+    <inlineHelpText>Type of survey</inlineHelpText>
+    <label>Survey Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>First Impressions</fullName>
+                <default>false</default>
+                <label>First Impressions</label>
+            </value>
+            <value>
+                <fullName>End of Respite</fullName>
+                <default>false</default>
+                <label>End of Respite</label>
+            </value>
+            <value>
+                <fullName>Family Satisfaction</fullName>
+                <default>false</default>
+                <label>Family Satisfaction</label>
+            </value>
+            <value>
+                <fullName>Annual Review</fullName>
+                <default>false</default>
+                <label>Annual Review</label>
+            </value>
+            <value>
+                <fullName>Complaint Follow-up</fullName>
+                <default>false</default>
+                <label>Complaint Follow-up</label>
+            </value>
+            <value>
+                <fullName>Exit Survey</fullName>
+                <default>false</default>
+                <label>Exit Survey</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

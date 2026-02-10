@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enquiry_Source__c</fullName>
+    <label>Enquiry Source</label>
+    <type>Picklist</type>
+    <inlineHelpText>How the enquiry was received</inlineHelpText>
+    <required>false</required>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+                <label>Phone Call</label>
+            </value>
+            <value>
+                <fullName>Website</fullName>
+                <default>false</default>
+                <label>Website</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Walk-in</fullName>
+                <default>false</default>
+                <label>Walk-in</label>
+            </value>
+            <value>
+                <fullName>Referral - GP</fullName>
+                <default>false</default>
+                <label>Referral - GP</label>
+            </value>
+            <value>
+                <fullName>Referral - Hospital</fullName>
+                <default>false</default>
+                <label>Referral - Hospital</label>
+            </value>
+            <value>
+                <fullName>Referral - Social Services</fullName>
+                <default>false</default>
+                <label>Referral - Social Services</label>
+            </value>
+            <value>
+                <fullName>Referral - Family/Friend</fullName>
+                <default>false</default>
+                <label>Referral - Family/Friend</label>
+            </value>
+            <value>
+                <fullName>Event</fullName>
+                <default>false</default>
+                <label>Event</label>
+            </value>
+            <value>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+                <label>Advertisement</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

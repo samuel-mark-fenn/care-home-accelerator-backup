@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Would_Recommend__c</fullName>
+    <label>Would Recommend</label>
+    <type>Picklist</type>
+    <inlineHelpText>Would recommend to others</inlineHelpText>
+    <required>false</required>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Definitely Yes</fullName>
+                <default>false</default>
+                <label>Definitely Yes</label>
+            </value>
+            <value>
+                <fullName>Probably Yes</fullName>
+                <default>false</default>
+                <label>Probably Yes</label>
+            </value>
+            <value>
+                <fullName>Not Sure</fullName>
+                <default>false</default>
+                <label>Not Sure</label>
+            </value>
+            <value>
+                <fullName>Probably No</fullName>
+                <default>false</default>
+                <label>Probably No</label>
+            </value>
+            <value>
+                <fullName>Definitely No</fullName>
+                <default>false</default>
+                <label>Definitely No</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

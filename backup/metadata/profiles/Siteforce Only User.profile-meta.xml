@@ -1,0 +1,4503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>Resident_Management</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__AIWorkbench</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__AdvancedTherapyManagement</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__AdvertisingInventoryCalendar</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__AgentforceStudio</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__AllTabSet</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__AppLauncher</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Approvals</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Audience360</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Chatter</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__CommerceStarter</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__CommunicationsSalesConsole</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Community</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Content</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__ExpressionSetConsole</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__FieldServiceHomeApp</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__FlowsApp</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__ITSMConsole</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__IndustriesEcm</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__IndustriesEpc</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__InsuranceConsole</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Integration</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__LightningBolt</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__LightningInstrumentation</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__LightningSales</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__LightningSalesConsole</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__LightningScheduler</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__LightningService</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__LoyaltyManagement</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__MSJApp</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Marketing</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__OnlineSales</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__PatientServiceConsole</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__PaymentsManagement</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Platform</application>
+        <default>true</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__PrivacyCenterConsole</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__ProgramManagementConsole</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__ProviderNetworkManagement</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__QueueManagement</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__RatingManagement</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__ReferralConsole</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Retail</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__RetailOnBrowser</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__RevenueCloudConsole</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Sales</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__SalesCloudMobile</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__SalesforceArchiveConsole</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__SalesforceCMS</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Service</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__ServiceConsole</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__UsageManagement</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <classAccesses>
+        <apexClass>AssessmentController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AssessmentControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CareDashboardController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CareDashboardControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ChangePasswordController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ChangePasswordControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CommunitiesLandingController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CommunitiesLandingControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CommunitiesLoginController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CommunitiesLoginControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CommunitiesSelfRegConfirmController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CommunitiesSelfRegConfirmControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CommunitiesSelfRegController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CommunitiesSelfRegControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ForgotPasswordController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ForgotPasswordControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>LightningForgotPasswordController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>LightningForgotPasswordControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>LightningLoginFormController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>LightningLoginFormControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>LightningSelfRegisterController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>LightningSelfRegisterControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MicrobatchSelfRegController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MicrobatchSelfRegControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MyProfilePageController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MyProfilePageControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>New_Wto_Ext</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>PropertyMapController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>PropertyMapControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>PublicEnquiryController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>PublicEnquiryControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ResidentSurveyController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>RoomFinderController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SDO_Tool_TEGenController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SiteLoginController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SiteLoginControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SiteRegisterController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SiteRegisterControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <custom>false</custom>
+    <externalDataSourceAccesses>
+        <enabled>false</enabled>
+        <externalDataSource>connectorDataSource</externalDataSource>
+    </externalDataSourceAccesses>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Prefers_Garden_View__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Previous_Respite_Stays__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Requires_Ensuite__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Requires_Ground_Floor__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Absconding_Risk__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Accommodation_Recommendations__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Assessment_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Assessment_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Assessor__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Care_Level_Recommendation__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Choking_Risk__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Cognitive_Assessment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Falls_Risk__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Follow_Up_Notes__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Follow_Up_Required__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Location__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Medical_Needs_Assessment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Mental_Health_Assessment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Mobility_Assessment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Next_Assessment_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Nutrition_Assessment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Nutrition_Risk__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Opportunity__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Overall_Outcome__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Personal_Care_Assessment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Pressure_Sore_Risk__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Resident__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Risk_Level__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Social_Needs_Assessment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Assessment__c.Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Campaign.Campaign_Region__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Campaign.Target_Care_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Emergency_Contact_Priority__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Is_Emergency_Contact__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Is_Next_of_Kin__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Preferred_Contact_Method__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Relationship_to_Resident__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Consent_Forms_Signed__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Contract_End_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Contract_Start_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Contract_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Deposit_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Direct_Debit_Form_Signed__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Final_Invoice_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Financial_Assessment_Attached__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.GP_Letter_Attached__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Notice_Period_Days__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Opportunity__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Payment_Day__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Payment_Frequency__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Payment_Method__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Resident__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Sent_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Signed_By__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Signed_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Termination_Notice_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Termination_Notice_Given_By__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Termination_Reason__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Terms_of_Residence_Signed__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Third_Party_Top_Up_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Third_Party_Top_Up_Payer__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contract__c.Weekly_Rate__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.AmountWithoutAdjustments__hpr</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.AmountWithoutAdjustments__hst</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.AmountWithoutManagerAdjustment__hpr</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.AmountWithoutManagerAdjustment__hst</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.ForecastAmount__hpr</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.ForecastAmount__hst</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.ForecastQuantity__hpr</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.ForecastQuantity__hst</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.OverriddenRollupMgrView__hpr</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.OverriddenRollupMgrView__hst</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.OverriddenRollupOwnerView__hpr</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.OverriddenRollupOwnerView__hst</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.OwnerOnlyAmount__hpr</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.OwnerOnlyAmount__hst</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.OwnerOnlyQuantity__hpr</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.OwnerOnlyQuantity__hst</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.QuantityWithoutAdjustments__hpr</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.QuantityWithoutAdjustments__hst</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.QuantityWithoutManagerAdjustment__hpr</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.QuantityWithoutManagerAdjustment__hst</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.RawOwnerOnly__hpr</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.RawOwnerOnly__hst</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.RawRollup__hpr</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ForecastingItem__hd.RawRollup__hst</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Actual_Move_In_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Admission_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Allocated_Room__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Assessment_Completed_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Assessment_Outcome__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Assessment_Scheduled_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Care_Home__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Care_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Contract_Sent_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Contract_Signed_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Create_APT__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Deposit_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Deposit_Paid__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Direct_Debit_Setup__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Enquiry_Level__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Enquiry_Score__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Expected_Duration_Weeks__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Expected_Move_In_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Financial_Assessment_Completed_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Financial_Assessment_Required__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Financial_Assessment_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Funding_Source__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.LA_Purchase_Order_Number__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Local_Authority__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Move_In_Checklist_Complete__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Preferred_Room__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Previous_Respire_Stays__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Primary_Contact__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Requested_Discharge_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Requested_Intake_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Resident__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Respite_End_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Respite_Start_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Room_Allocation_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Room_Ready_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Terms_of_Residence_Signed__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Visit_Completed_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Visit_Outcome__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Visit_Scheduled_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Weekly_Rate__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>OpportunityLineItem.Room_Occupancy__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity__hd.Amount__hpr</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity__hd.Amount__hst</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity__hd.CloseDate__hpr</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity__hd.CloseDate__hst</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity__hd.ForecastCategoryName__hpr</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity__hd.ForecastCategoryName__hst</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity__hd.NextStep__hpr</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity__hd.NextStep__hst</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity__hd.Probability__hpr</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity__hd.Probability__hst</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity__hd.StageName__hpr</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity__hd.StageName__hst</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Payment__c.Payment_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Payment__c.Payment_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Payment__c.Payment_Menthod__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.Care_Level__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.Property__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.Room__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.Service_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.Address__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.CQC_Rating__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.CQC_Registration_Number__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.Care_Types_Offered__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.City__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Dementia_Support__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.Email__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.Facilities__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.Image_URL__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.Last_CQC_Inspection_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.Manager__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.Phone__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.Postcode__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.Property_Code__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.Region__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.Total_Available_Rooms__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.Total_Beds__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.Total_Occupied_Rooms__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.Website__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>QLabs__mdt.IsPartnerOrg__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>QLabs__mdt.Org_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Absconding_Risk__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Accommodation_Recommendations__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Assessment_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Assessment_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Assessor__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Care_Level_Recommendation__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Choking_Risk__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Falls_Risk__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Follow_Up_Notes__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Follow_Up_Required__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Location__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Medical_Needs_Assessment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Mental_Health_Assessment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Mobility_Assessment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Nutrition_Assessment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Nutrition_Risk__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Opportunity__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Overall_Outcome__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Personal_Care_Assessment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Pressure_Sore_Risk__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Resident_Assessment__c.Professional_Assessor__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Resident_Assessment__c.Resident__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Risk_Level__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Social_Needs_Assessment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Assessment__c.Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Resident_Preference__c.Preference__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Resident_Preference__c.Resident__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident_Preference__c.Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Advanced_Care_Plan__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Allergies__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Behavioral_Notes__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Care_Level__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Care_Plan_Summary__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Communication_Abilities__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Current_Care_Home__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Current_Medications__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Current_Room__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.DNR_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Dementia_Care_Required__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.GP_Contact__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Last_Respite_Visit__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Moving_and_Handling_Summary__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Nursing_Care_Required__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Personal_Care_Needs__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Prefers_Garden_View__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Requires_Ensuite__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Requires_Ground_Floor__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Resident_Since__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Resident_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Risk_Assessment_Summary__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Sensory_Needs__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Sleep_Patterns__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Resident__c.Total_Respite_Visits__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Room_Occupancy__c.Active__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room_Occupancy__c.Actual_End_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room_Occupancy__c.Cancellation_Reason__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Room_Occupancy__c.Contract__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Room_Occupancy__c.End_of_Stay_Notes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room_Occupancy__c.Expected_End_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Room_Occupancy__c.Follow_On_Decision__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Room_Occupancy__c.Occupancy_End__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Room_Occupancy__c.Occupancy_Start__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room_Occupancy__c.Occupancy_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room_Occupancy__c.Opportunity__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Room_Occupancy__c.Resident_Room_Rate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Room_Occupancy__c.Resident__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room_Occupancy__c.Start_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Room_Occupancy__c.Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room_Occupancy__c.Weekly_Rate__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Availability_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Available_From__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Balcony__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Base_Weekly_Rate__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Ensuite__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Equipment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Floor_Number__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Garden_Access__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Garden_View__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Ground_Floor__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Room__c.Image_URL__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Last_Decorated__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Near_Communal_Areas__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Next_Redecoration_Due__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Product__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Quiet_Area__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Room_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Size_SqM__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Suitable_for_Dementia_Care__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Suitable_for_Nursing_Care__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Walk_In_Shower__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Wet_Room__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Wheelchair_Accessible__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Room__c.Wing__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Survey_Response__c.Activities_Rating__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Survey_Response__c.Cleanliness_Rating__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Survey_Response__c.Comments__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Survey_Response__c.Communication_Rating__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Survey_Response__c.Follow_Up_Notes__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Survey_Response__c.Follow_Up_Required__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Survey_Response__c.Food_Rating__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Survey_Response__c.Overall_Rating__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Survey_Response__c.Resident__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Survey_Response__c.Respondent__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Survey_Response__c.Response_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Survey_Response__c.Room_Rating__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Survey_Response__c.Staff_Rating__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Survey_Response__c.Would_Recommend__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Survey__c.Active__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Survey__c.Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Survey__c.Survey_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>User.Admin_User__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>User.External_ID__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>User.Key_User__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>User.SDO_Experience_ReputationPoints__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>User.xDO_Is_Q_Brix_Admin__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>xDO_Base_QBrix_Register__mdt.xDO_Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+        <recordType>Account.Business_Account</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccountAccountRelation-Account Account Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccountBrand-Account Brand Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccountContactRelation-Account Contact Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccountServicePreference-Account Service Preference Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccountTeamMember-Account Team Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Accreditation-Accreditation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ActionPlan-Action Plan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ActionPlanItemDependency-Action Plan Item Dependency Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ActionPlanTemplate-Action Plan Template Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ActionPlanTemplateItem-Action Plan Template Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ActionPlanTemplateItemValue-Action Plan Template Item Value Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ActionPlanTemplateVersion-Action Plan Template Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ActionPlnTmplItmDependency-Action Plan Template Item Dependency Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ActivityTiming-Activity Timing Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Address-Address Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AdvTherapyFieldOptOverride-Advanced Therapy Field Optionality Override Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AgeBandHlthRskAdjFctr-Age Band Health Risk Adjustment Factor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AirTravelEmssnFctr-Air Travel Emissions Factor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AllergyIntolerance-Allergy Intolerance Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AlternativePaymentMethod-Alternative Payment Method Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AnnualEmssnInventoryExtension-Annual Emissions Inventory Extension Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AntiCorruptionInitSum-Anti-Corruption Initiative Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ApiAnomalyEventStore-API Anomaly Event Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AppFormProdtPrpsAttribute-Application Form Product Proposal Attribute Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AppFormProductCollateral-Application Form Product Collateral Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Applicant-Applicant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ApplicationActionItem-Application Action Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ApplicationForm-Application Form Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ApplicationFormEvaluation-Application Form Evaluation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ApplicationFormProduct-Application Form Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ApplicationFormProductDev-Application Form Product Deviation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ApplicationFormProductFee-Application Form Product Fee Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ApplicationFormProductProposal-Application Form Product Proposal Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ApplicationFormSellerItem-Application Form Seller Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ApplicationFormTerm-Application Form Term Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AppointmentInvitation-Appointment Invitation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Appraisal-Appraisal Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AppraisalAdjustment-Appraisal Adjustment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AppraisalItem-Appraisal Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AppraisalItemProviderVal-Appraisal Item Provider Valuation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ApptBundleConfig-Appointment Bundle Config Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ApptBundlePolicy-Appointment Bundle Policy Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssessmentIndDefinedValue-%5F%5FMISSING LABEL%5F%5F PropertyFile - val AssessmentIndDefinedValue not found in section StandardLayouts</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssessmentIndicatorDefinition-Assessment Indicator Definition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssessmentTask-Assessment Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssessmentTaskContentDocument-Assessment Task Content Document Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssessmentTaskDefinition-Assessment Task Definition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssessmentTaskOrder-Assessment Task Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Assessment__c-Assessment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Asset-Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssetAccountParticipant-Asset Account Participant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssetAction-Asset Action Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssetActionSource-Asset Action Source Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssetContactParticipant-Asset Contact Participant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssetRelationship-Asset Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssetStatePeriod-Asset State Period Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssignedResource-Assigned Resource Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssociatedLocation-Associated Location Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AsyncOperationLog-Async Operation Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AsyncOperationTracker-Async Operation Tracker Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AttributeDefinition-Attribute Definition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AuthorNote-Author Note Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AuthorizationForm-Authorization Form Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AuthorizationFormConsent-Authorization Form Consent Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AuthorizationFormDataUse-Authorization Form Data Use Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AuthorizationFormText-Authorization Form Text Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AuthorizedInsuranceLine-Authorized Insurance Line Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Award-Award Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Banker-Banker Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BenefitAssignment-Benefit Assignment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BenefitAssignmentAdjustment-Benefit Assignment Adjustment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BenefitDisbursement-Benefit Disbursement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BenefitDisbursementAdj-Benefit Disbursement Adjustment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BindingObjUsageRsrcPlcy-Binding Object Usage Resource Policy Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BiodiversitySummary-Biodiversity Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BldgEnrgyIntensity-Building Energy Intensity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BldgEnrgyIntensityVal-Building Energy Intensity Value Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BoardCertification-Board Certification Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BranchUnit-Branch Unit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BranchUnitBusinessMember-Branch Unit Business Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BranchUnitCustomer-Branch Unit Customer Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BranchUnitRelatedRecord-Branch Unit Related Record Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BrokerOfRecord-Broker Of Record Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Budget-Budget Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BudgetAllocation-Budget Allocation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BudgetCategory-Budget Category Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BudgetCategoryValue-Budget Category Value Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BudgetPeriod-Budget Period Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BundledCareFeeAgreement-Bundled Care Fee Agreement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BusOperProcCmplPlcyClVer-Business Operations Process Compliance Policy Clause Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BusOperProcControlVer-Business Operations Process Control Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BusOperProcRegClVer-Business Operations Process Regulation Clause Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BusinessBrand-Business Brand Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BusinessLicense-Business License Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BusinessMilestone-Business Milestone Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BusinessOperationsProcess-Business Operations Process Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BusinessProfile-Business Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BusinessUnitMember-Business Unit Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BuyerAccount-Buyer Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CalcMatrixColumnRange-Decision Matrix Column Range Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CalcProcStepRelationship-Expression Set Step Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CalculationMatrix-Decision Matrix Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CalculationMatrixColumn-Decision Matrix Column Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CalculationMatrixRow-Decision Matrix Row Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CalculationMatrixVersion-Decision Matrix Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CalculationProcedure-Calculation Procedure Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CalculationProcedureStep-Calculation Procedure Step Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CalculationProcedureVariable-Calculation Procedure Variable Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CalculationProcedureVersion-Calculation Procedure Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Campaign-Campaign Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CampaignMember-Campaign Member Page Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CapitationCareFeeAgreement-Capitation Care Fee Agreement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CardPaymentMethod-Card Payment Method Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareBarrier-Care Barrier Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareBarrierDeterminant-Care Barrier Determinant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareBarrierType-Care Barrier Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareBenefitVerifyRequest-Care Benefit Verify Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareBenefitVerifySettings-Care Benefit Verification Settings Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareDeterminant-Care Determinant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareDeterminantType-Care Determinant Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareDiagnosis-Care Diagnosis Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareFeeScheduleItem-Care Fee Schedule Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareInterventionType-Care Intervention Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareLimitType-Care Limit Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareMetricTarget-Care Metric Target Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareObservation-Care Observation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareObservationComponent-Care Observation Component Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CarePerformer-Care Performer Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CarePgmEnrolleeWkOrdStep-Care Program Enrollee Work Order Step Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CarePgmEnrolleeWorkOrder-Care Program Enrollee Work Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CarePgmProvHealthcareProvider-Care Program Healthcare Provider Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CarePlan-Care Plan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CarePlanActivity-Care Plan Activity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CarePlanActivityDetail-Care Plan Activity Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CarePlanDetail-Care Plan Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CarePreauth-Care Preauth Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CarePreauthItem-Care Preauth Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareProcessingError-Care Processing Error Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareProgram-Care Program Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareProgramCampaign-Care Program Campaign Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareProgramDetail-Care Program Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareProgramEligibilityRule-Care Program Eligibility Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareProgramEnrollee-Care Program Enrollee Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareProgramEnrolleeProduct-Care Program Enrollee Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareProgramEnrollmentCard-Care Program Enrollment Card Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareProgramGoal-Care Program Goal Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareProgramProduct-Care Program Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareProgramProvider-Care Program Provider Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareProgramTeamMember-Care Program Team Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareProviderAdverseAction-Care Provider Adverse Action Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareProviderAfflRoleConfig-Care Provider Affiliation Role Config Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareProviderFacilitySpecialty-Care Provider Facility Specialty Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareProviderSearchConfig-Care Provider Search Config Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareProviderSearchableField-Care Provider Searchable Field Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareRegisteredDevice-Care Registered Device Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareRequest-Care Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareRequestConfiguration-Care Request Configuration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareRequestDrug-Care Request Drug Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareRequestExchangeInfo-Care Request Exchange Information Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareRequestExtension-Care Request Extension Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareRequestItem-Care Request Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareRequestReviewer-Care Request Reviewer Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareRequestSupportingCntnt-Care Request Supporting Content Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareService-Care Service Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareServiceVisit-Care Service Visit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareServiceVisitPlan-Care Service Visit Plan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareSpecialty-Care Specialty Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareSpecialtyTaxonomy-Care Specialty Taxonomy Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareSystemFieldMapping-Care System Field Mapping Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareTask-%5F%5FMISSING LABEL%5F%5F PropertyFile - val CareTask not found in section StandardLayouts</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareTaskDetail-%5F%5FMISSING LABEL%5F%5F PropertyFile - val CareTaskDetail not found in section StandardLayouts</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareTaxonomy-Care Taxonomy Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Close Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseEpisode-Case Episode Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseGatewayRequest-Case Gateway Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseMilestone-Case Milestone Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseParticipant-Case Participant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseProceeding-Case Proceeding Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseProceedingComplaint-Case Proceeding Complaint Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseProceedingInfraction-Case Proceeding Infraction Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseProceedingParticipant-Case Proceeding Participant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseProceedingResult-Case Proceeding Result Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CategorizedCareFeeAgreement-Categorized Care Fee Agreement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Claim-Claim Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClaimCoverage-Claim Coverage Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClaimCoveragePaymentDetail-Claim Coverage Payment Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClaimItem-Claim Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClaimParticipant-Claim Participant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClaimPaymentSummary-Claim Payment Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClaimTeamMember-Claim Team Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CleanEnergyProject-Clean Energy Project Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClimateChgEmssnFincSummary-Climate Change Emissions and Financial Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClimateChgRiskOppSummary-Climate Change Risk Opportunity Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClinicalAlert-Clinical Alert Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClinicalDetectedIssue-Clinical Detected Issue Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClinicalDetectedIssueDetail-Clinical Detected Issue Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClinicalEncounter-Clinical Encounter Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClinicalEncounterDiagnosis-Clinical Encounter Diagnosis Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClinicalEncounterFacility-Clinical Encounter Facility Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClinicalEncounterIdentifier-Clinical Encounter Identifier Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClinicalEncounterProvider-Clinical Encounter Provider Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClinicalEncounterReason-Clinical Encounter Reason Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClinicalEncounterSvcRequest-Clinical Encounter Svc Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClinicalServiceRequest-Clinical Service Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClinicalServiceRequestDetail-Clinical Service Request Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CmplPlcyClCmplCtlVer-Compliance Policy Clause Compliance Control Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CmplValidationProcdControl-Validation Procedure Control Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CmplValidationProcdParam-Validation Procedure Parameter Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CmplValidationProcdVer-Validation Procedure Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CmplValidationProcedure-Validation Procedure Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CodeSet-Code Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CodeSetBundle-Code Set Bundle Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CollectionPlan-Collection Plan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CollectionPlanItem-Collection Plan Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CollectionPlanReason-Collection Plan Reason Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CommissionStatement-Commission Statement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CommissionStatementLineItem-Commission Statement Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ComplaintCase-Complaint Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ComplianceControl-Compliance Control Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ComplianceControlVersion-Compliance Control Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CompliancePlcyClauseVersion-Compliance Policy Clause Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CompliancePlcyCmplClVer-Compliance Policy Compliance Clause Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CompliancePolicy-Compliance Policy Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CompliancePolicyClause-Compliance Policy Clause Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CompliancePolicyVersion-Compliance Policy Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CondIntrctnHlthRskAdjFctr-Condition Interaction Health Risk Adjustment Factor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ConsumptionRate-Consumption Rate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ConsumptionSchedule-Consumption Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact-Contact Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContactEncounter-Contact Encounter Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContactEncounterParticipant-Contact Encounter Participant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContactPointAddress-Contact Point Address Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContactPointBestContactTime-Contact Point Best Contact Time Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContactPointEmail-Contact Point Email Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContactPointPhone-Contact Point Phone Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContactPointTypeConsent-Contact Point Type Consent Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContactProfile-Contact Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContentLink-Content Link Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContentSource-Content Source Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContentVersion-Content Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contract-Contract Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContractGroupPlan-Contract Group Plan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContractGroupPlanGroupClass-Contract Group Plan Group Class Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContractLineItem-Contract Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContractLineOutcome-Contract Line Outcome Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContractLineOutcomeData-Contract Line Outcome Data Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContractPaymentAgreement-Contract Payment Agreement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contract__c-Contract Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CostBook-Cost Book Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CostBookEntry-Cost Book Entry Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CostCenter-Cost Center Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CoverageBenefit-Coverage Benefit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CoverageBenefitItem-Coverage Benefit Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CoverageBenefitItemLimit-Coverage Benefit Item Limit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CrbnCreditAlloc-Carbon Credit Allocation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CrbnCreditAllocItem-Carbon Credit Allocation Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CrbnCreditDistribution-Carbon Credit Distribution Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CrbnCreditProject-Carbon Credit Project Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CredentialStuffingEventStore-Credential Stuffing Event Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CreditMemo-Credit Memo Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CreditMemoInvApplication-Credit Memo Invoice Application Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CreditMemoLine-Credit Memo Line Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CustodyChainEntry-Custody Chain Entry Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CustodyItem-Custody Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CustodyVerfcTypeOverride-Custody Verification Type Override Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Customer-Customer Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CustomerProperty-Customer Property Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DataUseLegalBasis-Data Use Legal Basis Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DataUsePurpose-Data Use Purpose Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DebitMemo-Debit Memo Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DebitMemoLine-Debit Memo Line Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DelegatedAccount-External Managed Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DeliveryTask-Delivery Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Deviation-Deviation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DiagnosticSummary-Diagnostic Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DiagnosticSummaryDetail-Diagnostic Summary Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DifferentialShift-Differential Shift Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DigitalVerfSetupDetail-Digital Verification Setup Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DigitalVerification-Digital Verification Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DigitalVerificationSetup-Digital Verification Setup Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DigitalWallet-Digital Wallet Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Disclosure-Disclosure Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DisclsReportingPeriod-Disclosure Reporting Period Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Dispute-Dispute Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DisputeItem-Dispute Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DisputeItemArbitration-Dispute Item Arbitration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DisputeItemChargeback-Dispute Item Chargeback Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DisputeItemMerchantAlert-Dispute Item Merchant Alert Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DisputeItemQueueResponse-Dispute Item Queue Response Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DisputeQueueJobRun-Dispute Queue Job Run Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DisputeReason-Dispute Reason Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DistributorAuthorization-Distributor Authorization Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DivrsEquityInclSum-Diversity Equity Inclusion Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DocumentChecklistItem-Document Checklist Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DocumentClause-%5F%5FMISSING LABEL%5F%5F PropertyFile - val DocumentClause not found in section StandardLayouts</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DocumentType-Document Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DrugDisplayTerm-Drug Display Term Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DuplicateRecordSet-Duplicate Record Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DynamicDataCapture-Dynamic Data Capture Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EconomicPerformanceSum-Economic Performance Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ElectricityEmssnFctrSet-Electricity Emissions Factor Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EmailMessage-Email Message Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EmpBenefitSummary-Employment Benefit Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EmpUserProvisionProcessErr-Employee User Provisioning Process Error Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EmpUserProvisioningProcess-Employee User Provisioning Process Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Employee-Employee Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EmployeeDemographicSum-Employee Demographic Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EmployeeDevelopmentSum-Employee Development Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EmploymentCompensationSummary-Employment Compensation Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EnergyAttrCertCredit-Energy Attribute Certificate Credit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EnergyAttrCertPurchase-Energy Attribute Certificate Purchase Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EnergyAttrCreditDstr-Energy Attribute Credit Distribution Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EngagementChannelType-Engagement Channel Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EngagementInteraction-Engagement Interaction Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EngagementTopic-Engagement Topic Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EnrollmentEligibilityCriteria-Enrollment Eligibility Criteria Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Entitlement-Entitlement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EntityMilestone-Object Milestone Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EnvironmentalRisk-Environmental Risk Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Event-Event Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Expense-Expense Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ExpenseReport-Expense Report Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ExpenseReportEntry-Expense Report Entry Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ExpressionSet-Expression Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ExpressionSetVersion-Expression Set Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FeeScheduleDefinition-Fee Schedule Definition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FeedItem-Feed Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FinanceTransaction-Finance Transaction Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FinancialGoal-Financial Goal Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FinancialGoalFunding-Financial Goal Funding Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FinancialGoalParty-Financial Goal Party Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FinancialPlan-Financial Plan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FldSvcObjChg-Field Service Object Change Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FldSvcObjChgDtl-Field Service Object Change Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FlowRecord-Flow Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FlowRecordVersionOccurrence-%5F%5FMISSING LABEL%5F%5F PropertyFile - val FlowRecordVersionOccurrence not found in section StandardLayouts</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FrgtHaulingEmssnFctr-Freight Hauling Emissions Factor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FulfillmentOrder-Fulfillment Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FulfillmentOrderItemAdjustment-Fulfillment Order Item Adjustment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FulfillmentOrderItemTax-Fulfillment Order Item Tax Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FulfillmentOrderLineItem-Fulfillment Order Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GeneratedWaste-%5F%5FMISSING LABEL%5F%5F PropertyFile - val GeneratedWaste not found in section StandardLayouts</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GenericVisitTask-Generic Visit Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GenericVisitTaskContext-Generic Visit Task Context Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GeoCountry-Geo Country Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Global-Global Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GnrcVstKeyPerformanceInd-Generic Visit Key Performance Indicator Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GnrcVstTaskContextRelation-Generic Visit Task Context Relation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GoalAssignment-Goal Assignment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GoalAssignmentDetail-Goal Assignment Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GoalDefinition-Goal Definition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GovtFinancialAsstSum-Government Financial Assistance Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GroundTravelEmssnFctr-Ground Travel Emissions Factor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GroupCensus-Group Census Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GroupCensusMember-Group Census Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GroupCensusMemberPlan-Group Census Member Plan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GroupClass-Group Class Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GroupClassContribution-Group Class Contribution Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GuestUserAnomalyEventStore-Guest User Anomaly Event Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthCareDiagnosis-Healthcare Diagnosis Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthCareProcedure-Healthcare Procedure Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthCondition-Health Condition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthConditionDetail-Health Condition Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthRiskEvalDetail-Health Risk Evaluation Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthRiskEvalOutcome-Health Risk Evaluation Outcome Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthRiskEvaluation-Health Risk Evaluation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthScore-Health Score Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthScoreActionLog-Health Score Action Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthcareFacility-Healthcare Facility Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthcareFacilityNetwork-Healthcare Facility Network Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthcarePayerNetwork-Healthcare Payer Network Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthcarePractitionerFacility-Healthcare Practitioner Facility Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthcareProvider-Healthcare Provider Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthcareProviderNpi-Healthcare Provider NPI Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthcareProviderService-Healthcare Provider Service Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthcareProviderSpecialty-Healthcare Provider Specialty Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthcareProviderTaxonomy-Healthcare Provider Taxonomy Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthcareServiceDetail-Healthcare Service Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HierCondHlthCodeMapping-Hierarchical Condition Health Code Mapping Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HierCondHlthRskAdjFctr-Hierarchical Condition Health Risk Adjustment Factor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HlthCareProvTreatedCondition-Healthcare Provider Treated Condition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HotelStayEmssnFctr-Hotel Stay Emissions Factor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Idea-Idea Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Identifier-Identifier Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IdentityDocument-Identity Document Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IndexRate-Index Rate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Individual-Individual Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IndividualApplication-Individual Application Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InflationRate-Inflation Rate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InformationVerification-Information Verification Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsBnftEligDefinition-Insurance Benefit Eligibility Definition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsContributionPlnGroupCls-Insurance Contribution Plan Group Class Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsContributionPlnLineItem-Insurance Contribution Plan Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsPolicyBenefitEligibility-Insurance Policy Benefit Eligibility Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsPolicyCoverageBenefit-Insurance Policy Coverage Benefit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsPolicyCoverageNetwork-Insurance Policy Coverage Network Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsPolicyTransactionDetail-Insurance Policy Transaction Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsuranceContract-Insurance Contract Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsuranceContributionPlan-Insurance Contribution Plan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsurancePolicy-Insurance Policy Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsurancePolicyAsset-Insurance Policy Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsurancePolicyCoverage-Insurance Policy Coverage Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsurancePolicyParticipant-Insurance Policy Participant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsurancePolicyProductClause-Insurance Policy Product Clause Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsurancePolicySurcharge-Insurance Policy Surcharge Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsurancePolicyTeamMember-Insurance Policy Team Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsurancePolicyTransaction-Insurance Policy Transaction Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsuranceProfile-Insurance Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsuranceRatePlan-Insurance Rate Plan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsuranceRatePlanCommission-Insurance Rate Plan Commission Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsuranceRatePlanLineItem-Insurance Rate Plan Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IntegrationJobRun-Integration Job Run Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InterestTag-Interest Tag Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InternalOrganizationUnit-Internal Organization Unit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Invoice-Invoice Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InvoiceLine-Invoice Line Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>JobExpenseType-Job Expense Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>JobProfile-Job Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Knowledge__kav-Knowledge Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LaborUnion-Labor Union Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LegalEntity-Legal Entity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicant-Loan Applicant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicantAddress-Loan Applicant Address Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicantAsset-Loan Applicant Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicantDeclaration-Loan Applicant Declaration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicantEmployment-Loan Applicant Employment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicantIncome-Loan Applicant Income Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicantLiability-Loan Applicant Liability Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicationAsset-Loan Application Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicationFinancial-Loan Application Financial Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicationLiability-Loan Application Liability Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicationProperty-Loan Application Property Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicationTitleHolder-Loan Application Title Holder Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Location-Location Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LocationGroup-Location Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LocationGroupAssignment-Location Group Assignment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoginAnomalyEventStore-Login Anomaly Event Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Macro-Macro Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MaintenanceAsset-Maintenance Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MaintenancePlan-Maintenance Plan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MaintenanceWorkRule-Maintenance Work Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ManagedCareProgramPrfm-%5F%5FMISSING LABEL%5F%5F PropertyFile - val ManagedCareProgramPrfm not found in section StandardLayouts</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MedReconRecommendation-Medication Reconciliation Recommendation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MedReconStmtRecommendation-Medication Reconciliation Statement Recommendation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MedTherapyStmtReviewIssue-Medication Therapy Statement Review Issue Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Medication-Medication Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MedicationAdministration-Medication Administration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MedicationAdministrationDtl-Medication Administration Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MedicationDispense-Medication Dispense Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MedicationReconciliation-Medication Reconciliation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MedicationRequest-Medication Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MedicationStatement-Medication Statement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MedicationStatementDetail-Medication Statement Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MedicationTherapyReview-Medication Therapy Review Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MedicationTherapyStmtReview-Medication Therapy Statement Review Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MedicinalIngredient-Medicinal Ingredient Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MemberPlan-Member Plan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MerchantAccount-Merchant Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectStateDefinition-Object State Definition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OperatingHours-Operating Hours Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OperatingHoursHoliday-Operating Hours Holiday Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Opportunity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Opportunity Layout</layout>
+        <recordType>Opportunity.Care_Home_Enquiry</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OpportunityLineItem-Opportunity Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Order-Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OrderItem-Order Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OrgIncidentSummary-Organization Incident Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OrgPaymentPracSummary-Organization Payment Practice Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OtherComponentTask-Other Component Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OtherEmssnFctrSet-Other Emissions Factor Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OtherEmssnFctrSetItem-Other Emissions Factor Set Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OvertimeApprover-Overtime Approver Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OvertimeType-Overtime Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PartyCreditProfile-Party Credit Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PartyExpense-Party Expense Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PartyFinancialAsset-Party Financial Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PartyFinancialAssetLien-Party Financial Asset Lien Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PartyFinancialAssetRela-Party Financial Asset Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PartyFinancialAssetTerm-Party Financial Asset Term Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PartyFinancialLiability-Party Financial Liability Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PartyFinclAssetAddlOwner-Party Financial Asset Additional Owner Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PartyFinclLiabAddlBrwr-Party Fincl Liability Addl Borrower Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PartyIncome-Party Income Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PartyProfile-Party Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PartyRoleRelation-Party Role Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PatientHealthReaction-Patient Health Reaction Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PatientImmunization-Patient Immunization Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PatientImmunizationProtocol-Patient Immunization Protocol Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PatientMedicalProcedure-Patient Medical Procedure Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PatientMedicalProcedureDetail-Patient Medical Procedure Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PatientMedicationDosage-Patient Medication Dosage Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PayGrade-Pay Grade Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PayType-Pay Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Payment-Payment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PaymentAuthAdjustment-Payment Authorization Adjustment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PaymentAuthorization-Payment Authorization Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PaymentGateway-Payment Gateway Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PaymentGatewayLog-Payment Gateway Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PaymentGroup-Payment Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PaymentLineInvoice-Payment Line Invoice Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PaymentMandate-Payment Mandate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PaymentRequest-Payment Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PaymentRequestLine-Payment Request Line Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PaymentSchedule-Payment Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PaymentScheduleItem-Payment Schedule Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Payment__c-Payment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PcmtEmssnFctrSet-Procurement Emissions Factor Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PcmtEmssnFctrSetItem-Procurement Emissions Factor Set Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PercentileBsdCareFeeAgreement-Percentile Based Care Fee Agreement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PersonAccount-Person Account Layout</layout>
+        <recordType>PersonAccount.Family_Member_Friend</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PersonAccount-Person Account Layout</layout>
+        <recordType>PersonAccount.PersonAccount</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PersonAccount-Person Account Layout</layout>
+        <recordType>PersonAccount.Professional</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PersonAccount-Person Account Layout</layout>
+        <recordType>PersonAccount.Resident</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PersonEducation-Person Education Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PersonEmployment-Person Employment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PersonLanguage-Person Language Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PersonLifeEvent-Person Life Event Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PersonName-Person Name Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PgmBasedHlthRskAdjFctr-Program Based Risk Health Adjustment Factor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PlanBenefit-Plan Benefit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PlanBenefitItem-Plan Benefit Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PltnImpactRiskOppSummary-Pollution Impact Risk Opportunity Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Preference__c-Preference Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PreventiveCareAgreement-%5F%5FMISSING LABEL%5F%5F PropertyFile - val PreventiveCareAgreement not found in section StandardLayouts</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PriceAdjustmentTier-Price Adjustment Tier Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Pricebook2-Price Book Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PricebookEntry-Price Book Entry</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PrivacyHold-Privacy Hold Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PrivacyHoldReason-Privacy Hold Reason Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PrivacyRequest-Privacy Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProblemDefRelationship-%5F%5FMISSING LABEL%5F%5F PropertyFile - val ProblemDefRelationship not found in section StandardLayouts</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProblemDefinition-Problem Definition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProblemGoalDefinition-Problem Goal Definition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProcessException-Process Exception Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Producer-Producer Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProducerCommission-Producer Commission Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProducerRelationship-Producer Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProducerSplitArngLineItem-Producer Split Arrangement Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProducerSplitArrangement-Producer Split Arrangement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProducerSplitAssignment-Producer Split Assignment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProducerSplitRoleAssignment-Producer Split Role Assignment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Product2-Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductConsumed-Product Consumed Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductConsumedState-Product Consumed State Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductConsumptionSchedule-Product Consumption Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductEmissionsFactor-Product Emissions Factor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductFee-Product Fee Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductItem-Product Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductItemTransaction-Product Item Transaction Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductListRate-Product List Rate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductRequest-Product Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductRequestLineItem-Product Request Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductRequired-Product Required Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductSellingModel-Product Selling Model Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductServiceCampaign-Product Service Campaign Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductServiceCampaignItem-Product Service Campaign Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductTransfer-Product Transfer Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductTransferState-Product Transfer State Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductUsageGrant-Product Usage Grant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductUsageResource-Product Usage Resource Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductUsageResourcePolicy-Product Usage Resource Policy Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProfileSkill-Skill Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProfileSkillEndorsement-Endorsement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProfileSkillUser-Skill User Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Program-Program Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Promotion-Promotion Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Property__c-Property Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProviderAffiliation-Provider Affiliation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProviderNetworkContract-Provider Network Contract Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProviderNetworkTier-Provider Network Tier Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProviderSearchSyncLog-Provider Search Sync Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PublicComplaint-Public Complaint Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PurchaserPlan-Purchaser Plan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PurchaserPlanAssn-Purchaser Plan Association Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>QLabs__mdt-QLabs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>QuickText-Quick Text Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Quote-Quote Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>QuoteLineItem-Quote Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ReceivedDocument-Received Document Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ReceivedDocumentType-Received Document Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RecordsetFilterCriteria-Recordset Filter Criteria Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RecordsetFilterCriteriaRule-Recordset Filter Criteria Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RecurrenceSchedule-Recurrence Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ReferenceDataLoadLog-Reference Data Load Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Referral-Referral Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RefrigerantEmssnFctr-Refrigerant Emissions Factor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Refund-Refund Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RefundLinePayment-Refund Line Payment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RegClCmplControlVer-Regulation Clause Compliance Control Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RegClCmplPlcyClVer-Regulation Clause Version Compliance Policy Clause Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Regulation-Regulation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RegulationClause-Regulation Clause Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RegulationClauseVersion-Regulation Clause Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RegulationVerRegClauseVer-Regulation Version Regulation Clause Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RegulationVersion-Regulation Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RegulatoryAuthority-Regulatory Authority Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RegulatoryCodeViolation-Regulatory Code Violation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RentalCarEmssnFctr-Rental Car Emissions Factor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ReportAnomalyEventStore-Report Anomaly Event Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Resident_Assessment__c-Resident Assessment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Resident_Preference__c-Resident Preference Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Resident__c-Resident Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ResidentialLoanApplication-Residential Loan Application Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ResourceAbsence-Resource Absence Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ResourcePreference-Resource Preference Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ReturnOrder-Return Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ReturnOrderItemAdjustment-Return Order Item Adjustment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ReturnOrderItemTax-Return Order Item Tax Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ReturnOrderLineItem-Return Order Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RevenueAsyncOperation-Revenue Async Operation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RevenueTransactionErrorLog-Revenue Transaction Error Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Room_Feature__c-Room Feature Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Room_Occupancy__c-Room Occupancy Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Room__c-Room Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RuleLibrary-Rule Library Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RuleLibraryVersion-Rule Library Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SOSSession-SOS Session Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SOSSessionActivity-SOS Session Activity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ScheduleBrdcstApptResource-Schedule Broadcast Appointment Resource Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ScheduleBroadcast-Schedule Broadcast Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ScheduleBroadcastAppointment-Schedule Broadcast Appointment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ScheduleBroadcastTerritory-Schedule Broadcast Territory Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SchedulingConstraint-Scheduling Constraint Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SchedulingObjective-Scheduling Objective Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SchedulingRule-Scheduling Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SchedulingWorkspace-Scheduling Workspace Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SchedulingWorkspaceTerritory-Scheduling Workspace Territory Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Scope3EmssnSrc-%5F%5FMISSING LABEL%5F%5F PropertyFile - val Scope3EmssnSrc not found in section StandardLayouts</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ScoreCategory-Score Category Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Scorecard-Scorecard Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ScorecardAssociation-Scorecard Association Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ScorecardMetric-Scorecard Metric Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SecuritiesHolding-Securities Holding Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Seller-Seller Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceAppointment-Service Appointment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceAppointmentCapacityUsage-Service Appointment Capacity Usage Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceAppointmentGroup-Service Appointment Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceAppointmentShift-Service Appointment Shift Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceContract-Service Contract Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceCrew-Service Crew Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceCrewMember-Service Crew Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceResource-Service Resource Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceResourceCapacity-Resource Capacity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceResourceCostRule-Service Resource Cost Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceResourceLeaveBalance-Service Resource Leave Balance Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceResourcePreference-Service Resource Preference Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceResourceSkill-Service Resource Skill Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceTerritory-Service Territory Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceTerritoryMember-Service Territory Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceTerritoryRelationship-Service Territory Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SessionHijackingEventStore-Session Hijacking Event Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SetupAssttRuntimeSt-%5F%5FMISSING LABEL%5F%5F PropertyFile - val SetupAssttRuntimeSt not found in section StandardLayouts</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SharedSavingPaymentAgreement-Shared Saving Payment Agreement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Shift-Shift Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ShiftPattern-Shift Pattern Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ShiftPatternEntry-Shift Pattern Entry Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ShiftSchedulingOperation-Shift Scheduling Operation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ShiftTemplate-Shift Template Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ShiftWorkTopic-%5F%5FMISSING LABEL%5F%5F PropertyFile - val ShiftWorkTopic not found in section StandardLayouts</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Shipment-Shipment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ShippingConfigurationSet-Shipping Configuration Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ShippingRateArea-Shipping Rate Area Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ShippingRateGroup-Shipping Rate Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SignatureTask-Signature Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SignatureTaskLineItem-Signature Task Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SkillRequirement-Skill Requirement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SocialContributionSum-Social Contribution Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SocialPersona-Social Persona Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SocialPost-Social Post Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Solution-Solution Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Specimen-Specimen Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>StandardCareFeeAgreement-Standard Care Fee Agreement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>StandardShippingRate-Standard Shipping Rate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>StnryAssetAnnualFact-Stationary Asset Annual Fact Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>StnryAssetEnrgyUse-%5F%5FMISSING LABEL%5F%5F PropertyFile - val StnryAssetEnrgyUse not found in section StandardLayouts</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>StnryAssetEnvrSrc-Stationary Asset Environmental Source Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>StnryAssetWaterActvty-Stationary Asset Water Activity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>StnryAssetWaterFtprnt-Stationary Asset Water Footprint Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>StnryAssetWtrFtprntItm-Stationary Asset Water Footprint Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SupplementalCompensation-Supplemental Compensation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Supplier-%5F%5FMISSING LABEL%5F%5F PropertyFile - val Supplier not found in section StandardLayouts</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SupplierProduct-Supplier Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Survey_Response__c-Survey Response Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Survey__c-Survey Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SustainabilityCredit-Sustainability Credit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SustainabilityPurchase-Sustainability Purchase Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SustainabilityStakeholder-Sustainability Stakeholder Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SustainabilityTask-Sustainability Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SustainabilityTaskGroup-Sustainability Task Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SustnMaterialUseSummary-Sustainability Material Use Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Swarm-Swarm Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SwarmMember-Swarm Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TagCategory-Tag Category Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TagCategoryAssignment-Tag Category Assignment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TaxDisclosureSummary-Tax Disclosure Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TaxPolicy-Tax Policy Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TaxTreatment-Tax Treatment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Team-Team Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TeamMember-Team Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Term-Term Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ThreatDetectionFeedback-Threat Detection Feedback Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TimeSheet-Time Sheet Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TimeSheetEntry-Time Sheet Entry Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TimeSheetEntryItem-Time Sheet Entry Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TimeSheetValidationError-Time Sheet Validation Error Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TimeSheetWageTypeSummary-Time Sheet Wage Type Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TimeSlot-Time Slot Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TrackedCommunication-Tracked Communication Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TrackedCommunicationDetail-Tracked Communication Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TransactionUsageEntitlement-Transaction Usage Entitlement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TravelMode-Travel Mode Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UIObjectRelationConfig-UI Object Relation Configuration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UIObjectRelationFieldConfig-UI Object Relation Field Configuration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UnitOfMeasure-Unit of Measure Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UnitOfMeasureClass-Unit of Measure Class Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UsageCommitmentPolicy-Usage Commitment Policy Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UsageGrantRenewalPolicy-Usage Grant Renewal Policy Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UsageGrantRolloverPolicy-Usage Grant Rollover Policy Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UsageOveragePolicy-Usage Overage Policy Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UsageResource-Usage Resource Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UsageResourceBillingPolicy-Usage Resource Billing Policy Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UsageResourcePolicy-Usage Resource Policy Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>User-User Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserAlt-User Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvAccount-User Provisioning Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvisioningLog-User Provisioning Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Vehicle-Vehicle Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>VehicleAssetEmssnSrc-Vehicle Asset Emissions Source Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>VehicleAssetEnrgyUse-%5F%5FMISSING LABEL%5F%5F PropertyFile - val VehicleAssetEnrgyUse not found in section StandardLayouts</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>VehicleDefinition-Vehicle Definition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>VehicleUserAssignment-Vehicle User Assignment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Visit-Visit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>VisitedParty-Visited Party Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Visitor-Visitor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Waitlist-%5F%5FMISSING LABEL%5F%5F PropertyFile - val Waitlist not found in section StandardLayouts</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WarrantyTerm-Warranty Term Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WebStore-Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WebStoreConfig-Web Store Configuration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkAccess-Access Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkBadge-Badge Received Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkBadgeDefinition-Badge Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkCapacityAvailability-Work Capacity Availability Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkCapacityLimit-Work Capacity Limit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkCapacityUsage-Work Capacity Usage Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkOrder-Work Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkOrderLineItem-Work Order Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkPlan-Work Plan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkPlanSelectionRule-Work Plan Selection Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkPlanTemplate-Work Plan Template Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkPlanTemplateEntry-Work Plan Template Entry Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkProcedure-Work Procedure Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkProcedureStep-Work Procedure Step Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkStep-Work Step Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkStepTemplate-Work Step Template Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkThanks-Thanks Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkType-Work Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkTypeExtension-Work Type Extension Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkTypeGroup-Work Type Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkTypeStep-%5F%5FMISSING LABEL%5F%5F PropertyFile - val WorkTypeStep not found in section StandardLayouts</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkTypeStepLdTimeOvride-Work Type Step Lead Time Override Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkTypeSvcTerrSchdPrio-Work Type Service Territory Scheduling Priority Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkerCompCoverageClass-Worker Compensation Coverage Class Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WstDispoEmssnFctrSet-Waste Disposal Emissions Factor Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WstDispoEmssnFctrSetItm-Waste Disposal Emissions Factor Set Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>xDO_Base_QBrix_Register__mdt-xDO_InstalledQBrixLayout</layout>
+    </layoutAssignments>
+    <pageAccesses>
+        <apexPage>AnswersHome</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>BandwidthExceeded</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>ChangePassword</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>CommunitiesLanding</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>CommunitiesLogin</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>CommunitiesSelfReg</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>CommunitiesSelfRegConfirm</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>CommunitiesTemplate</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Exception</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>FileNotFound</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>ForgotPassword</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>ForgotPasswordConfirm</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>IdeasHome</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>InMaintenance</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>MicrobatchSelfReg</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>MyProfilePage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>SDO_Tools_TEGen</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>SDO_Tools_TEGenThanks</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>SiteLogin</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>SiteRegister</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>SiteRegisterConfirm</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>SiteTemplate</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>StdExceptionTemplate</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Unauthorized</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>UnderConstruction</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Account.Business_Account</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Opportunity.Care_Home_Enquiry</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>PersonAccount.Family_Member_Friend</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>PersonAccount.Professional</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>PersonAccount.Resident</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>Assessment__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Knowledge__kav</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Payment__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Preference__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Property__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Room_Occupancy__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Room__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Survey_Response__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Survey__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <userLicense>Siteforce Only</userLicense>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ActivitiesAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AddDirectMessageMembers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AllowUniversalSearch</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApexRestServices</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApiEnabled</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AssignTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterEditOwnPost</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterFileLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterInternalUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterInviteExternalUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterOwnGroups</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ContentWorkspaces</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateCustomizeFilters</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>DistributeFromPersWksp</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditEvent</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditTask</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EmailMass</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EmailSingle</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EnableCommunityAppLauncher</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EnableNotifications</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ExportReport</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ExternalClientAppAdmin</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ExternalClientAppDeveloper</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ExternalClientAppViewer</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>RemoveDirectMessageMembers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>RunReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SelectFilesFromSalesforce</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ShareFilesWithNetworks</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ShowCompanyNameAsUserBadge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SubscribeToLightningDashboards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SubscribeToLightningReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>TransactionalEmailSend</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>UseWebLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewDeveloperName</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewHelpLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewRoles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewSetup</name>
+    </userPermissions>
+</Profile>

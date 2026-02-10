@@ -1,0 +1,244 @@
+Object,Field API Name,Field Label,Field Type,Length,Precision,Scale,Required,Unique,External ID,Default Value,Description,Help Text,Picklist Values (pipe separated),Reference To,Relationship Name,Relationship Label,Delete Constraint,Master Detail,Track History,Track Feed
+Account,Relationship_to_Resident__c,Relationship to Resident,Picklist,,,,,,,FALSE,Relationship of family member or friend to the resident,,Spouse/Partner|Son|Daughter|Sibling|Parent|Grandchild|Friend|Power of Attorney|Guardian|Other Relative,,,,,,FALSE,FALSE
+Account,Is_Next_of_Kin__c,Is Next of Kin,Checkbox,,,,,,,FALSE,Indicates if this person is the next of kin,,,,,,,,FALSE,FALSE
+Account,Is_Emergency_Contact__c,Is Emergency Contact,Checkbox,,,,,,,FALSE,Indicates if this person is an emergency contact,,,,,,,,FALSE,FALSE
+Account,Emergency_Contact_Priority__c,Emergency Contact Priority,Number,,2,0,FALSE,FALSE,FALSE,,Order of priority for emergency contacts (1 = primary),Use 1 for primary contact,,,,,,,FALSE,FALSE
+Account,Power_of_Attorney_Type__c,Power of Attorney Type,Picklist,,,,,,,,,Indicate the type of Power of Attorney if applicable,Health & Welfare|Property & Financial|Both|None,,,,,,FALSE,FALSE
+Account,POA_Registration_Number__c,POA Registration Number,Text,50,,,,FALSE,FALSE,,Registration number for Power of Attorney,,,,,,,,FALSE,FALSE
+Account,POA_Expiry_Date__c,POA Expiry Date,Date,,,,,,,,,,,,,,,FALSE,FALSE
+Account,Preferred_Contact_Method__c,Preferred Contact Method,Picklist,,,,,,,Phone,Preferred method for contacting this person,,Phone|Email|SMS|Post|In Person,,,,,,FALSE,FALSE
+Account,Best_Time_to_Contact__c,Best Time to Contact,Picklist,,,,,,,,,Best time of day to contact this person,Morning (9am-12pm)|Afternoon (12pm-5pm)|Evening (5pm-8pm)|Anytime,,,,,,FALSE,FALSE
+Account,Communication_Notes__c,Communication Notes,Long Text Area,5000,,,,,,,,Special instructions for communicating with this person,,,,,,,FALSE,FALSE
+Account,Marketing_Consent__c,Marketing Consent,Checkbox,,,,,,,FALSE,Has the person consented to marketing communications,,,,,,,,FALSE,FALSE
+Account,Marketing_Consent_Date__c,Marketing Consent Date,Date,,,,,,,,,Date when marketing consent was given,,,,,,,FALSE,FALSE
+Account,Professional_Type__c,Professional Type,Picklist,,,,,,,,,"Type of professional (for GP, social worker, etc)",GP|Specialist Doctor|Social Worker|Care Coordinator|Hospital Staff|Mental Health Professional|Occupational Therapist|Physiotherapist|Other,,,,,,FALSE,FALSE
+Account,Practice_Name__c,Practice/Organization Name,Text,255,,,,FALSE,FALSE,,Name of practice or organization for professional contacts,,,,,,,,FALSE,FALSE
+Account,Professional_Registration_Number__c,Professional Registration Number,Text,50,,,,FALSE,FALSE,,Professional registration number (e.g. GMC number),,,,,,,,FALSE,FALSE
+Account,Specialization__c,Specialization,Text,255,,,,FALSE,FALSE,,Area of medical/professional specialization,,,,,,,,FALSE,FALSE
+Account,NHS_Number__c,NHS Number,Text,10,,,,TRUE,FALSE,,NHS Number for resident identification,10 digit NHS number,,,,,,,FALSE,FALSE
+Account,Date_of_Birth__c,Date of Birth,Date,,,,,,,,,Date of birth for the resident,,,,,,,FALSE,FALSE
+Account,Gender__c,Gender,Picklist,,,,,,,,,Gender of the resident,Male|Female|Non-binary|Prefer not to say|Other,,,,,,FALSE,FALSE
+Account,Marital_Status__c,Marital Status,Picklist,,,,,,,,,Marital status of the resident,Single|Married|Widowed|Divorced|Separated|Civil Partnership,,,,,,FALSE,FALSE
+Account,Religion__c,Religion,Text,100,,,,FALSE,FALSE,,Religious affiliation of the resident,,,,,,,,FALSE,FALSE
+Account,Dietary_Requirements__c,Dietary Requirements,Multi-Select Picklist,,,,,,,,,Special dietary requirements,Vegetarian|Vegan|Halal|Kosher|Diabetic|Low Salt|Soft/Pureed|Allergies|None,,,,,,FALSE,FALSE
+Account,Dietary_Notes__c,Dietary Notes,Long Text Area,2000,,,,,,,,Additional details about dietary needs,,,,,,,FALSE,FALSE
+Account,Mobility_Level__c,Mobility Level,Picklist,,,,,,,,,Current mobility status of the resident,Fully Mobile|Walking Aid|Wheelchair User|Bed Bound|Varies,,,,,,FALSE,FALSE
+Account,Cognitive_Status__c,Cognitive Status,Picklist,,,,,,,,,Cognitive and mental status,No Impairment|Mild Cognitive Impairment|Moderate Dementia|Advanced Dementia|Other,,,,,,FALSE,FALSE
+Account,Dementia_Type__c,Dementia Type,Picklist,,,,,,,,,Type of dementia diagnosis if applicable,Alzheimer's Disease|Vascular Dementia|Lewy Body Dementia|Frontotemporal Dementia|Mixed Dementia|Unspecified|Not Applicable,,,,,,FALSE,FALSE
+Account,Previous_Occupation__c,Previous Occupation,Text,255,,,,FALSE,FALSE,,Previous occupation of the resident,,,,,,,,FALSE,FALSE
+Account,Hobbies_and_Interests__c,Hobbies and Interests,Long Text Area,5000,,,,,,,,Hobbies and interests of the resident for activities planning,,,,,,,FALSE,FALSE
+Account,Life_Story_Summary__c,Life Story Summary,Long Text Area,5000,,,,,,,,Summary of resident's life story for person-centered care,,,,,,,FALSE,FALSE
+Account,Deceased__c,Deceased,Checkbox,,,,,,,FALSE,Indicates if the resident has passed away,,,,,,,,FALSE,TRUE
+Account,Date_of_Death__c,Date of Death,Date,,,,,,,,,Date when the resident passed away,,,,,,,FALSE,FALSE
+Account,Data_Retention_Review_Date__c,Data Retention Review Date,Date,,,,,,,,,Date when record should be reviewed for archival,,,,,,,FALSE,FALSE
+Account,Archive_After_Date__c,Archive After Date,Date,,,,,,,,,Date after which record can be archived,,,,,,,FALSE,FALSE
+Account,Medical_Conditions__c,Medical Conditions,Long Text Area,5000,,,,,,,,List of medical conditions and diagnoses,,,,,,,FALSE,FALSE
+Contact,Relationship_to_Resident__c,Relationship to Resident,Picklist,,,,,,,,,Relationship to the resident,Spouse/Partner|Son|Daughter|Sibling|Parent|Grandchild|Friend|Power of Attorney|Guardian|Other Relative,,,,,,FALSE,FALSE
+Contact,Is_Next_of_Kin__c,Is Next of Kin,Checkbox,,,,,,,FALSE,Indicates if this person is the next of kin,,,,,,,,FALSE,FALSE
+Contact,Is_Emergency_Contact__c,Is Emergency Contact,Checkbox,,,,,,,FALSE,Indicates if this person is an emergency contact,,,,,,,,FALSE,FALSE
+Contact,Emergency_Contact_Priority__c,Emergency Contact Priority,Number,,2,0,FALSE,FALSE,FALSE,,Order of priority for emergency contacts (1 = primary),,,,,,,,FALSE,FALSE
+Contact,Preferred_Contact_Method__c,Preferred Contact Method,Picklist,,,,,,,Phone,Preferred method for contacting this person,,Phone|Email|SMS|Post,,,,,,FALSE,FALSE
+Opportunity,Care_Type__c,Care Type,Picklist,,,,,,,,,Type of care being arranged,Respite Care|Permanent Residential|Nursing Care|Dementia Care|End of Life Care,,,,,,FALSE,FALSE
+Opportunity,Admission_Type__c,Admission Type,Picklist,,,,,,,,,Type of admission,First Respite|Repeat Respite|Conversion from Respite|Direct Permanent Admission,,,,,,FALSE,FALSE
+Opportunity,Resident__c,Resident,Lookup,,,,,,,TRUE,The prospective or current resident,,,,Account,Opportunities_Resident,Opportunities (Resident),SetNull,FALSE,FALSE,FALSE
+Opportunity,Primary_Contact__c,Primary Family Contact,Lookup,,,,,,,,Primary family member or contact person,,,,Account,Opportunities_Contact,Opportunities (Contact),SetNull,FALSE,FALSE,FALSE
+Opportunity,Care_Home__c,Care Home,Lookup,,,,,,,,TRUE,Which care home location,,,,Property__c,Opportunities,Opportunities,SetNull,FALSE,FALSE,FALSE
+Opportunity,Preferred_Room__c,Preferred Room,Lookup,,,,,,,,,,Preferred room if specified,,Room__c,Opportunities,Opportunities,SetNull,FALSE,FALSE,FALSE
+Opportunity,Expected_Move_In_Date__c,Expected Move In Date,Date,,,,,,,,,Expected admission date,,,,,,,FALSE,FALSE
+Opportunity,Actual_Move_In_Date__c,Actual Move In Date,Date,,,,,,,,,Actual admission date,,,,,,,FALSE,FALSE
+Opportunity,Expected_Duration_Weeks__c,Expected Duration (Weeks),Number,,3,0,FALSE,FALSE,FALSE,,For respite stays - expected number of weeks,,,,,,,,FALSE,FALSE
+Opportunity,Weekly_Rate__c,Weekly Rate,Currency,,,,FALSE,FALSE,FALSE,,Weekly care fee,,,,,,,,FALSE,FALSE
+Opportunity,Deposit_Amount__c,Deposit Amount,Currency,,,,FALSE,FALSE,FALSE,,Security deposit amount,,,,,,,,FALSE,FALSE
+Opportunity,Deposit_Paid__c,Deposit Paid,Checkbox,,,,,,,FALSE,Has the deposit been paid,,,,,,,,FALSE,FALSE
+Opportunity,Funding_Source__c,Funding Source,Picklist,,,,,,,,,How the care will be funded,Private - Self Funded|Private - Family Funded|Local Authority|NHS Continuing Healthcare|Mixed Private/LA|Mixed Private/NHS,,,,,,FALSE,FALSE
+Opportunity,Local_Authority__c,Local Authority Name,Text,255,,,,FALSE,FALSE,,Name of local authority if LA funded,,,,,,,,FALSE,FALSE
+Opportunity,LA_Purchase_Order_Number__c,LA Purchase Order Number,Text,50,,,,FALSE,FALSE,,Local authority purchase order number,,,,,,,,FALSE,FALSE
+Opportunity,Financial_Assessment_Required__c,Financial Assessment Required,Checkbox,,,,,,,FALSE,Is a financial assessment required,,,,,,,,FALSE,FALSE
+Opportunity,Financial_Assessment_Status__c,Financial Assessment Status,Picklist,,,,,,,,,Status of financial assessment,Not Started|In Progress|Completed - Approved|Completed - Declined|Not Required,,,,,,FALSE,FALSE
+Opportunity,Financial_Assessment_Completed_Date__c,Financial Assessment Completed Date,Date,,,,,,,,,Date when financial assessment was completed,,,,,,,FALSE,FALSE
+Opportunity,Visit_Scheduled_Date__c,Visit Scheduled Date,DateTime,,,,,,,,,Date and time of scheduled visit,,,,,,,FALSE,FALSE
+Opportunity,Visit_Completed_Date__c,Visit Completed Date,DateTime,,,,,,,,,Date and time when visit was completed,,,,,,,FALSE,FALSE
+Opportunity,Visit_Outcome__c,Visit Outcome,Picklist,,,,,,,,,Outcome of the care home visit,Very Positive|Positive|Neutral|Negative|Did Not Attend,,,,,,FALSE,FALSE
+Opportunity,Assessment_Scheduled_Date__c,Assessment Scheduled Date,DateTime,,,,,,,,,Date and time of scheduled assessment,,,,,,,FALSE,FALSE
+Opportunity,Assessment_Completed_Date__c,Assessment Completed Date,DateTime,,,,,,,,,Date and time when assessment was completed,,,,,,,FALSE,FALSE
+Opportunity,Assessment_Outcome__c,Assessment Outcome,Picklist,,,,,,,,,Outcome of the care assessment,Approved - Suitable|Approved - Additional Support Needed|Referred for Further Assessment|Not Suitable|Cancelled,,,,,,FALSE,FALSE
+Opportunity,Contract_Sent_Date__c,Contract Sent Date,Date,,,,,,,,,Date when contract was sent for signature,,,,,,,FALSE,FALSE
+Opportunity,Contract_Signed_Date__c,Contract Signed Date,Date,,,,,,,,,Date when contract was signed,,,,,,,FALSE,FALSE
+Opportunity,Terms_of_Residence_Signed__c,Terms of Residence Signed,Checkbox,,,,,,,FALSE,Have terms of residence been signed,,,,,,,,FALSE,FALSE
+Opportunity,Direct_Debit_Setup__c,Direct Debit Setup,Checkbox,,,,,,,FALSE,Has direct debit been setup,,,,,,,,FALSE,FALSE
+Opportunity,Move_In_Checklist_Complete__c,Move In Checklist Complete,Checkbox,,,,,,,FALSE,Has the move in checklist been completed,,,,,,,,FALSE,FALSE
+Opportunity,Allocated_Room__c,Allocated Room,Lookup,,,,,,,,,,Room that has been allocated,,Room__c,Opportunities_Allocated,Opportunities (Allocated),SetNull,FALSE,FALSE,FALSE
+Opportunity,Room_Allocation_Date__c,Room Allocation Date,Date,,,,,,,,,Date when room was allocated,,,,,,,FALSE,FALSE
+Opportunity,Room_Ready_Date__c,Room Ready Date,Date,,,,,,,,,Date when room will be ready for move-in,,,,,,,FALSE,FALSE
+Property__c,Property_Code__c,Property Code,Text,20,,,,TRUE,FALSE,,Unique code for the care home,,,,,,,,FALSE,FALSE
+Property__c,Region__c,Region,Picklist,,,,,,,,,Geographic region,Dorset|Hampshire,,,,,,FALSE,FALSE
+Property__c,Address__c,Address,Text Area,500,,,,FALSE,FALSE,,Full address of the care home,,,,,,,,FALSE,FALSE
+Property__c,City__c,City,Text,100,,,,FALSE,FALSE,,City,,,,,,,,FALSE,FALSE
+Property__c,Postcode__c,Postcode,Text,10,,,,FALSE,FALSE,,Postcode,,,,,,,,FALSE,FALSE
+Property__c,Phone__c,Phone,Phone,,,,,FALSE,FALSE,,Main phone number,,,,,,,,FALSE,FALSE
+Property__c,Email__c,Email,Email,,,,,FALSE,FALSE,,Main email address,,,,,,,,FALSE,FALSE
+Property__c,Website__c,Website,URL,,,,,FALSE,FALSE,,Website URL,,,,,,,,FALSE,FALSE
+Property__c,Total_Beds__c,Total Beds,Number,,3,0,FALSE,FALSE,FALSE,,Total number of beds in the home,,,,,,,,FALSE,FALSE
+Property__c,Care_Types_Offered__c,Care Types Offered,Multi-Select Picklist,,,,,,,,,Types of care offered at this home,Residential Care|Nursing Care|Dementia Care|Respite Care|End of Life Care,,,,,,FALSE,FALSE
+Property__c,Facilities__c,Facilities,Multi-Select Picklist,,,,,,,,,Facilities available at the home,Garden|Activities Room|Hairdressing Salon|Cinema Room|Library|Assisted Bathing|Wheelchair Access|Secure Garden|Café|Guest Rooms|Sensory Room,,,,,,FALSE,FALSE
+Property__c,CQC_Rating__c,CQC Rating,Picklist,,,,,,,,,Care Quality Commission rating,Outstanding|Good|Requires Improvement|Inadequate|Not Rated,,,,,,FALSE,FALSE
+Property__c,CQC_Registration_Number__c,CQC Registration Number,Text,50,,,,FALSE,FALSE,,CQC registration number,,,,,,,,FALSE,FALSE
+Property__c,Last_CQC_Inspection_Date__c,Last CQC Inspection Date,Date,,,,,,,,,Date of last CQC inspection,,,,,,,FALSE,FALSE
+Property__c,Manager__c,Home Manager,Lookup,,,,,,,,,,Care home manager,,User,Properties,Properties,SetNull,FALSE,FALSE,FALSE
+Property__c,Status__c,Status,Picklist,,,,,,,Active,Operational status of the home,Active|Temporarily Closed|Under Refurbishment|Closed,,,,,,FALSE,FALSE
+Room__c,Property__c,Care Home,Master-Detail,,,,,,,TRUE,Care home where this room is located,,,,Property__c,Rooms,Rooms,,TRUE,FALSE,FALSE
+Room__c,Room_Type__c,Room Type,Picklist,,,,,,,,,Type of room,Single|Double|Suite|Shared|Communal,,,,,,FALSE,FALSE
+Room__c,Floor_Number__c,Floor Number,Number,,2,0,FALSE,FALSE,FALSE,,Floor number where room is located,,,,,,,,FALSE,FALSE
+Room__c,Wing__c,Wing/Building,Text,100,,,,FALSE,FALSE,,Wing or building designation,,,,,,,,FALSE,FALSE
+Room__c,Status__c,Status,Picklist,,,,,,,Available,Current availability status of the room,Available|Occupied|Reserved|Under Maintenance|Being Decorated,,,,,,FALSE,FALSE
+Room__c,Available_From__c,Available From,Date,,,,,,,,,Date when room will be available,,,,,,,FALSE,FALSE
+Room__c,Size_SqM__c,Size (Square Meters),Number,,5,2,FALSE,FALSE,FALSE,,Room size in square meters,,,,,,,,FALSE,FALSE
+Room__c,Ensuite__c,Ensuite,Checkbox,,,,,,,FALSE,Does the room have an ensuite bathroom,,,,,,,,FALSE,FALSE
+Room__c,Wet_Room__c,Wet Room,Checkbox,,,,,,,FALSE,Is it a wet room,,,,,,,,FALSE,FALSE
+Room__c,Walk_In_Shower__c,Walk-In Shower,Checkbox,,,,,,,FALSE,Does it have a walk-in shower,,,,,,,,FALSE,FALSE
+Room__c,Ground_Floor__c,Ground Floor,Checkbox,,,,,,,FALSE,Is the room on ground floor,,,,,,,,FALSE,FALSE
+Room__c,Garden_Access__c,Garden Access,Checkbox,,,,,,,FALSE,Does the room have direct garden access,,,,,,,,FALSE,FALSE
+Room__c,Garden_View__c,Garden View,Checkbox,,,,,,,FALSE,Does the room have a garden view,,,,,,,,FALSE,FALSE
+Room__c,Balcony__c,Balcony,Checkbox,,,,,,,FALSE,Does the room have a balcony,,,,,,,,FALSE,FALSE
+Room__c,Wheelchair_Accessible__c,Wheelchair Accessible,Checkbox,,,,,,,FALSE,Is the room wheelchair accessible,,,,,,,,FALSE,FALSE
+Room__c,Equipment__c,Equipment,Multi-Select Picklist,,,,,,,,,Equipment available in room,Hoist|Profiling Bed|Call System|TV Point|Wi-Fi|Kitchenette|Fridge,,,,,,FALSE,FALSE
+Room__c,Suitable_for_Dementia_Care__c,Suitable for Dementia Care,Checkbox,,,,,,,FALSE,Is the room suitable for dementia care,,,,,,,,FALSE,FALSE
+Room__c,Suitable_for_Nursing_Care__c,Suitable for Nursing Care,Checkbox,,,,,,,FALSE,Is the room suitable for nursing care,,,,,,,,FALSE,FALSE
+Room__c,Quiet_Area__c,Located in Quiet Area,Checkbox,,,,,,,FALSE,Is the room in a quiet area of the home,,,,,,,,FALSE,FALSE
+Room__c,Near_Communal_Areas__c,Near Communal Areas,Checkbox,,,,,,,FALSE,Is the room near communal areas,,,,,,,,FALSE,FALSE
+Room__c,Base_Weekly_Rate__c,Base Weekly Rate,Currency,,,,FALSE,FALSE,FALSE,,Base weekly rate for the room,,,,,,,,FALSE,FALSE
+Room__c,Last_Decorated__c,Last Decorated,Date,,,,,,,,,Date when room was last decorated,,,,,,,FALSE,FALSE
+Room__c,Next_Redecoration_Due__c,Next Redecoration Due,Date,,,,,,,,,Date when next redecoration is due,,,,,,,FALSE,FALSE
+Enquiry__c,Enquiry_Date__c,Enquiry Date,DateTime,,,,,TRUE,FALSE,,Date and time when enquiry was received,,,,,,,,FALSE,FALSE
+Enquiry__c,Enquiry_Source__c,Enquiry Source,Picklist,,,,,,,,,How the enquiry was received,Phone Call|Website|Email|Walk-in|Referral - GP|Referral - Hospital|Referral - Social Services|Referral - Family/Friend|Event|Advertisement|Other,,,,,,FALSE,FALSE
+Enquiry__c,Enquirer_Account__c,Enquirer,Lookup,,,,,,,,,,Person making the enquiry (family member or professional),,Account,Enquiries_Enquirer,Enquiries (Enquirer),SetNull,FALSE,FALSE,FALSE
+Enquiry__c,Prospective_Resident__c,Prospective Resident,Lookup,,,,,,,,,,The person requiring care,,Account,Enquiries_Resident,Enquiries (Resident),SetNull,FALSE,FALSE,FALSE
+Enquiry__c,Enquiry_Type__c,Enquiry Type,Picklist,,,,,,,,,Type of care enquired about,Respite Care|Permanent Residential|Nursing Care|Dementia Care|Assessment Only|General Enquiry,,,,,,FALSE,FALSE
+Enquiry__c,Urgency__c,Urgency,Picklist,,,,,,,,,How urgent is the need,Immediate (Within 1 week)|Urgent (Within 2-4 weeks)|Soon (Within 1-3 months)|Future Planning (3+ months),,,,,,FALSE,FALSE
+Enquiry__c,Preferred_Location__c,Preferred Care Home,Lookup,,,,,,,,,,Preferred care home location,,Property__c,Enquiries,Enquiries,SetNull,FALSE,FALSE,FALSE
+Enquiry__c,Preferred_Move_In_Date__c,Preferred Move In Date,Date,,,,,,,,,Preferred date for admission,,,,,,,FALSE,FALSE
+Enquiry__c,Budget_Range__c,Budget Range,Picklist,,,,,,,,,Budget range discussed,Under £800/week|£800-£1000/week|£1000-£1200/week|£1200-£1500/week|Over £1500/week|Not Discussed,,,,,,FALSE,FALSE
+Enquiry__c,Funding_Type__c,Funding Type,Picklist,,,,,,,,,Expected funding type,Private|Local Authority|NHS Continuing Healthcare|Mixed Funding|Not Yet Determined,,,,,,FALSE,FALSE
+Enquiry__c,Status__c,Status,Picklist,,,,,,,New,Current status of the enquiry,New|Contacted|Information Sent|Visit Scheduled|Visit Completed|Converted to Opportunity|Not Proceeding|Closed - Lost,,,,,,FALSE,FALSE
+Enquiry__c,Initial_Notes__c,Initial Notes,Long Text Area,10000,,,,,,,,Notes from initial enquiry,,,,,,,FALSE,FALSE
+Enquiry__c,First_Response_Date__c,First Response Date,DateTime,,,,,,,,,Date and time of first response to enquiry,,,,,,,FALSE,FALSE
+Enquiry__c,Information_Pack_Sent__c,Information Pack Sent,Checkbox,,,,,,,FALSE,Has information pack been sent,,,,,,,,FALSE,FALSE
+Enquiry__c,Information_Pack_Sent_Date__c,Information Pack Sent Date,Date,,,,,,,,,Date when information pack was sent,,,,,,,FALSE,FALSE
+Enquiry__c,Next_Follow_Up_Date__c,Next Follow Up Date,Date,,,,,,,,,Date for next follow up,,,,,,,FALSE,FALSE
+Enquiry__c,Follow_Up_Notes__c,Follow Up Notes,Long Text Area,10000,,,,,,,,Notes from follow up activities,,,,,,,FALSE,FALSE
+Resident__c,Account__c,Account,Master-Detail,,,,,,,TRUE,Link to the Account (Person Account),,,,Account,Resident_Records,Resident Records,,TRUE,FALSE,FALSE
+Resident__c,Resident_Since__c,Resident Since,Date,,,,,,,,,Date when person became a resident,,,,,,,FALSE,FALSE
+Resident__c,Current_Care_Home__c,Current Care Home,Lookup,,,,,,,,,,Current care home location,,Property__c,Residents,Residents,SetNull,FALSE,FALSE,FALSE
+Resident__c,Current_Room__c,Current Room,Lookup,,,,,,,,,,Current room assignment,,Room__c,Residents,Residents,SetNull,FALSE,FALSE,FALSE
+Resident__c,Resident_Status__c,Resident Status,Picklist,,,,,,,,,Current status of the resident,Prospective|Respite - First Visit|Respite - Returning|Permanent|Discharged - Respite Complete|Discharged - Moved|Discharged - Passed Away,,,,,,FALSE,FALSE
+Resident__c,Total_Respite_Visits__c,Total Respite Visits,Number,,3,0,FALSE,FALSE,FALSE,,Count of completed respite stays,,,,,,,,FALSE,FALSE
+Resident__c,Last_Respite_Visit__c,Last Respite Visit Date,Date,,,,,,,,,Date of last respite visit,,,,,,,FALSE,FALSE
+Resident__c,Care_Level__c,Care Level,Picklist,,,,,,,,,Level of care required,Low|Low-Medium|Medium|Medium-High|High|Complex,,,,,,FALSE,FALSE
+Resident__c,Nursing_Care_Required__c,Nursing Care Required,Checkbox,,,,,,,FALSE,Does the resident require nursing care,,,,,,,,FALSE,FALSE
+Resident__c,Dementia_Care_Required__c,Dementia Care Required,Checkbox,,,,,,,FALSE,Does the resident require dementia care,,,,,,,,FALSE,FALSE
+Resident__c,Care_Plan_Summary__c,Care Plan Summary,Long Text Area,32000,,,,,,,,Summary of care plan,,,,,,,FALSE,FALSE
+Resident__c,Risk_Assessment_Summary__c,Risk Assessment Summary,Long Text Area,10000,,,,,,,,Summary of risk assessments,,,,,,,FALSE,FALSE
+Resident__c,Moving_and_Handling_Summary__c,Moving and Handling Summary,Text Area,1000,,,,,,,,Moving and handling requirements,,,,,,,FALSE,FALSE
+Resident__c,Personal_Care_Needs__c,Personal Care Needs,Multi-Select Picklist,,,,,,,,,Personal care requirements,Bathing Assistance|Dressing Assistance|Toileting Assistance|Continence Care|Medication Management|Feeding Assistance|Mobility Support,,,,,,FALSE,FALSE
+Resident__c,GP_Contact__c,GP Contact,Lookup,,,,,,,,,,Resident's GP,,Account,Residents_GP,Residents (GP),SetNull,FALSE,FALSE,FALSE
+Resident__c,Current_Medications__c,Current Medications,Long Text Area,10000,,,,,,,,List of current medications,,,,,,,FALSE,FALSE
+Resident__c,Allergies__c,Allergies,Long Text Area,2000,,,,,,,,Known allergies,,,,,,,FALSE,FALSE
+Resident__c,DNR_Status__c,DNR Status,Picklist,,,,,,,,,Do Not Resuscitate status,Full Resuscitation|Do Not Resuscitate|DNACPR in Place|Not Discussed|Unknown,,,,,,FALSE,FALSE
+Resident__c,Advanced_Care_Plan__c,Advanced Care Plan in Place,Checkbox,,,,,,,FALSE,Is there an advanced care plan,,,,,,,,FALSE,FALSE
+Resident__c,Behavioral_Notes__c,Behavioral Notes,Long Text Area,10000,,,,,,,,Important behavioral patterns and triggers,,,,,,,FALSE,FALSE
+Resident__c,Communication_Abilities__c,Communication Abilities,Picklist,,,,,,,,,Communication abilities and needs,Fully Verbal|Some Verbal Communication|Non-Verbal|Uses Communication Aid|Varies,,,,,,FALSE,FALSE
+Resident__c,Sensory_Needs__c,Sensory Needs,Multi-Select Picklist,,,,,,,,,Sensory aids required,Hearing Aid|Glasses|Dentures|None,,,,,,FALSE,FALSE
+Resident__c,Sleep_Patterns__c,Sleep Patterns,Text Area,1000,,,,,,,,Information about sleep patterns,,,,,,,FALSE,FALSE
+Assessment__c,Opportunity__c,Opportunity,Lookup,,,,,,,,,,Related opportunity,,Opportunity,Assessments,Assessments,SetNull,FALSE,FALSE,FALSE
+Assessment__c,Resident__c,Resident,Lookup,,,,,TRUE,FALSE,,Person being assessed,,,,Account,Assessments,Assessments,SetNull,FALSE,FALSE,FALSE
+Assessment__c,Assessment_Date__c,Assessment Date,DateTime,,,,,TRUE,FALSE,,Date and time of assessment,,,,,,,,FALSE,FALSE
+Assessment__c,Assessment_Type__c,Assessment Type,Picklist,,,,,,,,,Type of assessment,Pre-Admission|Initial|Review|Post-Fall|Change in Condition|Annual Review|Discharge,,,,,,FALSE,FALSE
+Assessment__c,Assessor__c,Assessor,Lookup,,,,,,,,,,Person conducting the assessment,,User,Assessments,Assessments,SetNull,FALSE,FALSE,FALSE
+Assessment__c,Location__c,Location,Picklist,,,,,,,,,Where assessment took place,Care Home|Resident's Home|Hospital|Other,,,,,,FALSE,FALSE
+Assessment__c,Status__c,Status,Picklist,,,,,,,,,Current status of assessment,Scheduled|In Progress|Completed|Cancelled,,,,,,FALSE,FALSE
+Assessment__c,Overall_Outcome__c,Overall Outcome,Picklist,,,,,,,,,Overall assessment outcome,Suitable - No Concerns|Suitable - Minor Concerns|Suitable - Requires Specialist Support|Requires Further Assessment|Not Suitable,,,,,,FALSE,FALSE
+Assessment__c,Care_Level_Recommendation__c,Care Level Recommendation,Picklist,,,,,,,,,Recommended level of care,Low|Low-Medium|Medium|Medium-High|High|Complex,,,,,,FALSE,FALSE
+Assessment__c,Accommodation_Recommendations__c,Accommodation Recommendations,Text Area,2000,,,,,,,,Accommodation recommendations,,,,,,,FALSE,FALSE
+Assessment__c,Risk_Level__c,Risk Level,Picklist,,,,,,,,,Overall risk level,Low|Medium|High|Very High,,,,,,FALSE,FALSE
+Assessment__c,Mobility_Assessment__c,Mobility Assessment,Text Area,2000,,,,,,,,Mobility assessment findings,,,,,,,FALSE,FALSE
+Assessment__c,Nutrition_Assessment__c,Nutrition Assessment,Text Area,2000,,,,,,,,Nutrition assessment findings,,,,,,,FALSE,FALSE
+Assessment__c,Personal_Care_Assessment__c,Personal Care Assessment,Text Area,2000,,,,,,,,Personal care assessment findings,,,,,,,FALSE,FALSE
+Assessment__c,Cognitive_Assessment__c,Cognitive Assessment,Text Area,2000,,,,,,,,Cognitive assessment findings,,,,,,,FALSE,FALSE
+Assessment__c,Mental_Health_Assessment__c,Mental Health Assessment,Text Area,2000,,,,,,,,Mental health assessment findings,,,,,,,FALSE,FALSE
+Assessment__c,Social_Needs_Assessment__c,Social Needs Assessment,Text Area,2000,,,,,,,,Social needs assessment findings,,,,,,,FALSE,FALSE
+Assessment__c,Medical_Needs_Assessment__c,Medical Needs Assessment,Text Area,2000,,,,,,,,Medical needs assessment findings,,,,,,,FALSE,FALSE
+Assessment__c,Falls_Risk__c,Falls Risk,Picklist,,,,,,,,,Risk of falling,Low|Medium|High|Very High,,,,,,FALSE,FALSE
+Assessment__c,Pressure_Sore_Risk__c,Pressure Sore Risk,Picklist,,,,,,,,,Risk of pressure sores,Low|Medium|High|Very High,,,,,,FALSE,FALSE
+Assessment__c,Nutrition_Risk__c,Nutrition Risk,Picklist,,,,,,,,,Nutritional risk level,Low|Medium|High|Very High,,,,,,FALSE,FALSE
+Assessment__c,Choking_Risk__c,Choking Risk,Picklist,,,,,,,,,Risk of choking,Low|Medium|High|Very High,,,,,,FALSE,FALSE
+Assessment__c,Absconding_Risk__c,Absconding Risk,Picklist,,,,,,,,,Risk of absconding,Low|Medium|High|Very High,,,,,,FALSE,FALSE
+Assessment__c,Follow_Up_Required__c,Follow Up Required,Checkbox,,,,,,,FALSE,Is follow up assessment needed,,,,,,,,FALSE,FALSE
+Assessment__c,Follow_Up_Notes__c,Follow Up Notes,Long Text Area,5000,,,,,,,,Notes about required follow up,,,,,,,FALSE,FALSE
+Assessment__c,Next_Assessment_Date__c,Next Assessment Date,Date,,,,,,,,,Date for next assessment,,,,,,,FALSE,FALSE
+Contract__c,Opportunity__c,Related Opportunity,Lookup,,,,,,,,,,Related opportunity,,Opportunity,Contracts,Contracts,SetNull,FALSE,FALSE,FALSE
+Contract__c,Resident__c,Resident,Lookup,,,,,TRUE,FALSE,,Resident for this contract,,,,Account,Contracts,Contracts,SetNull,FALSE,FALSE,FALSE
+Contract__c,Contract_Type__c,Contract Type,Picklist,,,,,,,,,Type of contract,Respite Agreement|Permanent Residence|Trial Period|Local Authority Contract,,,,,,FALSE,FALSE
+Contract__c,Contract_Start_Date__c,Contract Start Date,Date,,,,,TRUE,FALSE,,Contract start date,,,,,,,,FALSE,FALSE
+Contract__c,Contract_End_Date__c,Contract End Date,Date,,,,,,,,,Contract end date (if applicable),,,,,,,FALSE,FALSE
+Contract__c,Status__c,Status,Picklist,,,,,,,Draft,Contract status,Draft|Sent for Signature|Partially Signed|Fully Signed|Active|Expired|Terminated,,,,,,FALSE,FALSE
+Contract__c,Sent_Date__c,Sent Date,Date,,,,,,,,,Date when contract was sent,,,,,,,FALSE,FALSE
+Contract__c,Signed_Date__c,Signed Date,Date,,,,,,,,,Date when contract was fully signed,,,,,,,FALSE,FALSE
+Contract__c,Signed_By__c,Signed By,Lookup,,,,,,,,,,Person who signed the contract,,Account,Contracts_Signed,Contracts (Signed By),SetNull,FALSE,FALSE,FALSE
+Contract__c,Weekly_Rate__c,Weekly Rate,Currency,,,,,TRUE,FALSE,,Weekly care fee,,,,,,,,FALSE,FALSE
+Contract__c,Deposit_Amount__c,Deposit Amount,Currency,,,,FALSE,FALSE,FALSE,,Security deposit amount,,,,,,,,FALSE,FALSE
+Contract__c,Notice_Period_Days__c,Notice Period (Days),Number,,3,0,FALSE,FALSE,FALSE,28,Notice period in days,,,,,,,,FALSE,FALSE
+Contract__c,Payment_Method__c,Payment Method,Picklist,,,,,,,,,Payment method,Direct Debit|Standing Order|Bank Transfer|Local Authority|NHS|Cheque,,,,,,FALSE,FALSE
+Contract__c,Payment_Frequency__c,Payment Frequency,Picklist,,,,,,,,,Payment frequency,Weekly|Monthly|4-Weekly,,,,,,FALSE,FALSE
+Contract__c,Payment_Day__c,Payment Day,Picklist,,,,,,,,,Payment day,Monday|Tuesday|Wednesday|Thursday|Friday|1st of Month|15th of Month,,,,,,FALSE,FALSE
+Contract__c,Third_Party_Top_Up_Amount__c,Third Party Top Up Amount,Currency,,,,FALSE,FALSE,FALSE,,Third party top up amount,,,,,,,,FALSE,FALSE
+Contract__c,Third_Party_Top_Up_Payer__c,Third Party Top Up Payer,Lookup,,,,,,,,,,Person paying third party top up,,Account,Contracts_TopUp,Contracts (Top Up Payer),SetNull,FALSE,FALSE,FALSE
+Contract__c,Terms_of_Residence_Signed__c,Terms of Residence Signed,Checkbox,,,,,,,FALSE,Have terms of residence been signed,,,,,,,,FALSE,FALSE
+Contract__c,Consent_Forms_Signed__c,Consent Forms Signed,Checkbox,,,,,,,FALSE,Have consent forms been signed,,,,,,,,FALSE,FALSE
+Contract__c,Direct_Debit_Form_Signed__c,Direct Debit Form Signed,Checkbox,,,,,,,FALSE,Has direct debit form been signed,,,,,,,,FALSE,FALSE
+Contract__c,Financial_Assessment_Attached__c,Financial Assessment Attached,Checkbox,,,,,,,FALSE,Is financial assessment attached,,,,,,,,FALSE,FALSE
+Contract__c,GP_Letter_Attached__c,GP Letter Attached,Checkbox,,,,,,,FALSE,Is GP letter attached,,,,,,,,FALSE,FALSE
+Contract__c,Termination_Notice_Date__c,Termination Notice Date,Date,,,,,,,,,Date when termination notice was given,,,,,,,FALSE,FALSE
+Contract__c,Termination_Notice_Given_By__c,Termination Notice Given By,Lookup,,,,,,,,,,Person who gave termination notice,,Account,Contracts_Terminated,Contracts (Terminated By),SetNull,FALSE,FALSE,FALSE
+Contract__c,Termination_Reason__c,Termination Reason,Picklist,,,,,,,,,Reason for termination,Resident Request|Family Request|Medical Needs Changed|Facility Unsuitable|Non-Payment|Behavioral Issues|Passed Away|Other,,,,,,FALSE,FALSE
+Contract__c,Final_Invoice_Date__c,Final Invoice Date,Date,,,,,,,,,Date of final invoice,,,,,,,FALSE,FALSE
+Room_Occupancy__c,Room__c,Room,Master-Detail,,,,,,,TRUE,Room being occupied,,,,Room__c,Occupancies,Occupancies,,TRUE,FALSE,FALSE
+Room_Occupancy__c,Resident__c,Resident,Lookup,,,,,TRUE,FALSE,,Resident occupying the room,,,,Resident__c,Room_Occupancies,Room Occupancies,SetNull,FALSE,FALSE,FALSE
+Room_Occupancy__c,Opportunity__c,Opportunity,Lookup,,,,,,,,,,Related opportunity,,Opportunity,Room_Occupancies,Room Occupancies,SetNull,FALSE,FALSE,FALSE
+Room_Occupancy__c,Start_Date__c,Start Date,Date,,,,,TRUE,FALSE,,Occupancy start date,,,,,,,,FALSE,FALSE
+Room_Occupancy__c,Expected_End_Date__c,Expected End Date,Date,,,,,,,,,Expected end date (for respite),,,,,,,FALSE,FALSE
+Room_Occupancy__c,Actual_End_Date__c,Actual End Date,Date,,,,,,,,,Actual end date,,,,,,,FALSE,FALSE
+Room_Occupancy__c,Occupancy_Type__c,Occupancy Type,Picklist,,,,,,,,,Type of occupancy,Respite|Permanent|Trial Period,,,,,,FALSE,FALSE
+Room_Occupancy__c,Status__c,Status,Picklist,,,,,,,Reserved,Occupancy status,Reserved|Current|Completed|Cancelled,,,,,,FALSE,FALSE
+Room_Occupancy__c,Cancellation_Reason__c,Cancellation Reason,Picklist,,,,,,,,,Reason for cancellation,Resident Request|Family Request|Medical Reasons|Facility Unsuitable|Behavioral Issues|Passed Away|Other,,,,,,FALSE,FALSE
+Room_Occupancy__c,Weekly_Rate__c,Weekly Rate,Currency,,,,FALSE,FALSE,FALSE,,Weekly rate for this occupancy,,,,,,,,FALSE,FALSE
+Survey__c,Survey_Type__c,Survey Type,Picklist,,,,,,,,,Type of survey,First Impressions|End of Respite|Family Satisfaction|Annual Review|Complaint Follow-up|Exit Survey,,,,,,FALSE,FALSE
+Survey__c,Active__c,Active,Checkbox,,,,,,,TRUE,Is this survey template active,,,,,,,,FALSE,FALSE
+Survey__c,Description__c,Description,Long Text Area,2000,,,,,,,,Survey description,,,,,,,FALSE,FALSE
+Survey_Response__c,Survey__c,Survey,Master-Detail,,,,,,,TRUE,Survey template used,,,,Survey__c,Responses,Responses,,TRUE,FALSE,FALSE
+Survey_Response__c,Resident__c,Resident,Lookup,,,,,,,,,,Resident the survey is about,,Account,Survey_Responses_Resident,Survey Responses (Resident),SetNull,FALSE,FALSE,FALSE
+Survey_Response__c,Respondent__c,Respondent,Lookup,,,,,,,,,,Person who completed the survey,,Account,Survey_Responses_Respondent,Survey Responses (Respondent),SetNull,FALSE,FALSE,FALSE
+Survey_Response__c,Response_Date__c,Response Date,DateTime,,,,,TRUE,FALSE,,Date and time survey was completed,,,,,,,,FALSE,FALSE
+Survey_Response__c,Overall_Rating__c,Overall Rating,Picklist,,,,,,,,,Overall satisfaction rating,Very Satisfied|Satisfied|Neutral|Dissatisfied|Very Dissatisfied,,,,,,FALSE,FALSE
+Survey_Response__c,Would_Recommend__c,Would Recommend,Picklist,,,,,,,,,Would recommend to others,Definitely Yes|Probably Yes|Not Sure|Probably No|Definitely No,,,,,,FALSE,FALSE
+Survey_Response__c,Comments__c,Comments,Long Text Area,10000,,,,,,,,General comments,,,,,,,FALSE,FALSE
+Survey_Response__c,Follow_Up_Required__c,Follow Up Required,Checkbox,,,,,,,FALSE,Does this response require follow up,,,,,,,,FALSE,FALSE
+Survey_Response__c,Follow_Up_Notes__c,Follow Up Notes,Text Area,2000,,,,,,,,Notes about required follow up,,,,,,,FALSE,FALSE
+Survey_Response__c,Staff_Rating__c,Staff Rating,Number,,2,0,FALSE,FALSE,FALSE,,Staff rating (1-5 scale),Rate from 1 to 5,,,,,,,FALSE,FALSE
+Survey_Response__c,Food_Rating__c,Food Rating,Number,,2,0,FALSE,FALSE,FALSE,,Food rating (1-5 scale),Rate from 1 to 5,,,,,,,FALSE,FALSE
+Survey_Response__c,Cleanliness_Rating__c,Cleanliness Rating,Number,,2,0,FALSE,FALSE,FALSE,,Cleanliness rating (1-5 scale),Rate from 1 to 5,,,,,,,FALSE,FALSE
+Survey_Response__c,Activities_Rating__c,Activities Rating,Number,,2,0,FALSE,FALSE,FALSE,,Activities rating (1-5 scale),Rate from 1 to 5,,,,,,,FALSE,FALSE
+Survey_Response__c,Communication_Rating__c,Communication Rating,Number,,2,0,FALSE,FALSE,FALSE,,Communication rating (1-5 scale),Rate from 1 to 5,,,,,,,FALSE,FALSE
+Survey_Response__c,Room_Rating__c,Room Rating,Number,,2,0,FALSE,FALSE,FALSE,,Room rating (1-5 scale),Rate from 1 to 5,,,,,,,FALSE,FALSE
+Event,Event_Category__c,Event Category,Picklist,,,,,,,,,Type of event,Initial Visit|Assessment Visit|Family Meeting|Care Review|Meet and Greet|Move In Day,,,,,,FALSE,FALSE
+Event,Property__c,Care Home,Lookup,,,,,,,,,,Care home location for the event,,Property__c,Events,Events,SetNull,FALSE,FALSE,FALSE
+Event,Resident__c,Resident,Lookup,,,,,,,,,,Resident related to the event,,Account,Events,Events,SetNull,FALSE,FALSE,FALSE
+Event,Opportunity__c,Opportunity,Lookup,,,,,,,,,,Related opportunity,,Opportunity,Events,Events,SetNull,FALSE,FALSE,FALSE
+Event,Visit_Outcome__c,Visit Outcome,Picklist,,,,,,,,,Outcome of the visit,Very Positive|Positive|Neutral|Concerns Raised|Cancelled|No Show,,,,,,FALSE,FALSE
+Event,Tour_Provided__c,Tour Provided,Checkbox,,,,,,,FALSE,Was a tour of the facility provided,,,,,,,,FALSE,FALSE
+Event,Meal_Provided__c,Meal Provided,Checkbox,,,,,,,FALSE,Was a meal provided during visit,,,,,,,,FALSE,FALSE
+Event,Activity_Attended__c,Activity Attended,Checkbox,,,,,,,FALSE,Did attendees participate in an activity,,,,,,,,FALSE,FALSE
+Event,Follow_Up_Required__c,Follow Up Required,Checkbox,,,,,,,FALSE,Is follow up required after this event,,,,,,,,FALSE,FALSE
+Product2,Service_Type__c,Service Type,Picklist,,,,,,,,,Type of service,Room Rate - Respite|Room Rate - Permanent|Additional Service|Equipment Hire|Activity Fee,,,,,,FALSE,FALSE
+Product2,Care_Level__c,Care Level,Picklist,,,,,,,,,Required care level,Low|Low-Medium|Medium|Medium-High|High|Complex|Not Applicable,,,,,,FALSE,FALSE
+Campaign,Campaign_Region__c,Campaign Region,Picklist,,,,,,,,,Geographic region targeted,Dorset|Hampshire|Both,,,,,,FALSE,FALSE
+Campaign,Target_Care_Type__c,Target Care Type,Multi-Select Picklist,,,,,,,,,Target care types,Respite Care|Permanent Residential|Dementia Care|Nursing Care,,,,,,FALSE,FALSE

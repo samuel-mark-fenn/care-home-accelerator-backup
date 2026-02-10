@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>Care Home Enquiry</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;The process begins when an inquiry arrives via phone, email, the website, or a walk-in. Regardless of the source essential details are gathered&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>1. Initial Inquiry</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;If there is positive engagement, the CSA books a &amp;quot;show round,&amp;quot; which is a physical visit to the care home. This stage involves &amp;quot;mini checklists&amp;quot; to ensure the environment is prepared - such as ensuring tea and coffee are available - and requires coordinating the calendars of home managers and clinical leads&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>2. Show Round Stage</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;For those wishing to proceed after a show round, a clinical lead conducts a pre-admission assessment. This is usually done offsite (e.g., at a hospital) to determine if the home can cater to the person&amp;#39;s specific medical and care needs. If the home cannot meet those needs, the enquiry may be referred to another Colten Care location&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>3. Clinical Pre-Admission Assessment</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Once the clinical assessment is approved, the team agrees on an admission date and confirms the room rate. For permanent residents, this stage includes a financial summary reviewed by the CEO to ensure the resident has suitable funding for the services provided&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>4. Admission Planning and Financial Summary</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;The final administrative hurdle involves signing the Terms of Residence (which requires a &amp;quot;wet signature&amp;quot; for legal reasons), consent forms, and direct debit information. After these are uploaded and the initial payment is confirmed by the payroll team, the individual is officially admitted as either a respite or permanent resident&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>5. Admission Confirmed</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Care_Home_Enquiry</recordTypeName>
+</PathAssistant>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Care_Home_Enquiry</fullName>
+    <active>true</active>
+    <businessProcess>Care Homes</businessProcess>
+    <label>Care Home Enquiry</label>
+    <picklistValues>
+        <picklist>Admission_Type__c</picklist>
+        <values>
+            <fullName>Conversion from Respite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Permanent Admission</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>First Respite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repeat Respite</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Assessment_Outcome__c</picklist>
+        <values>
+            <fullName>Approved - Additional Support Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved - Suitable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Suitable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referred for Further Assessment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Care_Type__c</picklist>
+        <values>
+            <fullName>Dementia Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>End of Life Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nursing Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Permanent Residential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Respite Care</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Enquiry_Level__c</picklist>
+        <values>
+            <fullName>Level 2%3A Expected admission within the next six weeks%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Level 3%3A Likely to be admitted at a later%2C undefined date%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Level 1%3A Expected admission within one to two weeks%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Level 4%3A No Expected date set</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Financial_Assessment_Status__c</picklist>
+        <values>
+            <fullName>Completed - Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed - Declined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Funding_Source__c</picklist>
+        <values>
+            <fullName>Local Authority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mixed Private%2FLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mixed Private%2FNHS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NHS Continuing Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private - Family Funded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private - Self Funded</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Cold Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inbound Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce IoT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Add-On Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Services</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Visit_Outcome__c</picklist>
+        <values>
+            <fullName>Did Not Attend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Negative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neutral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Positive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Very Positive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

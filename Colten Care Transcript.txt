@@ -1,0 +1,1961 @@
+﻿Sasha. Well, um I suppose just to give you an idea of what what Salesforce and
+0:08
+Immersive really hope to achieve with this alongside Colton is to help you
+0:11
+along that longer term journey. Now, I know Will, you mentioned on the phone to
+0:15
+me last week that you are looking for something more long-term, obviously not
+0:18
+to have to rip and replace something in the short term. Uh this is really
+0:22
+showing you how we can help you along that long-term journey uh both with
+0:26
+Salesforce and Immersive. But David, I know um you're happy to drive this, so
+0:31
+I'll um I'll hand over to you. Sure. Thanks, Joe. So um uh like uh like
+0:38
+Joe said, well, we've got obly two hours keen to make the best use of um your
+0:42
+time. I appreciate this is the first time uh we're meeting. So um whilst
+0:47
+we've had a bit of a brief from Joe be really good if if you'd be kind enough
+0:50
+to just I guess in your own words give us a brief overview to the business. Um,
+0:56
+and we'll try and perhaps start with what we kind of know already and you
+0:59
+could perhaps embellish that and uh fill in any gaps. Um, and then it would also
+1:05
+be good to just get really into the meat of of the project. Um, obviously we know
+1:10
+that you have an existing system in IP. We know that it's been heavily
+1:15
+customized. we know that um it doesn't suit your your needs and that there's a
+1:21
+a desire really to look around for some some better technology to help the
+1:25
+business grow. Um we're also aware of some of your key KPIs
+1:30
+uh in terms of um you know inquiry management and uh you know being able to
+1:36
+better measure and understand um the kind of speed uh to visit and then the
+1:42
+speed from visit and conversion rate through to admission. But I'm sure
+1:46
+there'll be other business priorities and KPIs that you'll be um that will be
+1:51
+underpinning the rationale for the project. So if we could get get into
+1:54
+that that be that'd be fantastic. And then what we also thought would be
+1:58
+useful is um I guess to share a little bit of information about ourselves. Um
+2:04
+what is the role of a partner? We appreciate that this would be something
+2:08
+new for the business. um technology changes understand it from Joe isn't
+2:12
+isn't something that um you know Colton has done uh a lot of recently and
+2:17
+therefore um it might help for us to firstly explain what the role of a
+2:22
+Salesforce partner is, how we work, how we work with your teams and yourself to
+2:27
+make this a success and then um I guess take you through those steps of what a
+2:31
+good implementation looks like, what best practice looks like um and is doing
+2:36
+in doing so um I guess sort of bring the work that we do together to life and
+2:42
+then um I guess the meat of the session would just be us um really getting uh uh
+2:48
+into the into the scope. So as you'll see from our session today, you know,
+2:53
+Salesforce to your point um is the market leader. It's it's just so broad
+2:58
+in terms of what it can offer. Um so really what we're trying to do um to be
+3:03
+able to come back to you with a proposal which is tailored which is um uh cost
+3:11
+effective is really um distill what your key priorities are so that we can help
+3:17
+come back with something which is which is tailored around your your needs for
+3:21
+this this initial first phase. How does that sound?
+3:24
+Yeah. Yeah, that sounds that sounds good. So, um I'm happy to kick off with
+3:29
+a bit of a brief overview then. So, um we've got 21 locations, 21 care
+3:36
+homes. Um for us, I guess more of a unique part is everything's very close.
+3:42
+Everything's within 50 100 miles of each other. So, we operate just in Dorset and
+3:47
+Hampshire. Um, I mention that because um, one of the things we're looking to
+3:54
+achieve with this uh, system upgrade is better management um, of what's of
+4:01
+what's going on um, in the business in terms of how we deal with inquiries.
+4:07
+It's not looking at the necessarily improving people's um
+4:14
+abilities and stopping people being able to do certain actions. So, making sure
+4:20
+that we have a contract in place before they're admitted, that's not so much the
+4:25
+issue. We're we've got a very good management system in place. It's more a
+4:30
+system that is able to deal with those moving parts. So sorry I keep doing this
+4:38
+um deal with those moving parts. So it doesn't all become manual at the moment.
+4:43
+Everything is exceptionally manual and it is all based off of reminders that
+4:47
+people set themselves and their ability to remember to do something. Um so
+4:55
+yeah, we've got that structure in place. That means we've got a good oversight to
+5:00
+what's going on. It's just exceptionally admin intensive at the moment.
+5:05
+Um we tend to deal we've got around 1,00 residents we deal with around 30
+5:12
+admissions a week and equally 30 people leaving a week. Um if they leave it's if
+5:19
+they're on a restbite visit or if they pass away. Um a lot of business comes
+5:25
+through restbite to start with. Um, so we've got sort of that nurturing people
+5:31
+through multiple visits before they then become a permanent resident. That could
+5:36
+be over period of months or in some cases many years as people um come
+5:44
+through just because they had an injury or whatever and then over the years
+5:47
+obviously as they age they they'll come back. So, in terms of how we deal with
+5:52
+those people in the system, um looking at something that's more personalized.
+6:00
+Um we've got that part to it. We've got
+6:06
+around 2 to 3,000 people held in the system. So, I guess
+6:13
+Joe will know if you guys work with the care side as well. It's not a
+6:18
+client base or a contact base which is just ever growing because many of the
+6:23
+customers are elderly and pass away. So it's some sort of way of being able to
+6:28
+keep that data clean and up to date is important.
+6:33
+We're never going to have tens of thousands of inquiries. Um it's very
+6:38
+much down to dealing with inquiries in a personalized manner.
+6:43
+So another part that we're we want to be mindful of with this system is making
+6:49
+sure things aren't too easy and too autonomous that we lose that personal
+6:54
+element. So that that stays uh as a priority for
+7:00
+us. Um in terms of generating more uh more
+7:06
+inquiries, that doesn't sit as a a real goal for us with this and not in this
+7:12
+phase anyway. Um it's primarily down to efficiency, greater reporting and
+7:18
+greater insight into what's going on in in business. Um it's that that main
+7:24
+piece is the efficiency part. Um we're currently looking at as you know just
+7:31
+doing the CRM part of the system but there is discussions around dealing
+7:37
+with the income part as well. So, our current system, it isn't actually a
+7:44
+CRM. It's an income processing uh system that created a bolt on
+7:51
+inquiries feature, which is akin to notes on your
+7:58
+phone and setting reminders. Doesn't have ability to store any
+8:03
+documentation. So, everything as a result comes very manual.
+8:07
+We're going to obviously upgrade that CRM system, but potentially looking at
+8:12
+the income processing part as well. Um, that's something we which we may decide
+8:18
+on this year. That may be something that we do at a later date. But being mindful
+8:22
+of how Salesforce could integrate into a
+8:27
+new income processing system. Is there the ability to manage that income
+8:34
+processing as part of the project? as a whole um or do we just do it via APIs
+8:39
+and we just set choose a se choose a separate um income processing system. Um
+8:47
+that bit is just would be good to get an indication of what um what the options
+8:53
+are there. Um I believe that's pretty much all of it. I've got a workflow that
+9:02
+I can go through of what we currently do. um which I thought might be quite
+9:06
+helpful to give you an idea of how how we current currently operate
+9:14
+through that in it's quite lengthy but I can try and run through it quickly just
+9:19
+so you get an idea of that would be that that'd be really
+9:22
+helpful will so just while you're bringing that up just to recap on what
+9:27
+you've said obviously we as we'll come on to explain we we we do work in the
+9:32
+care sector we have worked in the care sector And you know we totally identify
+9:36
+with what you're saying um uh in the sense that well firstly the UK has a
+9:42
+aging demographics that there is no shortage of of people looking for the
+9:46
+types of care that Colton provide and um as we understand it this is less about
+9:52
+um uh you know trying to find uh new residents because that really isn't the
+9:57
+problem. It's about um improving the quality of care that you give. It's
+10:02
+about um making life easier for your resident managers. Uh helping them
+10:07
+automate what needn't be manual, reducing that workload so that to your
+10:11
+point they can be more efficient, they can give more personalized care to their
+10:15
+residents and uh uh part you know key key success driver is of course um
+10:22
+improving the technology that they have at their disposal. Is that is that how
+10:26
+you see it? Yes. Yeah. most part and then just give
+10:30
+it to it. The only marketing part around it is obviously we generate most of our
+10:35
+inquiries organically just through reputation. We don't necessarily want to
+10:39
+make a huge change to that side. Yeah, when we when we do get the inquiries
+10:45
+come through, if it isn't someone that is going to be um become admitted as a
+10:50
+resident within the next few weeks, they then get dealt with through
+10:56
+form of nurturing, form of marketing, but it's not it's not tailored enough.
+11:02
+So, being able to use that data you capture through their initial inquiry to
+11:08
+then be able to tailor that into marketing that applies to them. Um,
+11:13
+examples like some people may be completely bedbound and we're sending
+11:17
+out marketing to come to a fair like a summer fair which is just not applicable
+11:23
+at all and it can almost be borderline um
+11:27
+insensitive. Yeah. Insensitive to it. So, and then
+11:31
+you got the other way around and we want to make sure that I mean we're getting
+11:34
+the information. We're we're very good at that, but we don't necessarily use it
+11:40
+as effectively as we could in what uh through a marketing. So,
+11:46
+and of course, as we understand it, Will, of course, you are, you know,
+11:50
+somewhat limited by your your homes, right? So, um no doubt a key metric for
+11:56
+the business will be will be occupancy. Um and perhaps in the future there's
+12:02
+times at which you'll want to sort of um you you know dial back um uh marketing
+12:08
+because of course if um uh if you haven't got the space then kind of you
+12:14
+don't want to um you know disappoint people but equally if occupancy were to
+12:18
+dip then that might be an area where you might choose to consciously sort of um
+12:24
+amplify the the coms that's going out to to um you know the people that you have
+12:29
+within your database. Uh yes. Yeah. I think it would be a very
+12:33
+nice place to be if everything was was full. Um but I think because we're close
+12:39
+some homes are very close by. If some of them are running at 100% we've got that
+12:44
+ability to refer to our other homes and yes
+12:47
+pretty much always accommodate. Um so it's fairly steady in terms of
+12:52
+marketing. But yes, definitely around there certain points in year where you
+12:56
+do much heavier marketing. Um but yeah, for me it's it's making
+13:00
+sure it's tailored to the person. We've got that information, but we're not
+13:04
+using that information to Yes.
+13:06
+push out the the individuals on things that are unique to them. Same with the
+13:10
+rest bites. People visit and there's things they do and don't like
+13:14
+use that to market out to them. It's not necessarily for generating more
+13:19
+inquiries. is how we deal with what we've got.
+13:22
+Yes. More effectively.
+13:24
+And you described um is it IP your existing system? Well,
+13:29
+uh yeah, Cold Harbor. So, Citrix. Okay.
+13:32
+And uh you described that as I think a um
+13:38
+income processing system that had a bolt-on for CRM. When you when you
+13:43
+describe it as income processing, is does that handle effectively the uh you
+13:49
+know the the the daily charges, the overnight charges that residents are
+13:53
+racking up with each stay? Um and does it handle sort of invoicing and revenue
+13:58
+recognition? Uh does it also handle does it also handle kind of care management
+14:05
+as well? It doesn't manage the care management
+14:08
+side. That's done in a separate system. But it does manage everything to do with
+14:12
+the payments. Um yeah. So to your point, um one of the things
+14:19
+we'll need to think carefully about together is is those options, right? uh
+14:24
+if if to your point the first phase was just focused on CRM and uh inquiry
+14:29
+management and visit management and let's call it the front the the front
+14:32
+end of the business then uh to your point if we um if if IP is to be
+14:39
+retained at least in the first phase for its um income management and and
+14:44
+financial capabilities then there need to be presumably there needs to be an
+14:48
+integration between uh you know the CRM you've chosen and IP for
+14:54
+it would have to be it the system is so old it doesn't have the ability to have
+14:59
+an integration. So I would envisage when you move through that um through the
+15:05
+stages in the CRM and they become a resident there's an actionbased
+15:09
+notification which would email the team downstairs for the payroll team and then
+15:15
+they would manually create the record in their system. that's as advanced as we
+15:20
+can make it at the moment just because of the limitations of that system. Um
+15:24
+okay. So that's that's interesting. So um
+15:29
+something we could explore. So um Salesforce has a module which um without
+15:34
+getting too deep into this right now um has something called RPA capability
+15:39
+robotic program automation. So that's been specifically designed for systems
+15:44
+that uh uh are old and are legacy and difficult to integrate with and don't
+15:49
+have any APIs. Um but it might be uh an op option for us to look at um uh to
+15:55
+handle uh the creation of those um records in IP at the end of that process
+16:00
+that you were describing as an alternative to someone having to key
+16:03
+that in um manually. So that might be something of interest. Uh yeah, I get
+16:10
+that's probably one that's price dependent just because we're not dealing
+16:14
+with a huge volume. As I said, it's around 30 a week. So you've got really
+16:19
+up to that many records being created manually.
+16:22
+Yeah, that's just that's the quick part really
+16:25
+dealing with all of the invoicing and direct debits which would still happen
+16:28
+in the old system would remain. So I I think if we're of a much bigger scale,
+16:34
+there's much more value to it having four the IPs uh sorry the APIs and
+16:39
+having integrations but I I think in that bit at the moment
+16:44
+it's not where the big pain is. Yeah. Yeah. Yeah. It's solving problem that we
+16:49
+don't necessarily have there. Okay.
+16:54
+Um yeah. Did you want me to briefly run through
+16:57
+that would be fantastic. Yeah. Thank you.
+17:20
+Right. You got that?
+17:26
+Uh, yeah, we can see it. Yeah, if you could zoom in, that'd be fantastic.
+17:30
+Thank you. Okay. Um,
+17:34
+I'll run through it. So, basically the the squares, the blue squares, that's
+17:39
+just an uh that's just an item, something that happens, but there's no
+17:45
+ne there's no action off of it. All of the green,
+17:49
+no idea what the shape is. I don't know why I use them, but all of these ones
+17:52
+are the manual actions that are done in the
+17:57
+home. And then the the diamonds are sort of a decision
+18:04
+um either from ourselves or from from the inquirer. So I'll run through it.
+18:10
+Stop me if there's any bits in particular that would be
+18:16
+I know some things you'll have to go into a bit more depth in terms of how
+18:20
+you see that working in Salesforce. Um
+18:25
+so from the start an inquiry would arrive. That inquiry can come through
+18:30
+our uh walk-in mobile phone, email um or through the website.
+18:39
+If it comes through the website, they complete a simple web form and then we
+18:45
+would go and complete a inquiry form. Mhm.
+18:49
+No matter how the inquiry comes through initially, they all end up completing an
+18:53
+inquiry form. The inquiry form is completed by our customer service
+18:57
+advisers. We have 17 customer service advisers, basically one per home and a
+19:03
+couple of them work in across two locations. They deal with basically
+19:08
+everything um to do with the inquiries right through to right through to the
+19:14
+admission. So the CSA would complete that inquiry form. It's currently a
+19:18
+paperbased form. Um once the form is completed,
+19:24
+it will be uploaded to a Z drive. So as I said earlier, because the that bolt-on
+19:31
+system doesn't have huge capabilities, it doesn't have the ability to store
+19:36
+documents in it. So any documentation that we hold, we store in a separate
+19:40
+system um just in a a folder. Mhm.
+19:44
+um we will update the action of inquiry form being completed in the IP system.
+19:51
+So that's in our CRM. The reason for doing that is when you update it, we can
+19:56
+then set a reminder. So as said earlier, it's like going into notes on your phone
+20:01
+and saying send inquiry form done, remind me in two days to follow up. So
+20:06
+you'll see a lot of that throughout this process because every time a form is
+20:10
+completed, we have to upload it into one system and then set ourselves a reminder
+20:14
+in the inquiries uh system.
+20:20
+So inquiry form gets completed after that uploaded in relevant places and
+20:25
+then we'll send out a brochure. Um we'll usually send that via email provided
+20:31
+we've got the email address. Uh once we've done that, then log that activity
+20:36
+in the systems and follow up on that. We don't always do it three times, but
+20:43
+it it's obviously dependent on the situation. And that's another theme
+20:46
+throughout. This is like the the standard process,
+20:50
+but you may contact someone only once or you may end up doing it five or six
+20:55
+times. It really depends on the outcomes of conversations. So that wouldn't be a
+21:00
+ne like a defined workflow um to limit it, but something to consider. Um if
+21:08
+they're not interested, we then update their inquiry strength. So we just use a
+21:13
+fairly simple um metric at the moment to tag somebody um according to what we
+21:19
+think their likely admission dates would be. Um, so a one would be we think
+21:26
+they're going to be admitted into like one to two weeks. A two would be between
+21:29
+the next six weeks. Threes would be later and fours are sort of there's no
+21:34
+real date but they are someone that's inquired and we just send them blanket
+21:37
+marketing. That's the piece where I think we can improve upon um that
+21:43
+tailored marketing. Um and the CSAs in the homes that
+21:47
+customer service advisor they deal with that marketing um very manually at the
+21:53
+moment. So if we send the brocher and we have
+21:57
+positive engagement from that we will then move into sort of that that
+22:02
+workflow of that inquiry to resident side and the first part of it is booking
+22:06
+the show round. So we'll book that. Um calendar integrations to make sure the
+22:13
+relevant people at home managers and a clinical lead are available um is
+22:18
+important. The CSA will book the meeting and we
+22:22
+will do do a show around the the car space sign and the walk round. These
+22:28
+just demo examples of things that we would do. So there are a number of I
+22:33
+would call them like mini checklists and I would envisage seeing them. So when
+22:37
+you move them from that inquiry stage into the show round stage, it could auto
+22:42
+assign a checklist of things that we need to do. Um like make sure there's
+22:47
+tea or coffee or whatever available. Um and we would put Yeah. So we put a space
+22:52
+out outside. don't necessarily need
+22:57
+no uh need any actions off this but perhaps like reminders to the CSA to
+23:02
+make sure that they have done these actions before the show round happens
+23:08
+and again all of those are logged in the system to show that we have done the
+23:12
+show round. Um the other part to logging the activities is we we have I call it
+23:18
+very loosely a dashboard which shows the current stage of the inquiries but it
+23:26
+doesn't reflect exactly because it it doesn't quite align with how we we
+23:31
+operate. Um but at a glance I could see oh we've got
+23:37
+20 people in the show round stage this week. Um so that's the other reason we
+23:43
+log the activities. So an improved dashboard is obviously an essential part
+23:47
+to to this. Sorry will just a quick question where
+23:51
+along the the line is there any you know checks and balances for whether based on
+23:56
+the uh resident's preferred um admission date whether there's actually um vacancy
+24:05
+where in the process is that happening? a vacancy in a sense in the making sure
+24:09
+there's a room available in the home. Exactly.
+24:12
+Yeah. So after the show round when we go into this
+24:16
+Yes. positive like proceeding part at this
+24:19
+point we would start to look at the rooms. Um it's either around it sort
+24:25
+of the CSAs will know whether there's rooms available.
+24:30
+Yes. Right. Right. From the start. So
+24:33
+I I would like in that in the system to be able to have all of the rooms the
+24:39
+rates assigned to the ho uh to each room and then if someone's admitted into the
+24:44
+room it's then unavailable and if they're on restbite it says currently
+24:48
+unavailable with the available date because if they're on rest bite they
+24:52
+might just be doing four weeks. So, at the moment, it's just done in the homes.
+24:57
+They have basically a whiteboard um um and they just keep that up to date with
+25:03
+who's currently in the uh who's currently in each room and what's
+25:08
+available. That's how they use it themselves. We do have um through the
+25:14
+income processing system um how many rooms are available in each
+25:20
+home. Mh. So, we use that as like from our
+25:23
+point of view to manage occupancy and see where we're at on a weekly basis,
+25:28
+but more dynamic view of seeing exactly who's in each room and who's uh who's
+25:36
+leaving on what days the CSAs use that
+25:40
+already. Yeah. And sorry. Well, so how do you
+25:44
+manage the the c like the bookings there? You mentioned uh you want to make
+25:49
+sure that the right people are available. How is there any way to kind
+25:52
+of see uh you know manage the different availability and like do you store them
+25:57
+in the bookings in the system or is that manage elsewhere?
+26:01
+Uh the manager so the manager and the clinical lead and the CSAs are all in in
+26:05
+the home. So they're all home based. So exactly how they do it couldn't tell
+26:10
+you. I would be summizing they just they just communicate directly just because
+26:16
+they're all in the same place. So the C I know it's not smooth
+26:21
+because the CSA will go over to the home manager and say oh can can you do the
+26:24
+meeting on this day and they say no or yes and then they go back to the
+26:28
+candidate um that's looking the inquirer and then say can you do XY Z date and
+26:34
+they say yes. So there's a lot of back and forth to get dates that work. So I
+26:39
+would like to have some sort of calendar integration. That means the CSA can see
+26:44
+the availability of the relevant people, home manager, clinical lead, and see
+26:50
+their diary. So when they're on the phone booking in that show round, they
+26:54
+could say um this is the time that's available rather than having to take
+27:00
+dates and go back and forth. Yeah, that makes sense. basically making
+27:03
+sure that everyone has transparency on the calendars and
+27:06
+the different types of meetings that's going on with the home as well to see
+27:09
+that to get that front look forward looking
+27:12
+view. Make sense? Exactly. Yeah. One of the things we're
+27:15
+delivering as a capability quite often where we work ac quite a lot in the
+27:19
+property sector both with residential um uh developers but also office leasing
+27:25
+companies is also giving customers the ability to selfs serve bookings uh with
+27:31
+live calendar integration. Um and the reason for that is of course there's
+27:36
+just so much internal effort that is taken up kind of receiving emails,
+27:40
+offering times, waiting for the um customer to come back and choose one
+27:44
+that waits for them. Uh obviously dealing with the fact that in between
+27:49
+those emails, the situation might have changed. Um so I wonder uh it was it
+27:54
+made me think of something a bit bigger than just that point which is um also
+27:59
+the concept of the inquiry form. So does is the inquiry form does that have to
+28:05
+only be uh completed by an internal employee or there elements of this which
+28:11
+could be populated directly by you know the resident or the resident's family?
+28:17
+Um yeah, that that's sort of one of the things that make this
+28:25
+project a bit more complicated or I guess all of the care side is the
+28:29
+inquiry forms aren't completed necessarily by the person being admitted
+28:34
+into the home. Often it's the family members inquiring on behalf of. So the
+28:40
+inquiry form is used to gather the information that we can then
+28:44
+yes make a decision on is this the right
+28:47
+home for for that person. Um so it as I said
+28:54
+earlier is done on paper. It doesn't need to be done on paper.
+28:58
+We could have a web I would like it to be a web- based form so it's completed
+29:02
+in the in a system. Um the issues with uh one of the things I
+29:08
+looked at was having like iPads and then the homes go uh the CSAs go around and
+29:12
+populate the form at the time of the um the show round or when they're
+29:17
+populating that inquiry form. But it just becomes too impersonal. I'd prefer
+29:21
+to keep it in in the system with a web-based form and then they do a show
+29:27
+round. They mentally make the notes and then after the show around they go in
+29:30
+and they populate the information and then it's all stored in fields which can
+29:35
+be referred to and is it a document that anyone signs
+29:38
+or this one isn't? No, not the inquiry form
+29:41
+but as part of this process there are documents that that are signed. Yes.
+29:46
+Um, unfortunately the documents need to have wet signatures.
+29:51
+Yes. So, docu sign is a bit out of the window
+29:57
+because we need to do that man. It has to be
+30:01
+done as a printed form, web signature upload, but the capability to have a
+30:05
+space where the document can be uploaded. Yeah.
+30:09
+Yeah. One of the things we see um actually in
+30:16
+in a sort of a related sector is we you know is is in child care and sort of
+30:21
+nursery and um uh you know one of the things I could kind of envision here is
+30:26
+the concept of a sort of a private area of your website like you know kind of my
+30:32
+my colton or my colton care uh which could be a a place for the residents
+30:38
+families to um you know have a secure space to view documents to fill in forms
+30:44
+that need to be done. Uh you know and potentially in the future extended to
+30:49
+give them a bit of a window into um you know where in the process their family
+30:55
+members application is sitting and uh you know where you are on the uh pathway
+31:01
+to you know finding them a room and and giving them care. Is that is that
+31:05
+something that is um I'm I'm looking at the website doesn't look like it exists
+31:09
+today. Is that something you think would add value?
+31:12
+It's something to definitely consider. Yeah. Um
+31:17
+whether it whether it adds adds value to it. Couldn't couldn't tell you. It's not
+31:22
+something I've thought about in depth, but definitely something that's worth
+31:26
+considering. Um because I think the reason the reason I
+31:30
+say that is if you mentioned the different um inquiries and the way they
+31:33
+can come through. Obviously you mentioned telephone but you also um
+31:36
+mentioned um a web form and we would expect that if in the new world if
+31:41
+someone completes an inquiry form or sorry contact us form on your website
+31:46
+that would be the first step of the of the of the data capture process at which
+31:50
+point that would feed through into Salesforce and of course that would be
+31:54
+step one of of a multi-step process so that as you learn more about the um uh
+32:01
+you know the inquiry you can start you know If if a piece of information is
+32:05
+added by anyone at any stage of the process, it's just adding to the sort of
+32:09
+the digital single source of truth which then could be enriched by the
+32:14
+combination of of uh of your employees and and potentially the customer's
+32:19
+family member themselves. And uh uh uh I think that would be a a useful feature.
+32:25
+It would certainly bring transparency to the to the process and um uh it would
+32:31
+also mean that you're using your data efficiently at each and every stage of
+32:35
+the process. Yeah, I think yeah. Yeah, it was bottom
+32:39
+of that part is definitely so the inquiry forms
+32:43
+um in reality you're not going to get all the
+32:47
+information right away because people are hesitant there relatives.
+32:51
+Yes, they don't know who we are. You build
+32:53
+that rapport over a period of time. So we might have a very brief insight into
+32:59
+somebody after a couple of weeks, but two weeks down the line, we might then
+33:02
+be capturing all of that the detail that helps us make a decision. So yes, we
+33:08
+don't want an inquiry form that is you complete it, it's uploaded, it's done.
+33:11
+You need something that is dynamic to be able to update as we get
+33:16
+more information feed of more information. Yeah. Yeah.
+33:19
+Yeah. Um, could you just give me a quick
+33:24
+minute? I'm just going to pop to the bathroom. I've been sat
+33:28
+at all. Cheers.
+33:29
+No problem at all. This is really helpful, Joe. The process
+33:39
+map. This will be fantastically when it comes to uh
+33:44
+uh where we're going to go next and explain how we'll take all of the good
+33:47
+information that we're capturing on the call and and progressing that into um I
+33:52
+mean I think this is actually in some ways the the detail we thought we might
+33:56
+capture on in the on-site meeting whereas we're getting access to some of
+34:00
+that now which might mean that we can um well will mean
+34:04
+that we can firstly expedite things for will but also um potentially get quicker
+34:09
+into some kind of demo. Yeah. No, absolutely. This is really
+34:12
+good. Really good thing. Well, really appreciate him showing us. Um,
+34:24
+glad I was on mute just then because my dog went crazy at the at the postman.
+34:58
+Sorry, I think my Wi-Fi is acting up a little bit, but might have rejoined
+35:03
+quickly. Yep. No worries. Yeah, I think you're
+35:06
+frozen. Oh,
+35:31
+hey guys. No. Um, Oscar's just uh rejoining the call. His I think his
+35:36
+Wi-Fi knows it's Friday. Um, so he'll be he'll be rejoining us shortly.
+35:41
+Okay. Should we carry on or do you want Let's carry on.
+35:43
+Let's crack on. Yeah. Um, so
+35:48
+where did we get to? Um, yes. So that was the first part. So obviously the
+35:51
+show round's done. We've completed the inquiry form. Probably gather more
+35:56
+information as we've done the show round and that relationship improves. After
+36:00
+that there will either be not ready Um and then looking to
+36:07
+where we into um
+36:18
+we would then either move them to one of the other stages. So that inquiry string
+36:22
+of two, three or four, which again we'd be looking to overhaul into something a
+36:27
+bit more personal because they've already done a show round. We need to
+36:30
+then record that in the system and then we can start marketing to them from the
+36:37
+point of view they already know what the home's like and start inviting them to
+36:41
+events that they may be interested in instead of it just being a general
+36:46
+newsletter or whatever. And at the moment, how does your given that
+36:52
+uh obviously you you've spoken about a lot of um uh data is captured manually
+36:58
+and then there's uh uh forms being uploaded to the Z drive. You've got uh
+37:04
+IP being updated manually. How does the poor marketing team, you know, how is
+37:09
+the marketing team sort of confident of what to send out when if if there's no
+37:14
+integration with uh with with with um you know, the marketing systems.
+37:20
+Yeah. So they they would just be taking the like an export of people in the
+37:25
+different inquiry strengths. The marketing team actually just deal
+37:30
+with the inquiry strength four. So sort of the the people that are least likely
+37:36
+to be coming into the phone and they that's where they just send out general
+37:39
+marketing material. The CSAs in the phones
+37:43
+manually would be contacting the other people those strength twos and threes.
+37:49
+So we're not talking about hundreds of people at home because we've got
+37:52
+obviously 20 homes. So there might be anywhere from 30 to 80 people really
+37:58
+that would be manually nurtured and it and one of the problems is it is very
+38:05
+much down to the knowledge of the CSA. All of the information is available.
+38:10
+It's in the Z drive but the reality is they're not going to be going into that
+38:14
+and reading and reminding themselves, oh yes, this person really likes the
+38:19
+garden, so I'm going to remember to invite them to the garden event. they
+38:23
+just do it based off of their own knowledge.
+38:26
+Yes. So that's why having that information
+38:29
+available in fields and captured that way um
+38:35
+helps make sure we don't miss miss things which is carried just based off
+38:40
+really their own knowledge. That makes sense. And this is one of the
+38:43
+benefits of um you know Salesforce's native marketing functionality which
+38:48
+would be once the system's digitized and captured in Salesforce then um you know
+38:54
+we could have instead of marketing having to download uh uh you know data
+39:00
+dumps of people at specific stages there would be a journey a series of marketing
+39:05
+journeys that could be configured um and personalized to people in that
+39:09
+particular stage um and that could be set up more scalably and and run
+39:15
+automatedly. So firstly people won't forget um it doesn't rely on manual um
+39:21
+effort and of course to your point um we could come up with journeys that are
+39:25
+very personalized. So um if you know if there are sort of hot buttons as you as
+39:31
+you called them you know with people that like gardens that they will receive
+39:34
+a different message to those that are in have have other preferences and and that
+39:39
+preference capture a bit like the inquiry form could be something that
+39:42
+started early and then as we learn more about the um the the resident then uh
+39:49
+that will be something that can be enriched and taken into account uh in
+39:52
+all the downstream processes. Yes, exactly.
+39:59
+Okay. Um, next part to it. So, yeah, if
+40:04
+they're then going to be proceeding after the show round, we then go through
+40:09
+the sort of standard steps we would have to do. So, we would have to book a
+40:16
+clinical pre-mission uh assessment. So, that's just making sure that we can
+40:20
+actually cater for the person's needs. that would involve the clinical lead. So
+40:26
+again, diary access in the same way as the show round to be able to book in the
+40:31
+clinical lead's availability to do an assessment of the individual. That's
+40:34
+usually done offsite because obviously at this point they're not a resident. So
+40:38
+be going to perhaps the hospital or wherever the person is to um do the
+40:44
+assessment. Mh. that is then obed
+40:49
+uploaded to the system. Depending on the outcome of the assessment, if it's
+40:54
+positive and we can proceed, the CSA will deal with that. If it is something
+41:00
+we cannot assist with due to the person's needs, um the clinical lead or
+41:05
+the home manager would deal with that. Um those scenarios can be it's something
+41:10
+that as a business we can't deal with because their needs of perhaps like
+41:14
+one-to-one care which is not something we would do um in many cases but if they
+41:20
+were inquiring a residential home and perhaps needed to be in a dementia
+41:24
+community. That's why the clinical lead home manager is involved because they
+41:28
+could then refer to some of our other homes um where where it would be
+41:35
+where it would be a suitable inquiry to be picked up. So I guess that goes to my
+41:42
+thoughts in terms of how the system would be configured and I would be
+41:46
+looking at having locationbased access for the CSAs. Um and as um this like
+41:54
+let's if we've got a resident here know Joe Blogs and he's inquired at one of
+41:59
+our homes if we've decided he's no longer suitable for that home due to
+42:04
+their needs I could then add the location um Lynen House one of our homes
+42:10
+and then that means when the CSA logs in in the morning they can now see that
+42:14
+resident or sorry see that inquiry because they've been made available as a
+42:18
+result of the Um
+42:22
+so just to recap um Will so um this this um is it the GP assessment is obviously
+42:28
+very important that that really rules in or out whether this resident is going to
+42:32
+be someone who Colton can can um support and um if I'm understanding this
+42:39
+correctly there are obviously certain types of care that um no no Colton care
+42:44
+home will be able to provide you mentioned onetoone as an example um but
+42:48
+are we to infer that um actually different locations in different homes
+42:54
+there is some variability as to the type of care they can provide and therefore
+42:59
+um it might be that this inquiry isn't suitable for a specific home but
+43:05
+actually um given how close uh your homes are uh it it might be something
+43:12
+that another team and uh home could pick up.
+43:17
+Yes. Yeah. It's not black and white in the sense they can't go to this one,
+43:20
+they can go to this one. Um I've given an example of like a medical a very
+43:27
+um significant medical reason that would mean they can't go to one and can go to
+43:32
+another. But it could be as simple as they
+43:36
+use a stroller or something and they only want to be on the ground floor of
+43:40
+the home and just so happens the home they've inquired at has no vac available
+43:45
+rooms on the ground floor. So yes, we would then refer them to one of our
+43:48
+other homes that does have it or So do all but do all homes um support
+43:53
+all types of care that there's uniformity?
+43:56
+They're all residential and nursing, but some of our homes are dementia specific
+44:01
+communities. So there are four homes, I think four or five homes
+44:06
+that are dedicated dementia communities. So
+44:11
+in that sense that that first example I gave would be yes they're going to be
+44:16
+referred to most likely one of those four or five homes but that's why
+44:21
+because it isn't black and white I would have it just based on the location
+44:26
+location based access and that CSA would have gone seen the clinical assessment
+44:31
+had that discussion with the home manager the outcome is no they're not
+44:34
+suitable for us yes
+44:36
+we're close enough with the management in this business to be able to say,
+44:40
+"Look, I think these are probably the other two homes that they might be
+44:44
+suitable for. Let's give them access. They can pick it
+44:47
+up and then between them, they can see what's happened to date and then decide
+44:52
+who's going to pick it up." Yes. And when a lead comes in perhaps
+44:56
+through the website, you know, where there aren't that many information
+44:59
+points, presumably, of course, this is this is exactly what that initial call
+45:05
+is is uh gathering. It's those initial details that will then drive perhaps the
+45:11
+early indication of which home would be the best fit for the um for the
+45:15
+resident. And um it sounds like once that inquiry's been assigned to a
+45:21
+particular location, like you say, that group of uh stakeholders would only see
+45:26
+the inquiries that have been mapped to their location, but would be able to
+45:31
+refer inquiries um you know to other locations.
+45:37
+Yes. Yes. So that you've got the ability to remove someone from your own
+45:40
+visibility as well as give that person um or give another home visibility by
+45:47
+adding Mhm.
+45:48
+locations. Yeah. Um equally there's a lot of like edge cases
+45:55
+to it where you've got people or the the inquiries coming through. you can have
+46:01
+four or five inquiries
+46:05
+uh from the same family for the same resident but to four or five different
+46:09
+homes. Um at the moment that's sort of it just gets picked up. I'll put it like
+46:16
+that. Um, having an ability to be more aware of
+46:21
+that is something we're looking to improve on because
+46:26
+we can have multiple homes going through the same process at the same time.
+46:32
+It it all of them unaware that they've inquired at another home.
+46:38
+Can happen equally. You can have a relative inquiring and then you've got a
+46:44
+different relative inquiring for the same um potential resident.
+46:49
+Yeah. Get harder to pick up because the emails
+46:53
+and the names don't match. So, an ability to deal with that. I was
+46:58
+envisaging some form of AI agent with duplicate matching
+47:04
+um sort of like recommendation thing that pop up and then you can either
+47:09
+merge the files and keep both sets of information and then
+47:15
+or or you reject it because they just so happen to be very similar but are in
+47:19
+fact different but yes
+47:20
+those sort of cases. Yeah. Yeah. And I guess it's also an element
+47:24
+of being able to, you know, when when you identify those as well, being able
+47:28
+to push them from Outlook to so you have that full audit trail of the
+47:30
+conversations. Yes, I would expect the ability to have
+47:35
+both sets of information that have been gathered. It doesn't override
+47:39
+each set of um each inquiry because they may have inquired independently from two
+47:45
+place uh two locations. But when you then merge the record, I wouldn't want
+47:50
+the one set of data to be wiped out. It would sort of you would choose which
+47:55
+data set is going to be the main uh the main information and then it
+48:01
+would sort of just store the rest of it in an activity log of some sort.
+48:05
+Yeah. Um and then you can m Yeah. As you merge
+48:10
+it then that person becomes visible to both locations. Um, and then they decide
+48:15
+between the CSAs, well, who's who's going to deal with the inquiry, who's
+48:19
+best suited or which location's best suited for them.
+48:22
+And with with the CSA, so you mentioned the location specific piece. Is there
+48:28
+are they always dedicated to one home or is there any cross cross team?
+48:33
+Yes, there's 21 homes. We've got 17 CSAs, so four of them deal with two
+48:38
+locations each.
+48:41
+um they all deal with their own areas, but
+48:46
+if someone's on annual leave or like long-term sick or something, we might
+48:53
+um the
+48:56
+they'll then pick up another location. So, in some cases, we've got homes
+49:00
+literally a mile away from one another. Um if someone's an annual leave, one of
+49:05
+the other CSAs will pick it up. So, you'd almost be giving them like
+49:08
+temporary access to pick up their workload whilst they're off. At
+49:14
+the moment, that becomes quite difficult to do because, as I said earlier, most
+49:18
+of the knowledge is in the CSA's head. So, it isn't
+49:23
+log into the system, see where we're at, pick it up, and crack on. Um,
+49:28
+yeah. Context around it. That's uh missing. Yeah.
+49:33
+Yeah. Yeah. The context is on holiday.
+49:36
+Exactly. Um
+49:40
+so I mean we've gone quite uh deep into that bit of it but useful to just
+49:46
+understand the scenarios that we deal with I think.
+49:50
+Yeah very much. Um so after the assessment we would then
+49:56
+be looking to sort the admission date. Um yeah, we would then be agreeing an
+50:04
+admission date with that uh with the family or the resident. At that point,
+50:08
+we're then confirming a room rate and the next step. So with the
+50:15
+the way this system will work, as I said, we use the whiteboards and we've
+50:20
+got the rates and everything stored in another system. I would
+50:26
+sorry and also in the in the current system they manually type in the rate
+50:32
+that's being charged which just leaves too much room for
+50:36
+error. Yeah.
+50:37
+Um I would like to simplify it so every room has its own defined rate and we we
+50:46
+have offers which we which we send out to people. So we would
+50:51
+offer like a four for three offer, which is a standard thing we would do for
+50:55
+anybody that's new to Colton in a rest bite. So rather than having the defined
+51:00
+rate of let's just call it £2,000 and then because they have a four for three
+51:04
+offer, it's £1,500 for their first um visit. We would just have the single
+51:10
+rates and then we would have the percentage offerings which would then
+51:15
+just discount that rate. So you just have one
+51:19
+one um native rate and then a number of offers which just subtract from from
+51:24
+that. I think that's the simplest way of doing it. Um because then when you come
+51:30
+to annual fee increases and changes and renovations of rooms and percentage
+51:34
+increases of certain places, we can do that a lot quicker rather than having 15
+51:40
+or,00 different rates.
+51:43
+Yes. with then four potential
+51:47
+different prices within those rates depending on offers and all that kind of
+51:50
+stuff. So, okay,
+51:52
+makes sense. Yeah.
+51:54
+Yeah. Just quick thing on on the offer. So, is there an element of like
+51:58
+discounting or something like that depending on the customer and in if if
+52:02
+that is the case, is there anyone that needs to approve approve the like the
+52:07
+rates basically outside of the CSA? Yes, there's certain offers which are
+52:13
+just standard. Um there will always be cases where you've got
+52:20
+certain um certain recommendations that have
+52:25
+come from people within the business. So some of the more senior individuals
+52:30
+might have uh recommendations and then they agree a bestowed rate, let's call
+52:35
+it. So I would envisage the CSAs have access to our standard discount
+52:43
+um rates and we would define how many times they can be applied. So like the
+52:48
+four for three offer, you're only allowed to use that once every 12 months
+52:53
+per resident. So you just have a rule set up in the system that doesn't allow
+52:57
+you to keep assigning that. um if they were going to agree something
+53:04
+which was different to that, it would need to go through an approval. Yes. So,
+53:08
+in that instance, I would see like the CSA typing in in the same example
+53:12
+instead of 1,500, they put £1,200. um because that doesn't comply with one
+53:19
+of the other predefined um percentage discounts, it then goes to
+53:26
+X person to approve. Um
+53:32
+yeah, see it operating something like that.
+53:36
+Y standard. Yeah. So you got a series of um of uh core offers and then um bespoke
+53:44
+and anything bespoke would would likely require approval.
+53:49
+Yes. Yeah. As as said when we went through the start of this, there's the
+53:54
+ideal processes, but there's always going to be things which aren't
+54:00
+exactly in this ideal process. You'll have got people that skip through
+54:05
+certain stages. So I don't want to be um confined to we can only use these rates
+54:12
+because there will always be cases where things are agreed outside of that and
+54:16
+like that four for free offer there will be cases where they approve a second one
+54:21
+it perhaps they had a bad experience somewhere and now we're offering the
+54:25
+same thing. So a standard it works that way but you need the ability to override
+54:30
+it and if you override it it goes to somebody to approve it.
+54:34
+Yes. So when uh when someone joins they'll
+54:40
+either join as a restbite resident or they'll come straight in as permanent.
+54:44
+Um as most cases people will join as a restbite resident. Um although most of
+54:49
+our residents are permanent now their initial journey comes through um
+54:55
+multiple restbite visits. So when they come for their visit, we
+55:01
+have to sign they'll have to sign a terms of residence um which would be for
+55:06
+the duration of their stay. Usually it's 4 weeks. Um and those are created and
+55:14
+then they're sent out to the family usually via email. So we'd send out
+55:21
+invoice, terms of residence and a consent form.
+55:24
+Sometimes it won't be done, they won't be paid via invoice because they will
+55:29
+pay in the home just by a car machine. Um, other times it'll be invoiced. So
+55:35
+again, an awareness of it can't only be one payment method. There can be two or
+55:42
+three different options. Um,
+55:45
+those forms are uploaded to the system. Sorry.
+55:48
+Sorry. Well, I was just going to say, is this an example of the form that has to
+55:51
+be manually signed rather than e-signed? Yeah, the to yeah terms of residences.
+55:56
+Yeah, that that's the one form that has to be
+56:00
+no and so direct debit believe. Okay,
+56:05
+it's definitely the terms of residence might also be the direct debit um
+56:09
+information has to be done on done with a wet signature as
+56:14
+well. Um, and is that is that a Colton uh care
+56:18
+sort of audit process or is is that mandate coming from somewhere else just
+56:23
+because it's it's legal advice. Um,
+56:29
+fine. Yeah. Be interested to see if there's
+56:32
+other care people that operate in the same way, but
+56:36
+I believe it's because it's just more vulnerable situations. So
+56:42
+you've got to make sure things are done
+56:46
+a certain way I think with within this sector. Um but I know it's legal advice
+56:52
+of three sort. Um Sure. Sure. I mean look at the end of
+56:55
+the day I think it is uh you've answered it. It's it's quite um company uh
+56:59
+specific and subjective. We when we worked with K UK, they um uh they were
+57:05
+they were comfortable um doing everything via e signature, but um not
+57:10
+not not probably one to to go down that rabbit hole right now. Um my other
+57:14
+question was going to be um when you uh would like payment to be sort by credit
+57:20
+card, would you like for that to stay as it is and taken in the home or um there
+57:26
+is functionality that Salesforce uh Salesforce platform offers to be able to
+57:31
+send out payment links, secure payment links that customers from the comfort of
+57:35
+their own home on their phone strike link.
+57:38
+Exactly. Is that is that something that you uh would like to introduce to
+57:43
+improve the customer experience? Um it depends on the charge with it.
+57:49
+Usually when I've looked at things like Stripe, they've got quite a hefty
+57:52
+percentage that they charge. To be honest, I don't it that doesn't cause
+57:57
+much of an issue. These ones only apply for the restbite visits because everyone
+58:02
+else when they go to plan go on um direct debits. So
+58:09
+If it was if there wasn't a charge that we would incur for it, yes, there's no
+58:13
+there was no reason not to. I can't see it being something the board would agree
+58:18
+to lose a percentage of the income just for slightly easier payment method.
+58:24
+Yeah, makes sense. We'll have a look uh we'll
+58:26
+have a look at that for you. Right. Um,
+58:33
+so yeah, the usual the forms are sent out and they're uploaded to the system
+58:37
+after they've been signed and returned. They're then uploaded again.
+58:42
+And how do they get returned at the moment? Is are they do people sort of
+58:45
+drop them in by hand? Do they send letters?
+58:49
+It can be so depending on where the family is. if it's the resident doing
+58:54
+the potential resident doing themselves um they'll often just send them in the
+58:59
+post um or they'll just come into the home if they're lo they're local enough
+59:04
+to do that. So yeah if if we had that portal though they
+59:08
+could perhaps um sign them scan them and upload them uh into the as a as a way
+59:16
+again of giving them optionality and you know less for the teams internally.
+59:22
+Yeah, that would be that would definitely be possible. Yeah,
+59:27
+people aren't going to have like physical scanners, but if there was if
+59:30
+it was something where we could use like the phone scanner and send it through
+59:35
+that way, um that could work. It probably won't I just check with um
+59:42
+solicitors just in terms of the still comply with what we need
+59:47
+because do you have to site it yourself and yeah those kind of
+59:53
+things but definitely in theory make sense. Um could do that.
+1:00:02
+Um so yeah documents are signed and
+1:00:06
+completed. After that, we then deal with the admission.
+1:00:10
+All of that information is then moved over to the admission uh section. So, we
+1:00:17
+gather as they go through their journey right from the beginning. That's all
+1:00:20
+dealt with as an inquiry. You then convert them to an admission and then
+1:00:24
+all of that information is transferred over.
+1:00:27
+Um the payment information is added to the
+1:00:32
+s uh to the record. All of those documents are then
+1:00:36
+transferred over to the admission one. I that doesn't really seem too relevant to
+1:00:40
+how it would work in the new world as I would see the record remaining
+1:00:44
+consistent throughout that that's always um if I drag them from the inquiry stage
+1:00:50
+into the assessment stage into the admission stage and then into the
+1:00:55
+resident stage their information stays with them indefinitely. Um
+1:01:00
+slightly and then we just run through a couple
+1:01:04
+more of our sort of like internal processes. Meet and greet. Um and then
+1:01:08
+there are a couple of things which happen when they're in that resident
+1:01:11
+section. Um or sorry restbite resident section. We would do a first impression
+1:01:16
+survey. Um that's an opportunity. So, like we were
+1:01:21
+saying with that inquiry form earlier to gather a bit more information,
+1:01:26
+food preferences, things they do like, things they don't like, activities,
+1:01:30
+that information again, we we would capture, not necessarily do all that
+1:01:35
+much with. Um, unless it stays in the CSA's memory, but again, that's
+1:01:41
+something we can use to make sure that when we communicate to them in future,
+1:01:46
+it's very much down to it's a lot more personalized. Mhm.
+1:01:51
+Um during their week three or around that
+1:01:55
+time, um I would again it's just diorized at the moment to do this, but
+1:02:01
+if they're in that rest bite section, if we set a rule like a week before their
+1:02:07
+um before the end of their rest bite stay,
+1:02:11
+Mhm. there was a reminder sent out to the
+1:02:14
+home manager to discuss the next steps. Um in in a lot of cases people will
+1:02:20
+extend their stay. Um so they'll go on to another restbite for
+1:02:25
+weeks and then after that they'll go down that permanent route. Yeah.
+1:02:28
+Um or they've just come in because their family's been on holiday and
+1:02:34
+they wanted not to be alone. So they've just done a four week stay or two week
+1:02:38
+stay or whatever length and they will then leave
+1:02:44
+um or in some case obviously uh would pass away. So they would go through
+1:02:50
+a simple workflow for this. We just have a short stay survey which we would send
+1:02:54
+out again just an opportunity to get a bit more information. The resident
+1:02:58
+leaves and we would update the system with their rest bite strength. Are we
+1:03:02
+expecting them to come back in a few weeks time or was it just because yeah
+1:03:07
+like I said a family member on holiday and they've done a stay and we won't
+1:03:09
+hear from them again for another year and
+1:03:12
+then they'll contact us when they're ready. um
+1:03:16
+send out things with like flowers in some cases would send cards or invite
+1:03:21
+them to events. So this again is just an example of things that we we would do as
+1:03:27
+a follow-up. So depending on what stage you move them to, that would send um
+1:03:32
+reminder tasks to the CSA to deal with. Um
+1:03:38
+if someone passes away, we we deal with it in two different
+1:03:44
+ways. So as part of the person being admitted into the home, they would
+1:03:50
+either come through as local authority or privately funded. If they're local
+1:03:54
+authority, um the funding
+1:03:58
+stops the day after the person passes away. Um whereas if they're privately
+1:04:03
+funded, they they pay until the room's cleared out. So
+1:04:09
+we would need to be able to tag someone accordingly depending on whether they're
+1:04:14
+local authority or privately funded, not just for this reason. You'll see when we
+1:04:17
+go into the permanent section, there's also other bits that we deal with
+1:04:22
+because they wouldn't be paying privately. So there's no direct debit
+1:04:26
+form set up. All of that stuff's not that's ducks bypass because it comes
+1:04:30
+through local authority. Um and then that that's sort of the end
+1:04:35
+of that process. I'll move up to
+1:04:39
+and is this all is this all handled by the CSA as well or are there any other
+1:04:43
+parties involved throughout this journey? Um so for all of that inquiry
+1:04:48
+part that's CSA obviously the clinical the pre-mission and the admission part
+1:04:54
+involves the clinical leads and also the home managers. So as part of user access
+1:04:59
+to the system we would be looking at having three fully active users and then
+1:05:04
+the senior admin in the home would if existed have sort of a reduced function
+1:05:13
+access in the system. So you sort of got three to four people at home using it.
+1:05:19
+Um, yeah.
+1:05:20
+And then so that payment side, I would see
+1:05:26
+the payroll team in Colton House having
+1:05:30
+access to the system because when the payments come in, um,
+1:05:36
+they come into the payroll team here, obviously if they've not paid in the
+1:05:40
+home and it's done through an invoice, the payroll team then need to update the
+1:05:44
+CSAs that the payments's been received. So I would because there's no
+1:05:49
+integration capabilities I would team having access to the system to be able
+1:05:54
+to go in and look at Joe Blogs um account and then tick the box to say
+1:06:00
+payment received on 14th of November. Um and then the CSA can log in and go, "Oh
+1:06:06
+yeah, payment's received. We're okay for admission." Um because what we don't
+1:06:11
+what we don't want happening and what sometimes does happen and I'm sure will
+1:06:15
+continue to happen is payments aren't received and we've agreed an admission
+1:06:20
+date and the person's being admitted and then on that day we're like oh can you
+1:06:23
+make a payment and the admission should really be about making it the smoothest
+1:06:28
+and easiest journey possible and not sorting out payments. So
+1:06:33
+we try and get all of that dealt with beforehand. Um, but there will always be
+1:06:38
+cases where for whatever reason it can't, but that link between payroll and
+1:06:45
+the CSA, so the CSA could be confident of whether the payment has been received
+1:06:49
+or not, they can then deal with it accordingly.
+1:06:52
+What's the point, Will, where the resident becomes legally responsible for
+1:06:58
+being committed to payment? Is it the signing of the terms of reference?
+1:07:02
+Uh, the terms of residence it would be. Yeah, at that point. Yeah.
+1:07:06
+Yeah. Um, so if they go through and extends
+1:07:14
+their stay, we we sort of mirror the same thing as
+1:07:17
+if they are new. So a terms of residence is only applicable for the length of the
+1:07:22
+stay defined on their initial inquiry or initial visit with us. So we would have
+1:07:28
+to do another terms of residence if they're extending. Um,
+1:07:34
+so we we sort of run through that workflow again. But obviously in this
+1:07:38
+case, most of the time they're already in the home. So we wouldn't be emailing
+1:07:42
+them out. We would just be going to the room, giving them the terms of
+1:07:45
+residence, signing them, and uploading them to the system. Um,
+1:07:51
+yeah. So, and then we would update the uh
+1:07:56
+their new discharge date.
+1:07:58
+Yeah. Into the system. Um, so in the same thing like we were saying
+1:08:03
+earlier about having the rooms that are available, you just update it there so
+1:08:06
+we can see their new date they're leaving so we can have sort of an idea
+1:08:12
+of what's going on. Presumably you would try your best to
+1:08:16
+give them the same when they're already in unless they're
+1:08:19
+Oh yes. Yeah. Yeah. We would always be doing Yeah, we'd always be doing that.
+1:08:23
+And that's the other thing where it's helpful being able to see who's in what
+1:08:28
+room and who's leaving on what days, but we know I mean we would never be having
+1:08:34
+a restbite visitor in and then booking the room out from the following day
+1:08:40
+because there are so many cases where they
+1:08:43
+extend and it's not right for us to do it. So even though it's helpful seeing
+1:08:48
+the discharge date and someone leaving, we wouldn't be
+1:08:54
+fully reliant on that at all. We would always be treating it as though it's a
+1:08:58
+permanent Yes.
+1:09:00
+Yeah. Which system tells you occupancy at the
+1:09:03
+moment? Is it IP? Yeah, it's just Yeah, it's just exports of codes that are
+1:09:10
+written and then we just convert that into the homes and see what what
+1:09:14
+percentage um they're operating at. Yeah,
+1:09:20
+this is this is really helpful. Thank you so much. Uh uh when you said I've
+1:09:25
+got a little workflow, we weren't anticipating it to be this extensive.
+1:09:29
+So, this is going to be incredibly helpful for us to be able to um you
+1:09:35
+know, really make sure that we cover off your needs and without jumping the gun.
+1:09:39
+Um you know, there's a there's a big data capture part to our process. Um,
+1:09:44
+and you've made this a lot simpler for us. That will then make the process of
+1:09:49
+being able to uh, you know, bring what Salesforce could offer to life in the
+1:09:54
+form of a demo so much simpler because we've got a we've got something to refer
+1:09:58
+back to to make sure that we've covered off all bases.
+1:10:02
+Yeah, that's okay. Yeah, I thought but we should
+1:10:06
+Yeah. Would you be kind enough to because of course although we've got the
+1:10:09
+recording, it would be incredible if we could get an export of of this tab um so
+1:10:15
+that we can uh pour over it and review it.
+1:10:20
+Yeah, I'll try and get a copy of it um taken out and then shared with you.
+1:10:25
+Yeah, thanks so much.
+1:10:27
+Thank you. Did you want me to finish up going
+1:10:31
+through this after? Yeah. Should we quick because we've done we've done the
+1:10:34
+rest bite piece, haven't we? So now we look at how
+1:10:37
+and this bit to be honest quite quick because it's it's largely a mirror of
+1:10:41
+it. So yeah,
+1:10:43
+you'll either go through that rest bite and then up to the permanent stage or as
+1:10:46
+I said, you'll just join directly through the permanent route. Um
+1:10:51
+if you go into the permanent route, we deal with a financial summary. So this
+1:10:56
+is a bit that is unique to the permanent section. um we need to ensure they've
+1:11:03
+got the suitable funding to be able to afford Coloulton. Um it's not a care
+1:11:09
+provider for everybody. It's a luxury um luxury service. Um so as a result we
+1:11:17
+have to go through and make sure people can afford to be there. Um all of that
+1:11:22
+is dealt with by Mark so our CEO. So we would gather a financial sum or CSA
+1:11:28
+would deal with that financial summary. Um
+1:11:33
+they would have it would then be returned to the CSA from the family and
+1:11:37
+they would review it to make sure that everything was in there that needs to be
+1:11:42
+in there. Yes.
+1:11:43
+Um and then they'll just go back and forth until the suitable information is
+1:11:46
+there. Then that's sent to Mark. he will review that and decide um it's either
+1:11:54
+rejected and it they it's just not the right we're
+1:11:59
+just not the right people for them. Um in some cases we would then just advise
+1:12:03
+where they could go. Um and then in those cases the inquiry tends to be
+1:12:09
+closed because we can't cater for for everybody.
+1:12:14
+um if it's approved, in most cases it's approved because you the CSA gets an
+1:12:20
+indication right from the start as to whether they're inquiring sort of in in
+1:12:26
+the right place. So um at this point there aren't a huge volume that are
+1:12:31
+rejected. Yeah. So they all that Mark then
+1:12:35
+approves. It goes through the usual uploading of documentation. Um
+1:12:40
+the direct debit information is completed by uh given to the CSAs and
+1:12:46
+the CSAs post that to Colton House again because it's got to be that uh got like
+1:12:52
+a wet signature. We send out an interim invoice which is
+1:12:58
+just to cover the period of the day they are being admitted into the home until
+1:13:02
+our usual invoicing date. So we would just do like a twoe invoice and then on
+1:13:06
+the 1 of December we would send them the usual monthly invoice and just then
+1:13:12
+everyone's taking every payments on the same date. That's just
+1:13:20
+same thing. Terms of residence assigned, uploaded to the system.
+1:13:25
+Obviously, if it's permanent, we only have one terms of residence and that
+1:13:28
+stays indefinitely. Yeah.
+1:13:30
+Um and then go through the admission process. Um just quickly back up here.
+1:13:36
+If it's the local authority side, we skip through the whole financial summary
+1:13:41
+part because it doesn't apply. Mark still approves the local authority
+1:13:47
+because in some cases we you get requests from hospitals. We've had them
+1:13:52
+can we rent out like an entire home for whatever reason. Um that's just not
+1:14:00
+something we we do. So it's still dealt with on a case by case basis. Yes.
+1:14:05
+Um Mark goes through that same sort of thing. There's an agreement process.
+1:14:09
+Still have terms of residence and consent forms. there's just no direct
+1:14:13
+debit forms. All of those are uploaded and then we end up in the same stage
+1:14:17
+with the admission. Um if you're privately funded, you then
+1:14:22
+go down this route of the transfer. Oh, sorry. Actually, this applies to both.
+1:14:29
+Um, you go through the transfer of the records into the from the inquiry into
+1:14:36
+the permanent side, add all the funding, do that meet and greet and the
+1:14:40
+impression survey. Obviously, we skip that stage if they're restbite into
+1:14:46
+permanent because they've already done their first impressions, they've done
+1:14:50
+the meet and greet, they're already in the home. So
+1:14:53
+that's the difference between obviously the rest bite into permanent section and
+1:14:58
+then they just go straight through into the discharge section and they'll either
+1:15:07
+obviously in many cases if they're a permanent resident at this point it's
+1:15:10
+they'll be passing away or it's giving notice to leave.
+1:15:14
+Yes. Doesn't happen all that much.
+1:15:17
+No. they have to give 28 days notice, the
+1:15:21
+resident leaves and we update the system with restbite strength if applicable.
+1:15:26
+Um, in many of these cases, if they're leaving, it's because we can't meet
+1:15:31
+needs or something anymore. So, they wouldn't be they would sort of be
+1:15:36
+removed from the system in terms of marketing because they don't apply.
+1:15:41
+And if they pass away, it's that same process as we saw earlier um with
+1:15:45
+restbite. Um and then after that they all just
+1:15:49
+lead into our room redecoration process which sort of that sits separately.
+1:15:54
+Mhm. Um and that's it.
+1:15:57
+Thank you. No, that that's super super helpful. I think we've got a really good
+1:16:01
+flavor now for the end to end process. Obviously, it's you know there's quite a
+1:16:06
+lot of similarities with um you know the other care businesses that we've worked
+1:16:10
+with. Um, but I think a a really good understanding of where, you know,
+1:16:15
+because that was going to be one of our questions on today's call is you want a
+1:16:18
+CRM, but how far do you want that process to to run?
+1:16:24
+And I think that's given us a good uh flavor for for, you know, what you see
+1:16:29
+as the scope, which is which is really helpful and valuable.
+1:16:32
+Yeah, I thought that's probably the easiest way to do it because then you
+1:16:35
+can see what we've done. Yes,
+1:16:37
+quite a lot. That's not my That's not the ideal process. That's the process as
+1:16:42
+we do it now. The value in partnering with it is you guys have got
+1:16:48
+insight into things and I've got insight into what I would like to to sort of put
+1:16:53
+things together to refine a Yes.
+1:16:56
+process. Fantastic. So, well, we've been going
+1:17:01
+for what was that an hour? Hour and a half now, which is good. We've got half
+1:17:04
+an hour left. um I think uh with the best of intentions of us having our
+1:17:08
+agenda. We've we've sort of done a few bits earlier and and saved a few bits
+1:17:12
+till later. So would it would it help of us if we now um maybe just talk about
+1:17:18
+ourselves, our experience and also give you a flavor for how um you know a CRM
+1:17:23
+project would run. Yes. Yeah, that'd be that'd be great.
+1:17:28
+Let me just Fantastic. Maybe you'd be kind enough to
+1:17:31
+pull up. Yeah, Bringer, maybe we can start on slide
+1:17:36
+four just uh to give Will a bit of a flavor for where today sits in the
+1:17:42
+process. No problem at all. Let me jump on that.
+1:17:45
+But no, Will, thank you again for that. That was fascinating and really really
+1:17:49
+useful. So appreciate it. Thank you. Okay,
+1:17:56
+the meeting. There we go.
+1:18:02
+Fantastic. So, um you know, will obviously speaking with Joe and uh we
+1:18:08
+know that uh this is something an initiative that the business is uh you
+1:18:13
+know, prioritizing. So, and we know that you're obviously exploring your your
+1:18:17
+different options. So, we wanted to just give you uh uh an insight into how this
+1:18:22
+process runs and how we'll try and use your time as efficiently as possible.
+1:18:27
+Um, so my understanding is you've had a couple of sessions already with Joe and
+1:18:31
+Mary. Um, and you know, they gave us uh a much high level version of what we've
+1:18:37
+seen today. Um, I guess today's call is us to introduce ourselves which we'll
+1:18:41
+come on to do in more detail now and talk about our experience, talk a little
+1:18:44
+bit about how um, you know, projects run um, and what you could look forward to
+1:18:50
+were we to work with you. Um I think um stage three is normally a stage whereby
+1:18:58
+we have um uh we've gathered some high level information. Um but we need to do
+1:19:05
+more capture I think given just gone through and how detailed that process
+1:19:10
+map is. Um uh I'm not sure to what extent we'll need to do that. I think
+1:19:15
+that's if that's okay. That's something that um Joe Oscar and I could pause and
+1:19:19
+reflect on. Um, and that albeit that said it it might be helpful. I mean, I
+1:19:26
+guess the the question is how how much of what we've just talked about exists
+1:19:30
+on IP today in terms of the data side.
+1:19:36
+Yeah. In terms of the flow, the forms, the uh the different stages, how how
+1:19:42
+much of that is digitized? I know you've got Z drive. It's it's it's fragmented,
+1:19:47
+isn't it? across IP across the Z drive across
+1:19:51
+yeah are you asking from the point of view of building the system or in terms
+1:19:56
+of the transfer of data I'm I guess I'm asking your opinion on
+1:20:01
+to what extent us getting a demo of IP would be would be
+1:20:07
+yeah in that sense I think very uh there's no there's no real point in it I
+1:20:13
+could give you a 10-minute overview of it but you wouldn't be taking anything
+1:20:17
+from of value over what you've seen today. Um,
+1:20:21
+yeah. Yeah. I I wasn't sure if you meant from the data side because
+1:20:24
+that's a big part in terms of importing that, but I've already worked through
+1:20:28
+that in my own mind in terms of what what would be a realistic
+1:20:34
+Yeah. forward.
+1:20:36
+Brilliant. Well, let let's talk about that in a minute. But absolutely we um
+1:20:40
+would expect uh you know as part of any implementation like this that a key part
+1:20:46
+of the project would be what we call the data migration phase. So firstly, you
+1:20:51
+know, you need to be comfortable with the um solution you're picking and the
+1:20:55
+partner um and obviously there's a there's a build element to this project
+1:21:00
+where you know we as immersive the implementation partner would configure
+1:21:04
+Salesforce to meet the needs of of the business process that you've just uh
+1:21:08
+taken us through. Um but then at a certain point in time um you know you

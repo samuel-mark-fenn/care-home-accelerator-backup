@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prospective_Resident__c</fullName>
+    <label>Prospective Resident</label>
+    <type>Lookup</type>
+    <description>The person requiring care</description>
+    <required>false</required>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Enquiries (Resident)</relationshipLabel>
+    <relationshipName>Enquiries_Resident_CC</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

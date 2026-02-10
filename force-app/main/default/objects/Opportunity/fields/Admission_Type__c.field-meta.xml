@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Admission_Type__c</fullName>
+    <inlineHelpText>Type of admission</inlineHelpText>
+    <label>Admission Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>First Respite</fullName>
+                <default>false</default>
+                <label>First Respite</label>
+            </value>
+            <value>
+                <fullName>Repeat Respite</fullName>
+                <default>false</default>
+                <label>Repeat Respite</label>
+            </value>
+            <value>
+                <fullName>Conversion from Respite</fullName>
+                <default>false</default>
+                <label>Conversion from Respite</label>
+            </value>
+            <value>
+                <fullName>Direct Permanent Admission</fullName>
+                <default>false</default>
+                <label>Direct Permanent Admission</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,216 @@
+{
+  "backupInfo": {
+    "backupDate": "2026-02-10",
+    "backupVersion": "1.0",
+    "sourceOrg": {
+      "username": "samuel.mark.fenn@gmail.com.carehomedemo",
+      "orgId": "00DKZ00000a6YkK",
+      "instanceUrl": "https://gl1767804524676.my.salesforce.com",
+      "apiVersion": "64.0"
+    },
+    "description": "Complete backup of Care Home Accelerator demo org including all metadata, data, and managed packages"
+  },
+  "managedPackages": {
+    "count": 8,
+    "packages": [
+      {
+        "name": "QLabs_Utilities",
+        "namespace": "qbranch",
+        "version": "1.193.0.1",
+        "versionId": "04tGA000005F6iKYAS",
+        "packageId": "0337F0000008YQSQA2",
+        "installationOrder": 1
+      },
+      {
+        "name": "Salesforce - Postspin DevOps",
+        "namespace": "vbtapp",
+        "version": "1.6.0.1",
+        "versionId": "04t1U000007kPT0QAM",
+        "packageId": "0331U0000000LRTQA2",
+        "installationOrder": 2
+      },
+      {
+        "name": "Time Warp",
+        "namespace": "bmpyrckt",
+        "version": "1.15.0.1",
+        "versionId": "04tIg0000004fiDIAQ",
+        "packageId": "0332w000000UgF3AAK",
+        "installationOrder": 3
+      },
+      {
+        "name": "XDO Automation",
+        "namespace": "xdo",
+        "version": "2.11.0.1",
+        "versionId": "04t4P000002qntuQAA",
+        "packageId": "0334P000000d02xQAA",
+        "installationOrder": 4
+      },
+      {
+        "name": "Sales Insights",
+        "namespace": "OIQ",
+        "version": "1.0.0.1",
+        "versionId": "04t58000000SGw3AAG",
+        "packageId": "03358000000Q8xqAAC",
+        "installationOrder": 5
+      },
+      {
+        "name": "Nintex DocGen",
+        "namespace": "Loop",
+        "version": "20.22.1.1",
+        "versionId": "04tHu000004V7nzIAC",
+        "packageId": "03380000000AOBYAA4",
+        "installationOrder": 6
+      },
+      {
+        "name": "Data Tool",
+        "namespace": "NXDO",
+        "version": "1.31.0.1",
+        "versionId": "04t8c000000ZxmMAAS",
+        "packageId": "0338c000000jQfeAAE",
+        "installationOrder": 7
+      },
+      {
+        "name": "b2bmaIntegration",
+        "namespace": "b2bma",
+        "version": "1.7.0.2",
+        "versionId": "04t5G000004F39PQAS",
+        "packageId": "033f40000004aGxAAI",
+        "installationOrder": 8
+      }
+    ]
+  },
+  "customObjects": {
+    "count": 14,
+    "objects": [
+      "Assessment__c",
+      "BenefitManagementRecertification__c",
+      "Contract__c",
+      "Payment__c",
+      "Preference__c",
+      "Property__c",
+      "Resident__c",
+      "Resident_Assessment__c",
+      "Resident_Preference__c",
+      "Room__c",
+      "Room_Feature__c",
+      "Room_Occupancy__c",
+      "Survey__c",
+      "Survey_Response__c"
+    ]
+  },
+  "lightningComponents": {
+    "count": 6,
+    "components": [
+      "careDashboard",
+      "enquiryForm",
+      "medicalAssessmentForm",
+      "propertyMap",
+      "residentSurvey",
+      "roomFinder"
+    ]
+  },
+  "dataExport": {
+    "customObjectRecords": 592,
+    "standardObjectRecords": 250,
+    "totalRecords": 842,
+    "objects": {
+      "custom": {
+        "Assessment__c": 5,
+        "Property__c": 22,
+        "Room__c": 216,
+        "Room_Occupancy__c": 295,
+        "Resident__c": 1,
+        "Resident_Assessment__c": 6,
+        "Resident_Preference__c": 17,
+        "Preference__c": 12,
+        "Survey__c": 15,
+        "Survey_Response__c": 3
+      },
+      "standard": {
+        "Account": 96,
+        "Contact": 92,
+        "Lead": 4,
+        "Opportunity": 55,
+        "Case": 3
+      }
+    }
+  },
+  "metadata": {
+    "apiVersion": "64.0",
+    "types": [
+      "CustomObject",
+      "CustomField",
+      "CustomTab",
+      "CustomApplication",
+      "Layout",
+      "RecordType",
+      "ListView",
+      "CompactLayout",
+      "ApexClass",
+      "ApexTrigger",
+      "ApexPage",
+      "ApexComponent",
+      "LightningComponentBundle",
+      "AuraDefinitionBundle",
+      "Flow",
+      "WorkflowRule",
+      "WorkflowFieldUpdate",
+      "WorkflowAlert",
+      "ValidationRule",
+      "Profile",
+      "PermissionSet",
+      "PermissionSetGroup",
+      "EmailTemplate",
+      "Report",
+      "Dashboard",
+      "ReportType",
+      "StaticResource",
+      "CustomMetadata",
+      "RemoteSiteSetting",
+      "NamedCredential",
+      "Queue",
+      "CustomLabel",
+      "CustomSite",
+      "Community",
+      "ConnectedApp",
+      "ExternalDataSource",
+      "SharingRules",
+      "AssignmentRules",
+      "AutoResponseRules",
+      "EscalationRules",
+      "PostTemplate",
+      "Letterhead",
+      "QuickAction",
+      "GlobalValueSet",
+      "StandardValueSet",
+      "PathAssistant",
+      "DuplicateRule",
+      "MatchingRules",
+      "TopicsForObjects",
+      "HomePageComponent",
+      "HomePageLayout",
+      "FlexiPage",
+      "CustomPermission",
+      "PlatformEventChannel"
+    ]
+  },
+  "deploymentTools": {
+    "automatedScript": "deployment/deploy.sh",
+    "validationScript": "deployment/validate-deployment.py",
+    "dataExportScripts": [
+      "data/export-all-data.py",
+      "data/export-standard-objects.py"
+    ],
+    "documentation": [
+      "README.md",
+      "QUICK-START.md",
+      "packages/package-installation-guide.md"
+    ]
+  },
+  "estimatedDeploymentTime": {
+    "packageInstallation": "20-30 minutes",
+    "metadataDeployment": "5-10 minutes",
+    "dataImport": "10-15 minutes",
+    "total": "35-55 minutes"
+  }
+}

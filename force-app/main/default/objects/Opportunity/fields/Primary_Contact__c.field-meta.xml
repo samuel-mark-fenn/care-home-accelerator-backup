@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Contact__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Primary family member or contact person</description>
+    <label>Primary Family Contact</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Opportunities (Contact)</relationshipLabel>
+    <relationshipName>Opportunities_Contact</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

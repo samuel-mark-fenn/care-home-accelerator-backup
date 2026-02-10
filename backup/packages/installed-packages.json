@@ -1,0 +1,78 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "Id": "0A3KZ000001Ob7S0AS",
+      "SubscriberPackageId": "0331U0000000LRTQA2",
+      "SubscriberPackageName": "Salesforce - Postspin DevOps",
+      "SubscriberPackageNamespace": "vbtapp",
+      "SubscriberPackageVersionId": "04t1U000007kPT0QAM",
+      "SubscriberPackageVersionName": "Winter '26",
+      "SubscriberPackageVersionNumber": "1.6.0.1"
+    },
+    {
+      "Id": "0A3KZ000000seUF0AY",
+      "SubscriberPackageId": "0332w000000UgF3AAK",
+      "SubscriberPackageName": "Time Warp",
+      "SubscriberPackageNamespace": "bmpyrckt",
+      "SubscriberPackageVersionId": "04tIg0000004fiDIAQ",
+      "SubscriberPackageVersionName": "Vega",
+      "SubscriberPackageVersionNumber": "1.15.0.1"
+    },
+    {
+      "Id": "0A3KZ000001Ob7b0AC",
+      "SubscriberPackageId": "0334P000000d02xQAA",
+      "SubscriberPackageName": "XDO Automation",
+      "SubscriberPackageNamespace": "xdo",
+      "SubscriberPackageVersionId": "04t4P000002qntuQAA",
+      "SubscriberPackageVersionName": "Demo Boost Tabs Renamed",
+      "SubscriberPackageVersionNumber": "2.11.0.1"
+    },
+    {
+      "Id": "0A3KZ000001Ob7J0AS",
+      "SubscriberPackageId": "03358000000Q8xqAAC",
+      "SubscriberPackageName": "Sales Insights",
+      "SubscriberPackageNamespace": "OIQ",
+      "SubscriberPackageVersionId": "04t58000000SGw3AAG",
+      "SubscriberPackageVersionName": "1.0",
+      "SubscriberPackageVersionNumber": "1.0.0.1"
+    },
+    {
+      "Id": "0A3KZ000001Ob7q0AC",
+      "SubscriberPackageId": "0337F0000008YQSQA2",
+      "SubscriberPackageName": "QLabs_Utilities",
+      "SubscriberPackageNamespace": "qbranch",
+      "SubscriberPackageVersionId": "04tGA000005F6iKYAS",
+      "SubscriberPackageVersionName": "Spring 2025",
+      "SubscriberPackageVersionNumber": "1.193.0.1"
+    },
+    {
+      "Id": "0A3KZ000000seWO0AY",
+      "SubscriberPackageId": "03380000000AOBYAA4",
+      "SubscriberPackageName": "Nintex DocGen",
+      "SubscriberPackageNamespace": "Loop",
+      "SubscriberPackageVersionId": "04tHu000004V7nzIAC",
+      "SubscriberPackageVersionName": "20.22.1",
+      "SubscriberPackageVersionNumber": "20.22.1.1"
+    },
+    {
+      "Id": "0A3KZ000001Ob7t0AC",
+      "SubscriberPackageId": "0338c000000jQfeAAE",
+      "SubscriberPackageName": "Data Tool",
+      "SubscriberPackageNamespace": "NXDO",
+      "SubscriberPackageVersionId": "04t8c000000ZxmMAAS",
+      "SubscriberPackageVersionName": "Remote Site Settings Fix",
+      "SubscriberPackageVersionNumber": "1.31.0.1"
+    },
+    {
+      "Id": "0A3KZ000001Ob7P0AS",
+      "SubscriberPackageId": "033f40000004aGxAAI",
+      "SubscriberPackageName": "b2bmaIntegration",
+      "SubscriberPackageNamespace": "b2bma",
+      "SubscriberPackageVersionId": "04t5G000004F39PQAS",
+      "SubscriberPackageVersionName": "Pardot Internal Integration",
+      "SubscriberPackageVersionNumber": "1.7.0.2"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sleep_Patterns__c</fullName>
+    <label>Sleep Patterns</label>
+    <type>TextArea</type>
+    <inlineHelpText>Information about sleep patterns</inlineHelpText>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Visit_Outcome__c</fullName>
+    <inlineHelpText>Outcome of the care home visit</inlineHelpText>
+    <label>Visit Outcome</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>General Event</fullName>
+                <default>false</default>
+                <label>General Event</label>
+            </value>
+            <value>
+                <fullName>Very Positive</fullName>
+                <default>false</default>
+                <label>Very Positive</label>
+            </value>
+            <value>
+                <fullName>Positive</fullName>
+                <default>false</default>
+                <label>Positive</label>
+            </value>
+            <value>
+                <fullName>Neutral</fullName>
+                <default>false</default>
+                <label>Neutral</label>
+            </value>
+            <value>
+                <fullName>Negative</fullName>
+                <default>false</default>
+                <label>Negative</label>
+            </value>
+            <value>
+                <fullName>Did Not Attend</fullName>
+                <default>false</default>
+                <label>Did Not Attend</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

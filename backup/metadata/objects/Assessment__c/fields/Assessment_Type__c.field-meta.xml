@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assessment_Type__c</fullName>
+    <inlineHelpText>Type of assessment</inlineHelpText>
+    <label>Assessment Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pre-Admission</fullName>
+                <default>false</default>
+                <label>Pre-Admission</label>
+            </value>
+            <value>
+                <fullName>Initial</fullName>
+                <default>false</default>
+                <label>Initial</label>
+            </value>
+            <value>
+                <fullName>Review</fullName>
+                <default>false</default>
+                <label>Review</label>
+            </value>
+            <value>
+                <fullName>Post-Fall</fullName>
+                <default>false</default>
+                <label>Post-Fall</label>
+            </value>
+            <value>
+                <fullName>Change in Condition</fullName>
+                <default>false</default>
+                <label>Change in Condition</label>
+            </value>
+            <value>
+                <fullName>Annual Review</fullName>
+                <default>false</default>
+                <label>Annual Review</label>
+            </value>
+            <value>
+                <fullName>Discharge</fullName>
+                <default>false</default>
+                <label>Discharge</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
